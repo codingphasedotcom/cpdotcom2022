@@ -6,6 +6,7 @@
     "dev": "nodemon server/app.js --exec",
     "build": "next build",
     "start": "next start",
+    "export": "next build && next export",
     "prod": "next start"
   },
   "dependencies": {
@@ -19,7 +20,7 @@
     "koa-static": "^5.0.0",
     "next": "9.3.5",
     "nodemon": "^2.0.4",
-    "react": "16.13.1",
+    "react": "^16.13.1",
     "react-dom": "16.13.1",
     "sass": "^1.26.10"
   }

@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>HTML Email Developer Career Path</title>
+        <title>Frontend Developer Career Path</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout>
@@ -15,7 +15,7 @@ export default function Home() {
             <div className="row">
               <div className="col-md-6 align-middle">
                 <div className="left-info">
-                  <h1>HTML EMAIL DEVELOPER</h1>
+                  <h1>Frontend Developer</h1>
                   <p>We are the only platform that goes beyond just teaching you how to get a job 
       by focusing on skills that are in high deman but also allow you to make your own
       income independently online.</p>
@@ -87,6 +87,20 @@ export default function Home() {
                         <Link href="/joe">
                           <a>
                             <span className="title">Advance CSS with Flexbox and Grid</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href="/joe">
+                          <a>
+                            <span className="title">CSS Animations</span>
                           </a>
                         </Link>
                       </div>
