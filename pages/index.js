@@ -8,6 +8,7 @@ export default function Home() {
       <Head>
         <title>CodingPhase </title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Head>
       <MainLayout>
         <section className="jumbo">
@@ -44,7 +45,7 @@ export default function Home() {
                 <div className="path">
                   <Link href="/career-path/html-email-developer">
                     <a>
-                      <div className="path-img"></div>
+                      <img src="/img/html-email-thumb.jpg" className="path-img"/>
                       <span className="title">HTML Email Developer</span>
                     </a>
                   </Link>
@@ -52,39 +53,39 @@ export default function Home() {
               </div>
               <div className="col-md-3">
                 <div className="path">
-                  <Link href="/joe">
+                  <Link href="/career-path/front-end-developer">
                     <a>
-                      <div className="path-img"></div>
-                      <span className="title">Frontend Developer</span>
+                      <img src="/img/frontend-thumb.jpg" className="path-img"/>
+                      <span className="title">Front End Developer</span>
                     </a>
                   </Link>
                 </div>
               </div>
               <div className="col-md-3">
                 <div className="path">
-                  <Link href="/joe">
+                  <Link href="/career-path/back-end-developer">
                     <a>
-                      <div className="path-img"></div>
-                      <span className="title">Backend Developer</span>
+                      <img src="/img/backend-thumb.jpg" className="path-img"/>
+                      <span className="title">Back End Developer</span>
                     </a>
                   </Link>
                 </div>
               </div>
               <div className="col-md-3">
                 <div className="path">
-                  <Link href="/joe">
+                  <Link href="/career-path/full-stack-developer">
                     <a>
-                      <div className="path-img"></div>
-                      <span className="title">Fullstack Developer</span>
+                      <img src="/img/fullstack-thumb.jpg" className="path-img"/>
+                      <span className="title">Full Stack Developer</span>
                     </a>
                   </Link>
                 </div>
               </div>
               <div className="offset-md-3 col-md-3">
                 <div className="path">
-                  <Link href="/joe">
+                  <Link href="/career-path/shopify-developer">
                     <a>
-                      <div className="path-img"></div>
+                      <img src="/img/shopify-thumb.jpg" className="path-img"/>
                       <span className="title">Shopify Developer</span>
                     </a>
                   </Link>
@@ -92,9 +93,9 @@ export default function Home() {
               </div>
               <div className="col-md-3">
                 <div className="path">
-                  <Link href="/joe">
+                  <Link href="/career-path/wordpress-developer">
                     <a>
-                      <div className="path-img"></div>
+                      <img src="/img/wordpress-thumb.jpg" className="path-img"/>
                       <span className="title">Wordpress Developer</span>
                     </a>
                   </Link>
@@ -196,7 +197,7 @@ export default function Home() {
               </div>
               <div className="tier filled">
                 <span className="title">Yearly</span>
-                <span className="price">$397</span>
+                <span className="price">$397🔥</span>
                 <span className="info">
                 ✔️ Free courses & Tutorials<br/>
                 ✔️ Premium Programming Courses<br/>
@@ -214,101 +215,7 @@ export default function Home() {
       </MainLayout>
       <style jsx>{`
         
-        #pricing {
-          padding: 4rem 0;
-        }
-        #pricing h2{
-          font-style: normal;
-          font-weight: bold;
-          font-size: 32px;
-          line-height: 123.1%;
-          color: #000000;
-          text-align: center;
-        }
-        #pricing p{
-          font-style: normal;
-          font-weight: normal;
-          font-size: 16px;
-          line-height: 123.1%;
-          color: #697589;
-          text-align: center;
-          margin-bottom: 2rem;
-        }
-        #pricing .prices{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: row;
-          margin-bottom: 3rem;
-        }
         
-        #pricing .prices .tier{
-          padding: 2rem 1rem;
-          background: #FFFFFF;
-          border: 1px solid #1859FF;
-          box-sizing: border-box;
-          box-shadow: 0px 12px 13px -6px rgba(0, 0, 0, 0.25);
-          border-radius: 5px;
-          width: 270px;
-          height: 496px;
-          display: flex;
-          flex-direction: column;
-          margin-right: 1rem;
-        }
-        #pricing .prices .tier.filled{
-          background: #1859FF;
-          color: white;
-        }
-        #pricing .prices .tier.filled .title{
-          color: white;
-        }
-        #pricing .prices .tier.filled .price{
-          color: white;
-        }
-        #pricing .prices .tier.filled button{
-          background: white;
-          color: #1859FF;
-        }
-        #pricing .prices .tier:nth-child(3){
-          margin-right: 0;
-        }
-        #pricing .title{
-          font-style: normal;
-          font-weight: bold;
-          font-size: 16px;
-          line-height: 123.1%;
-          color: #000000;
-          align-self: center;
-        }
-        #pricing .price{
-          font-style: normal;
-          font-weight: bold;
-          font-size: 48px;
-          line-height: 123.1%;
-          align-self: center;
-          color: #000000;
-          margin-bottom: 2rem;
-        }
-        #pricing .info{
-          font-family: Helvetica Neue;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 16px;
-          line-height: 32px;
-          margin-bottom: 4rem;
-        }
-        #pricing button{
-          width: 208px;
-          height: 48px;
-          left: 560px;
-          top: 3936px;
-          border: none;
-          background: #1859FF;
-          box-shadow: 0px 12px 13px -6px rgba(0, 0, 0, 0.25);
-          border-radius: 5px;
-          color: white;
-          align-self: center;
-        }
         #whyus{
           background: #010117;
           padding: 4rem 0;
@@ -456,6 +363,8 @@ export default function Home() {
           height: 160px;
           border-radius: 5px;
           margin-bottom: 1rem;
+          object-fit: cover;
+          box-shadow: 0px 12px 13px -6px rgba(0, 0, 0, 0.25);
         }
         .path .title{
           font-family: Helvetica Neue;
@@ -531,6 +440,109 @@ export default function Home() {
         }
         a:hover{
           color: red !important;
+        }
+        #pricing {
+          padding: 4rem 0;
+        }
+        #pricing h2{
+          font-style: normal;
+          font-weight: bold;
+          font-size: 32px;
+          line-height: 123.1%;
+          color: #000000;
+          text-align: center;
+        }
+        #pricing p{
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 123.1%;
+          color: #697589;
+          text-align: center;
+          margin-bottom: 2rem;
+        }
+        #pricing .prices{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: row;
+          margin-bottom: 3rem;
+        }
+        
+        #pricing .prices .tier{
+          padding: 2rem 1rem;
+          background: #FFFFFF;
+          border: 1px solid #1859FF;
+          box-sizing: border-box;
+          box-shadow: 0px 12px 13px -6px rgba(0, 0, 0, 0.25);
+          border-radius: 5px;
+          width: 270px;
+          height: 496px;
+          display: flex;
+          flex-direction: column;
+          margin-right: 1rem;
+        }
+        #pricing .prices .tier.filled{
+          background: #1859FF;
+          color: white;
+        }
+        #pricing .prices .tier.filled .title{
+          color: white;
+        }
+        #pricing .prices .tier.filled .price{
+          color: white;
+        }
+        #pricing .prices .tier.filled button{
+          background: white;
+          color: #1859FF;
+        }
+        #pricing .prices .tier:nth-child(3){
+          margin-right: 0;
+        }
+        #pricing .title{
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 123.1%;
+          color: #000000;
+          align-self: center;
+        }
+        #pricing .price{
+          font-style: normal;
+          font-weight: bold;
+          font-size: 48px;
+          line-height: 123.1%;
+          align-self: center;
+          color: #000000;
+          margin-bottom: 2rem;
+        }
+        #pricing .info{
+          font-family: Helvetica Neue;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 32px;
+          margin-bottom: 4rem;
+        }
+        #pricing button{
+          width: 208px;
+          height: 48px;
+          left: 560px;
+          top: 3936px;
+          border: none;
+          background: #1859FF;
+          box-shadow: 0px 12px 13px -6px rgba(0, 0, 0, 0.25);
+          border-radius: 5px;
+          color: white;
+          align-self: center;
+        }
+        @media screen and (min-width: 0px) and (max-width: 600px){
+          #pricing .prices .tier{
+            margin: 0 0 1rem 0;
+          }
+          #pricing .prices {
+            flex-wrap: wrap;
+          }
         }
       `}</style>
     </>

@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>HTML Email Developer Career Path</title>
+        <title>Backend Developer Career Path</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout>
@@ -15,7 +15,7 @@ export default function Home() {
             <div className="row">
               <div className="col-md-6 align-middle">
                 <div className="left-info">
-                  <h1>HTML EMAIL DEVELOPER</h1>
+                  <h1>Backend Developer</h1>
                   <p>We are the only platform that goes beyond just teaching you how to get a job 
       by focusing on skills that are in high deman but also allow you to make your own
       income independently online.</p>
@@ -31,7 +31,6 @@ export default function Home() {
         <section id="timeline">
           <div className="container">
             <div className="row g-3">
-              
               <div className="col-md-6 ">
               <h2>Courses To Take</h2>
               <p>All courses are set in order in which you need to take them. If you see a 🔥 next to course title they are exclusive to Yearly Members and Career Bundles Owners.</p>
@@ -78,20 +77,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
-                      </div>
-                      <div className="col-md-10">
-                        <Link href="https://student.codingphase.com/courses/enrolled/253829">
-                          <a>
-                            <span className="title">Advance CSS with Flexbox and Grid</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
+                  
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
@@ -126,9 +112,37 @@ export default function Home() {
                         <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
+                        <Link href="/joe">
+                          <a>
+                            <span className="title">Debuggin Like A Pro</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
                         <Link href="https://student.codingphase.com/courses/enrolled/191705">
                           <a>
                             <span className="title">Future Proof Javascript</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href="/joe">
+                          <a>
+                            <span className="title">ESNEXT - ES6 to ES10</span>
                           </a>
                         </Link>
                       </div>
@@ -154,9 +168,9 @@ export default function Home() {
                         <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://student.codingphase.com/courses/enrolled/349237">
+                        <Link href="https://student.codingphase.com/courses/enrolled/689163">
                           <a>
-                            <span className="title">Responsive HTML Emails</span>
+                            <span className="title">Express JS</span>
                           </a>
                         </Link>
                       </div>
@@ -168,9 +182,9 @@ export default function Home() {
                         <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://student.codingphase.com/courses/enrolled/515146">
+                        <Link href="https://student.codingphase.com/courses/enrolled/412709">
                           <a>
-                            <span className="title">HTML Emails Frameworks 🔥</span>
+                            <span className="title">MySQL</span>
                           </a>
                         </Link>
                       </div>
@@ -182,9 +196,9 @@ export default function Home() {
                         <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://student.codingphase.com/courses/enrolled/613871">
+                        <Link href="https://student.codingphase.com/courses/enrolled/235851">
                           <a>
-                            <span className="title">Design Softwares For Developers 🔥</span>
+                            <span className="title">PHP 7 and Laravel Master Course</span>
                           </a>
                         </Link>
                       </div>
@@ -196,9 +210,9 @@ export default function Home() {
                         <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://student.codingphase.com/courses/enrolled/623459">
+                        <Link href="https://student.codingphase.com/courses/enrolled/771065">
                           <a>
-                            <span className="title">Freelancer Guide 🔥</span>
+                            <span className="title">Restaurant Application - PHP Laravel, React</span>
                           </a>
                         </Link>
                       </div>
@@ -210,24 +224,67 @@ export default function Home() {
                         <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://student.codingphase.com/courses/enrolled/619459">
+                        <Link href="https://student.codingphase.com/courses/enrolled/598561">
                           <a>
-                            <span className="title">Job Ready: Email Developer 🔥</span>
+                            <span className="title">Python 3</span>
                           </a>
                         </Link>
                       </div>
                     </div>
                   </div>
-
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href="https://student.codingphase.com/courses/enrolled/261619">
+                          <a>
+                            <span className="title">Ruby</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href="https://student.codingphase.com/courses/enrolled/272602">
+                          <a>
+                            <span className="title">Ruby On Rails</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href="/joe">
+                          <a>
+                            <span className="title">Web Developer Personal Brand</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  
+                  
                 </div>
-                
               </div>
               <div className="col-md-6 jobs">
                 <h2>Real Skills For Jobs Check On Indeed</h2>
                 <div className="path">
-                  <Link href="https://www.indeed.com/jobs?q=title%3Afront%20end%20developer&l&vjk=d8fdabe51ecc95fe">
+                  <Link href="https://www.indeed.com/jobs?q=title%3Afull%20stack%20developer&l&vjk=d94b7bc8e309bc3e">
                     <a target="new">
-                      <img src="/img/email-dev-jobs.png"/>
+                      <img src="/img/full-stack-jobs.jpg"/>
                     </a>
                   </Link>
                 </div>
@@ -248,11 +305,16 @@ export default function Home() {
                   <li>Responsive Layout With CSS Grid</li>
                   <li>Notifications App</li>
                   <li>Pokemon Rock, Papers, Scissors Battle</li>
-                  <li>Product Responsive Email</li>
-                  <li>Hotel Chain Responsive Email</li>
-                  <li>Deploying Responsive Emails</li>
-                  <li>Testing Emails On Litmus</li>
-                  <li>Design Software - Photoshop and Sketch</li>
+                  <li>Advanced Javascript Animations</li>
+                  <li>Learn Ajax and working with API's</li>
+                  <li>Build Your Web Developer Portfolio</li>
+                  <li>Learn To Debug Your Apps</li>
+                  <li>Personal Brand For Web Developer</li>
+                  <li>Build Real Estate Filter</li>
+                  <li>Build Responsive Emails</li>
+                  <li>Learn The Most Popular Javascript Frameworks</li>
+                  <li>Build Mobile Apps with React Native</li>
+                  <li>Deploy Websites</li>
                 </ul>
               </div>
             </div>
@@ -264,17 +326,7 @@ export default function Home() {
             <h2>PRICING</h2>
             <p>Save money by signing up to a subscription</p>
             <div className="prices">
-              <div className="tier">
-                <span className="title">Buy Career Bundle</span>
-                <span className="price">$300</span>
-                <span className="info">
-                ✔️ All Courses In This Career Path<br/>
-                ✔️ Including New Courses<br/>
-                ✔️ All Free Updates<br/>
-                ✔️ ASAP Developers Group<br/><br/>
-                </span>
-                <button>Sign Up</button>
-              </div>
+              
               <div className="tier">
                 <span className="title">Monthly</span>
                 <span className="price">$20</span>
