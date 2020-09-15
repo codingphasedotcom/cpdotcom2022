@@ -3,9 +3,12 @@ import Link from 'next/link';
 import Paths from '../components/Paths';
 import MainLayout from '../components/layouts/MainLayout';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import ReactGA from 'react-ga';
 
 
 export default function Home() {
+  ReactGA.initialize('UA-37043736-10');
+  ReactGA.pageview(window.location.pathname + window.location.search);
   return (
     <>
       <Head>
