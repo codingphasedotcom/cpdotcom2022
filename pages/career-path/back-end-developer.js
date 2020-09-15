@@ -4,6 +4,7 @@ import Link from 'next/link'
 import MainLayout from '../../components/layouts/MainLayout'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import ReactGA from 'react-ga';
+import Pricing from '../../components/Pricing';
 
 export default function Home() {
   useEffect(() => {
@@ -332,41 +333,7 @@ export default function Home() {
           </div>
           
         </section>
-        <section id="pricing">
-          <div className="container">
-            <h2>PRICING</h2>
-            <p>Save money by signing up to a subscription</p>
-            <div className="prices">
-              
-              <div className="tier">
-                <span className="title">Monthly</span>
-                <span className="price">$20</span>
-                <span className="info">
-                ✔️ Free courses & Tutorials<br/>
-                ✔️ Premium Programming Courses<br/>
-                ✔️ ASAP Developers Group<br/>
-                ❌ All Career Bundles<br/>
-                ❌ Make Money Online Courses<br/>
-                </span>
-                <button>Sign Up</button>
-              </div>
-              <div className="tier filled">
-                <span className="title">Yearly</span>
-                <span className="price">$397🔥</span>
-                <span className="info">
-                ✔️ Free courses & Tutorials<br/>
-                ✔️ Premium Programming Courses<br/>
-                ✔️ ASAP Developers Group<br/>
-                ✔️ All Career Bundles<br/>
-                ✔️ Make Money Online Courses<br/>
-                </span>
-                <button>Sign Up</button>
-              </div>
-            </div>
-            <p>Don’t want to subscribe... Just buy the <a href="#">courses</a> you need</p>
-          </div>
-        </section>
-        
+        <Pricing location="course" />
       </MainLayout>
       <style jsx>{`
         #projects h2{

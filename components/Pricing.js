@@ -24,23 +24,28 @@ const FirstTier = (props)=>{
             </>
         )
     } else {
-        return(
-            <>
-                <div className="tier">
-                    <span className="title">Buy Career Bundle</span>
-                    <span className="price">$300</span>
-                    <span className="info">
-                    ✔️ All Courses In This Career Path<br/>
-                    ✔️ Including New Courses<br/>
-                    ✔️ All Free Updates<br/>
-                    ✔️ ASAP Developers Group<br/><br/>
-                    </span>
-                    <Link  href={`${props.bundleURL}?utm_source=codingphase.com&utm_medium=homepage&utm_campaign=pricing%20sign%20up`}>
-                        <a className="button">Sign Up</a>
-                    </Link>
-                  </div>
-            </>
-        )
+        if((typeof(props.bundleURL) != "undefined")){
+            return(
+                <>
+                    <div className="tier">
+                        <span className="title">Buy Career Bundle</span>
+                        <span className="price">$300</span>
+                        <span className="info">
+                        ✔️ All Courses In This Career Path<br/>
+                        ✔️ Including New Courses<br/>
+                        ✔️ All Free Updates<br/>
+                        ✔️ ASAP Developers Group<br/><br/>
+                        </span>
+                        <Link  href={`${props.bundleURL}?utm_source=codingphase.com&utm_medium=homepage&utm_campaign=pricing%20sign%20up`}>
+                            <a className="button">Sign Up</a>
+                        </Link>
+                      </div>
+                </>
+            )
+        } else {
+            return ''
+        }
+        
     }
 }
 
