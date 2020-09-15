@@ -1,3 +1,4 @@
+
 #whyus {
     background: #010117;
     padding: 4rem 0;
@@ -333,10 +334,7 @@ a:hover {
     }
 }
 @media screen and (min-width: 0px) and (max-width: 767px) {
-    html,body{
-        width: 100vw;
-        overflow-x: hidden;
-    }
+    
     #pricing .prices .tier {
         margin: 0 0 1rem 0;
     }

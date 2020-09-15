@@ -9,6 +9,7 @@ export default function Home() {
   useEffect(() => {
     ReactGA.initialize('UA-37043736-10');
     if (typeof window !== 'undefined') {
+      ReactGA.pageview(window.location.pathname + window.location.search);
     }
   });
   return (
