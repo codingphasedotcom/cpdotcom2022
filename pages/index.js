@@ -1,4 +1,5 @@
-import Head from 'next/head'
+import React, { useState, useEffect } from 'react';
+import Head from 'next/head';
 import Link from 'next/link';
 import Paths from '../components/Paths';
 import MainLayout from '../components/layouts/MainLayout';
@@ -7,15 +8,19 @@ import ReactGA from 'react-ga';
 
 
 export default function Home() {
-  ReactGA.initialize('UA-37043736-10');
-  ReactGA.pageview(window.location.pathname + window.location.search);
+  useEffect(() => {
+    ReactGA.initialize('UA-37043736-10');
+    if (typeof window !== 'undefined') {
+      ReactGA.pageview(window.location.pathname + window.location.search);
+    }
+  });
   return (
     <>
       <Head>
         <title>CodingPhase </title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"></link>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossOrigin="anonymous"></link>
       </Head>
       <MainLayout>
         <section className="jumbo">
