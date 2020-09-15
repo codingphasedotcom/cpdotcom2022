@@ -161,7 +161,7 @@
 .jumbo {
     height: calc(100vh - 50px);
     background: linear-gradient(180deg, #38028f 0%, rgba(109, 20, 255, 0.69) 100%),
-        url("https://images.pexels.com/photos/935756/pexels-photo-935756.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        url("/img/jumbo-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -199,7 +199,7 @@
     color: #e7e7e7;
     margin-bottom: 32px;
 }
-.left-info button {
+.left-info .start-btn {
     background: #292929;
     border: 1px solid #ffffff;
     box-sizing: border-box;
@@ -207,6 +207,9 @@
     color: white;
     height: 48px;
     width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .right-info img {

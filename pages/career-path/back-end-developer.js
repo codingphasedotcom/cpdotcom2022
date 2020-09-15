@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Backend Developer Career Path</title>
+        <title>Back End Developer Career Path</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout>
@@ -30,9 +30,9 @@ export default function Home() {
                   <p>We are the only platform that goes beyond just teaching you how to get a job 
       by focusing on skills that are in high deman but also allow you to make your own
       income independently online.</p>
-                  <button className="start-btn">
+                  <a href="#pricing" className="start-btn">
                     Start Now
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>

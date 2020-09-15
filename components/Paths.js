@@ -113,7 +113,7 @@ export default function(){
                       <LazyLoadImage
                       alt={'image.alt'}
                       effect="blur"
-                      src="/img/wordpress-thumb.jpg" className="path-img"/>
+                      src="/img/niche-sites-thumb.jpg" className="path-img"/>
                       <span className="title">Niche Site</span>
                     </a>
                   </Link>
