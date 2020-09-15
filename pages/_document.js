@@ -15,6 +15,7 @@ class MyDocument extends Document {
               __html: `[google analytics tracking code here]`
             }}
           /> */}
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
         <body>
           <Main />

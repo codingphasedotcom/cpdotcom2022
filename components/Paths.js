@@ -67,15 +67,28 @@ export default function(){
                   </Link>
                 </div>
               </div>
-              <div className="offset-md-3 col-md-3">
+              <div className="col-md-3">
                 <div className="path">
-                  <Link href="/career-path/shopify-developer">
+                  <Link href="/career-path/shopify-theme-developer">
                     <a>
                       <LazyLoadImage
                           alt={'image.alt'}
                           effect="blur"
                           src="/img/shopify-thumb.jpg" className="path-img"/>
-                      <span className="title">Shopify Developer</span>
+                      <span className="title">Shopify Theme Developer</span>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="path">
+                  <Link href="/career-path/shopify-app-developer">
+                    <a>
+                      <LazyLoadImage
+                          alt={'image.alt'}
+                          effect="blur"
+                          src="/img/shopify-thumb.jpg" className="path-img"/>
+                      <span className="title">Shopify App Developer</span>
                     </a>
                   </Link>
                 </div>
@@ -89,6 +102,19 @@ export default function(){
                       effect="blur"
                       src="/img/wordpress-thumb.jpg" className="path-img"/>
                       <span className="title">Wordpress Developer</span>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="path">
+                  <Link href="/career-path/wordpress-developer">
+                    <a>
+                      <LazyLoadImage
+                      alt={'image.alt'}
+                      effect="blur"
+                      src="/img/wordpress-thumb.jpg" className="path-img"/>
+                      <span className="title">Niche Site</span>
                     </a>
                   </Link>
                 </div>
