@@ -322,11 +322,28 @@ a:hover {
     color: white;
     align-self: center;
 }
-@media screen and (min-width: 0px) and (max-width: 600px) {
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    html,body{
+        width: 100vw;
+        overflow-x: hidden;
+    }
     #pricing .prices .tier {
         margin: 0 0 1rem 0;
     }
     #pricing .prices {
         flex-wrap: wrap;
+    }
+    #whyus .logos img{
+        width: 100%;
+    }
+    #whyus .image-highlight{
+        width: 200px;
+    }
+    #whyus .image-highlight .gradient-bg {
+        width: 200px;
+    }
+    #whyus .image-highlight img {
+        width: 200px;
+        left: 2.5rem;
     }
 }

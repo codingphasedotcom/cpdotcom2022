@@ -78,7 +78,34 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href="https://student.codingphase.com/courses/enrolled/253829">
+                          <a>
+                            <span className="title">Advance CSS with Flexbox and Grid</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href="https://student.codingphase.com/courses/enrolled/269287">
+                          <a>
+                            <span className="title">CSS Animations</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
@@ -113,20 +140,6 @@ export default function Home() {
                         <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
-                        <Link href="/joe">
-                          <a>
-                            <span className="title">Debuggin Like A Pro</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
-                      </div>
-                      <div className="col-md-10">
                         <Link href="https://student.codingphase.com/courses/enrolled/191705">
                           <a>
                             <span className="title">Future Proof Javascript</span>
@@ -141,9 +154,9 @@ export default function Home() {
                         <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
-                        <Link href="/joe">
+                        <Link href="https://student.codingphase.com/courses/enrolled/872110">
                           <a>
-                            <span className="title">ESNEXT - ES6 to ES10</span>
+                            <span className="title">Javascript Animations</span>
                           </a>
                         </Link>
                       </div>
@@ -158,6 +171,174 @@ export default function Home() {
                         <Link href="https://student.codingphase.com/courses/enrolled/476145">
                           <a>
                             <span className="title">Node and NPM Basics</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href="https://student.codingphase.com/courses/enrolled/286837">
+                          <a>
+                            <span className="title">Gulp</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href="https://student.codingphase.com/courses/enrolled/349237">
+                          <a>
+                            <span className="title">Responsive HTML Emails</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href="https://student.codingphase.com/courses/enrolled/336889">
+                          <a>
+                            <span className="title">How To Deploy Your Site</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href="https://student.codingphase.com/courses/enrolled/360152">
+                          <a>
+                            <span className="title">Web Developer Personal Brand</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href="https://student.codingphase.com/courses/enrolled/545465">
+                          <a>
+                            <span className="title">Debuggin Like A Pro</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href="https://student.codingphase.com/courses/enrolled/235002">
+                          <a>
+                            <span className="title">Object Oriented Programming With Javascript</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href="https://student.codingphase.com/courses/enrolled/191707">
+                          <a>
+                            <span className="title">JQuery</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href="https://student.codingphase.com/courses/enrolled/213303">
+                          <a>
+                            <span className="title">ESNEXT - ES6 to ES10</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href="https://student.codingphase.com/courses/enrolled/215976">
+                          <a>
+                            <span className="title">React - Quick and Easy</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href="https://student.codingphase.com/courses/enrolled/495115">
+                          <a>
+                            <span className="title">Redux - The Easy Way Course</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href="https://student.codingphase.com/courses/enrolled/549587">
+                          <a>
+                            <span className="title">React - Till Infinity</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href="https://student.codingphase.com/courses/enrolled/645409">
+                          <a>
+                            <span className="title">React Native</span>
                           </a>
                         </Link>
                       </div>
@@ -267,7 +448,7 @@ export default function Home() {
                         <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
-                        <Link href="/joe">
+                        <Link href="https://student.codingphase.com/courses/enrolled/360152">
                           <a>
                             <span className="title">Web Developer Personal Brand</span>
                           </a>
@@ -275,9 +456,6 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  
-                  
-                  
                 </div>
               </div>
               <div className="col-md-6 jobs">

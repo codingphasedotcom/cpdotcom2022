@@ -113,7 +113,7 @@ export default function Home() {
                         <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
-                        <Link href="/joe">
+                        <Link href="https://student.codingphase.com/courses/enrolled/545465">
                           <a>
                             <span className="title">Debuggin Like A Pro</span>
                           </a>
@@ -141,7 +141,7 @@ export default function Home() {
                         <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
-                        <Link href="/joe">
+                        <Link href="https://student.codingphase.com/courses/enrolled/213303">
                           <a>
                             <span className="title">ESNEXT - ES6 to ES10</span>
                           </a>
@@ -267,7 +267,7 @@ export default function Home() {
                         <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
-                        <Link href="/joe">
+                        <Link href="https://student.codingphase.com/courses/enrolled/360152">
                           <a>
                             <span className="title">Web Developer Personal Brand</span>
                           </a>
