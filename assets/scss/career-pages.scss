@@ -1,0 +1,74 @@
+.project-jumbo{
+    height: 400px;
+    background: linear-gradient(180deg, #38028F 0%, rgba(109, 20, 255, 0.69) 100%), url('https://images.pexels.com/photos/935756/pexels-photo-935756.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project-jumbo .container{
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+    display: flex;
+  }
+  #projects h2{
+    font-size: 2rem;
+    background-size: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    border-image-source: linear-gradient(34deg,rgba(255,3,3,1) 0%,rgba(128,0,255,1) 61%);
+    background: linear-gradient(34deg,rgba(255,3,3,1) 0%,rgba(128,0,255,1) 61%);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 4px transparent;
+    color: #010117;
+    stroke-width: 2px;
+    margin-bottom: 4rem;
+  }
+  #projects ul{
+    list-style: disc;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #projects li{
+    font-size: 1.5rem;
+    color: white;
+    text-transform: capitalize;
+  }
+  #timeline{
+    padding: 4rem 0;
+  }
+  #timeline .course{
+    border-bottom: 2px solid white;
+    padding: 1rem;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+  }
+  #timeline .course:hover{
+    border-bottom: 2px solid;
+    border-image-source: linear-gradient(34deg,rgba(255,3,3,1) 0%,rgba(128,0,255,1) 61%);
+    border-image-slice: 1;
+    padding: 1rem;
+    box-shadow: 0px 12px 13px -6px rgba(255,3,3, 0.25);
+  }
+  #timeline .course .title{
+    font-size: 1rem;
+    font-weight: 500;
+
+  }
+  #timeline .course .course-img{
+    width: 100%;
+
+  }
+  #timeline .jobs img{
+    width: 100%;
+  }
+  #projects{
+    background: #010117;
+    padding: 4rem 0;
+  }
+  #pricing {
+    padding: 4rem 0;
+  }

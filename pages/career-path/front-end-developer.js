@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import MainLayout from '../../components/layouts/MainLayout'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function Home() {
   return (

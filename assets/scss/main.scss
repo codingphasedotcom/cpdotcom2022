@@ -19,4 +19,50 @@ $container-max-widths: (
 );
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "pages";
+@import "career-pages";
 
+
+
+a{
+  text-decoration: none;
+}
+
+header{
+  box-shadow: 0px 4px 18px -4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  position: fixed;
+  background: white;
+  z-index: 10;
+}
+header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 48px;
+}
+#logo{
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 24px;
+  color: #1859FF;
+}
+#header-menu{
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+#header-menu a{
+  margin-right: 15px;
+  text-decoration: none;
+}
+@media screen and (min-width: 0px) and (max-width: 600px) {
+  #header-menu{
+    display: none;
+  }
+}
