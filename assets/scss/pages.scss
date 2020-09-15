@@ -278,9 +278,12 @@ a:hover {
 #pricing .prices .tier.filled .price {
     color: white;
 }
-#pricing .prices .tier.filled button {
+#pricing .prices .tier.filled .button {
     background: white;
     color: #1859ff;
+    &:hover{
+        color: #1859ff !important;
+    }
 }
 #pricing .prices .tier:nth-child(3) {
     margin-right: 0;
@@ -310,7 +313,8 @@ a:hover {
     line-height: 32px;
     margin-bottom: 4rem;
 }
-#pricing button {
+#pricing .button {
+    display: block;
     width: 208px;
     height: 48px;
     left: 560px;
@@ -321,6 +325,12 @@ a:hover {
     border-radius: 5px;
     color: white;
     align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        color: white !important;
+    }
 }
 @media screen and (min-width: 0px) and (max-width: 767px) {
     html,body{

@@ -19,7 +19,7 @@ export default function(){
                     <Link href="https://student.codingphase.com/courses">
                         <a>All Courses</a>
                     </Link>
-                    <Link href="/joe">
+                    <Link href="/timeline">
                         <a>Timeline</a>
                     </Link>
                     <Link href="https://student.codingphase.com/courses/enrolled">

@@ -1,4 +1,5 @@
 import Header from '../Header';
+import Link from 'next/link'
 
 export default function(props){
     return(<>
@@ -15,11 +16,21 @@ export default function(props){
               </div>
               <div className="col-md-3">
                 <span className="title">IMPORTANT LINKS</span>
-                <a href="#">Timeline</a>
-                <a href="#">Terms of Service</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Refund Policy</a>
-                <a href="#">Contact Us</a>
+                <Link href="/timeline">
+                  <a>Timeline</a>
+                </Link>
+                <Link href="/terms-of-service">
+                  <a>Terms of Service</a>
+                </Link>
+                <Link href="/privacy-policy">
+                  <a>Privacy Policy</a>
+                </Link>
+                <Link href="/refund-policy">
+                  <a>Refund Policy</a>
+                </Link>
+                <Link href="/contact-us">
+                  <a>Contact-Us</a>
+                </Link>
               </div>
               <div className="col-md-3">
                 <span className="title">AFFILIATE PROGRAM</span>
@@ -32,7 +43,7 @@ export default function(props){
                     Office Address<br/>
                     44 Waterbury RD Suite 2D Prospect CT 06712
                     <br/>
-                    Email: codingphase@gmail.com
+                    Email: <a href="mailto:codingphase@gmail.com">codingphase@gmail.com</a>
                   </p>
               </div>
               

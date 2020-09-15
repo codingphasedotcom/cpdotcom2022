@@ -1,6 +1,7 @@
 import Head from 'next/head'
-import Link from 'next/link'
-import MainLayout from '../components/layouts/MainLayout'
+import Link from 'next/link';
+import Paths from '../components/Paths';
+import MainLayout from '../components/layouts/MainLayout';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
@@ -43,93 +44,7 @@ export default function Home() {
             
           </div>
         </section>
-        <section id="career-paths">
-          <div className="container">
-            <div className="row g-3">
-              <h2>Career Paths</h2>
-              <div className="col-md-3">
-                <div className="path">
-                  <Link href="/career-path/html-email-developer">
-                    <a>
-                    <LazyLoadImage
-                      alt={'image.alt'}
-                      effect="blur"
-                      src="/img/html-email-thumb.jpg" className="path-img"/>
-                      <span className="title">HTML Email Developer</span>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-              <div className="col-md-3">
-                <div className="path">
-                  <Link href="/career-path/front-end-developer">
-                    <a>
-                    <LazyLoadImage
-                      alt={'image.alt'}
-                      effect="blur"
-                      src={'/img/frontend-thumb.jpg'} 
-                      className="path-img"/>
-                      {/* <img src="/img/frontend-thumb.jpg" className="path-img"/> */}
-                      <span className="title">Front End Developer</span>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-              <div className="col-md-3">
-                <div className="path">
-                  <Link href="/career-path/back-end-developer">
-                    <a>
-                    <LazyLoadImage
-                      alt={'image.alt'}
-                      effect="blur"
-                      src="/img/backend-thumb.jpg" className="path-img"/>
-                      <span className="title">Back End Developer</span>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-              <div className="col-md-3">
-                <div className="path">
-                  <Link href="/career-path/full-stack-developer">
-                    <a>
-                      <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="/img/fullstack-thumb.jpg" className="path-img"/>
-                      <span className="title">Full Stack Developer</span>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-              <div className="offset-md-3 col-md-3">
-                <div className="path">
-                  <Link href="/career-path/shopify-developer">
-                    <a>
-                      <LazyLoadImage
-                          alt={'image.alt'}
-                          effect="blur"
-                          src="/img/shopify-thumb.jpg" className="path-img"/>
-                      <span className="title">Shopify Developer</span>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-              <div className="col-md-3">
-                <div className="path">
-                  <Link href="/career-path/wordpress-developer">
-                    <a>
-                      <LazyLoadImage
-                      alt={'image.alt'}
-                      effect="blur"
-                      src="/img/wordpress-thumb.jpg" className="path-img"/>
-                      <span className="title">Wordpress Developer</span>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        <Paths/>
         <section id="foursteps">
           <div className="container">
             <h5>How We Teach</h5>
@@ -233,7 +148,9 @@ export default function Home() {
                 ❌ Career Bundles<br/>
                 ❌ Make Money Online Courses<br/>
                 </span>
-                <button>Sign Up</button>
+                <Link  href="https://student.codingphase.com/p/codingphase-free-membership?utm_source=codingphase.com&utm_medium=homepage&utm_campaign=pricing%20sign%20up">
+                    <a className="button">Sign Up</a>
+                </Link>
               </div>
               <div className="tier">
                 <span className="title">Monthly</span>
@@ -245,7 +162,9 @@ export default function Home() {
                 ❌ Career Bundles<br/>
                 ❌ Make Money Online Courses<br/>
                 </span>
-                <button>Sign Up</button>
+                <Link href="https://student.codingphase.com/p/all-courses-subscription?utm_source=codingphase.com&utm_medium=homepage&utm_campaign=pricing%20sign%20up">
+                    <a className="button">Sign Up</a>
+                </Link>
               </div>
               <div className="tier filled">
                 <span className="title">Yearly</span>
@@ -257,7 +176,9 @@ export default function Home() {
                 ✔️ Career Bundles<br/>
                 ✔️ Make Money Online Courses<br/>
                 </span>
-                <button>Sign Up</button>
+                <Link href="https://student.codingphase.com/p/yearly-plus-membership?utm_source=codingphase.com&utm_medium=homepage&utm_campaign=pricing%20sign%20up" className="button">
+                    <a className="button">Sign Up</a>
+                </Link>
               </div>
             </div>
             <p>Don’t want to subscribe... Just buy the <a href="#">courses</a> you need</p>
