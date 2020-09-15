@@ -18,7 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout>
-        <section className="page">
+        {/* <section className="page">
             <div className="container">
                 <h1>Privacy Policy</h1>
 
@@ -47,7 +47,7 @@ Users may find advertising or other content on our Site that link to the sites a
 Company has the discretion to update this privacy policy at any time. When we do, we will revise the updated date at the bottom of this page. We encourage Users to frequently check this page for any changes to stay informed about how we are helping to protect the personal information we collect. You acknowledge and agree that it is your responsibility to review this privacy policy periodically and become aware of modifications.
 <h2><span id="Your_acceptance_of_these_terms"><b>Your acceptance of these terms</b></span></h2>
 By using this Site, you signify your acceptance of this policy. If you do not agree to this policy, please do not use our Site. Your continued use of the Site following the posting of changes to this policy will be deemed your acceptance of those changes.</div>
-        </section>
+        </section> */}
       </MainLayout>
       <style jsx>{`
         
