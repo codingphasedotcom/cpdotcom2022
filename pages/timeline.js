@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>CodingPhase </title>
+        <title>Career Path Timeline - CodingPhase</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout>

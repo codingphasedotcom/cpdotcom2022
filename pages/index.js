@@ -5,6 +5,7 @@ import Paths from '../components/Paths';
 import MainLayout from '../components/layouts/MainLayout';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import ReactGA from 'react-ga';
+import Pricing from '../components/Pricing';
 
 
 export default function Home() {
@@ -141,57 +142,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id="pricing">
-          <div className="container">
-            <h2>PRICING</h2>
-            <p>Save money by signing up to a subscription</p>
-            <div className="prices">
-              <div className="tier">
-                <span className="title">Basic</span>
-                <span className="price">FREE</span>
-                <span className="info">
-                ✔️ Free courses & Tutorials<br/>
-                ❌ Premium Programming Courses<br/>
-                ❌ ASAP Developers Group<br/>
-                ❌ Career Bundles<br/>
-                ❌ Make Money Online Courses<br/>
-                </span>
-                <Link  href="https://student.codingphase.com/p/codingphase-free-membership?utm_source=codingphase.com&utm_medium=homepage&utm_campaign=pricing%20sign%20up">
-                    <a className="button">Sign Up</a>
-                </Link>
-              </div>
-              <div className="tier">
-                <span className="title">Monthly</span>
-                <span className="price">$20</span>
-                <span className="info">
-                ✔️ Free courses & Tutorials<br/>
-                ✔️ Premium Programming Courses<br/>
-                ✔️ ASAP Developers Group<br/>
-                ❌ Career Bundles<br/>
-                ❌ Make Money Online Courses<br/>
-                </span>
-                <Link href="https://student.codingphase.com/p/all-courses-subscription?utm_source=codingphase.com&utm_medium=homepage&utm_campaign=pricing%20sign%20up">
-                    <a className="button">Sign Up</a>
-                </Link>
-              </div>
-              <div className="tier filled">
-                <span className="title">Yearly</span>
-                <span className="price">$397🔥</span>
-                <span className="info">
-                ✔️ Free courses & Tutorials<br/>
-                ✔️ Premium Programming Courses<br/>
-                ✔️ ASAP Developers Group<br/>
-                ✔️ Career Bundles<br/>
-                ✔️ Make Money Online Courses<br/>
-                </span>
-                <Link href="https://student.codingphase.com/p/yearly-plus-membership?utm_source=codingphase.com&utm_medium=homepage&utm_campaign=pricing%20sign%20up">
-                    <a className="button">Sign Up</a>
-                </Link>
-              </div>
-            </div>
-            <p>Don’t want to subscribe... Just buy the <a href="#">courses</a> you need</p>
-          </div>
-        </section>
+        <Pricing location="home"/>
         
       </MainLayout>
       <style jsx>{`
