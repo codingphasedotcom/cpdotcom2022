@@ -17,7 +17,7 @@ const FirstTier = (props)=>{
                     ❌ Career Bundles<br/>
                     ❌ Make Money Online Courses<br/>
                     </span>
-                    <Link  href="https://student.codingphase.com/p/codingphase-free-membership?utm_source=codingphase.com&utm_medium=homepage&utm_campaign=pricing%20sign%20up">
+                    <Link  href=" https://codingphase.teachable.com/p/codingphase-free-membership?utm_source=codingphase.com&utm_medium=homepage&utm_campaign=pricing%20sign%20up">
                         <a className="button">Sign Up</a>
                     </Link>
                 </div>
@@ -68,7 +68,7 @@ export default function(props){
                 ❌ All Career Bundles<br/>
                 ❌ Make Money Online Courses<br/>
                 </span>
-                <Link href="https://student.codingphase.com/p/all-courses-subscription?utm_source=codingphase.com&utm_medium=homepage&utm_campaign=pricing%20sign%20up">
+                <Link href=" https://codingphase.teachable.com/p/all-courses-subscription?utm_source=codingphase.com&utm_medium=homepage&utm_campaign=pricing%20sign%20up">
                     <a className="button">Sign Up</a>
                 </Link>
               </div>
@@ -82,7 +82,7 @@ export default function(props){
                 ✔️ All Career Bundles<br/>
                 ✔️ Make Money Online Courses<br/>
                 </span>
-                <Link href="https://student.codingphase.com/p/yearly-plus-membership?utm_source=codingphase.com&utm_medium=homepage&utm_campaign=pricing%20sign%20up">
+                <Link href=" https://codingphase.teachable.com/p/yearly-plus-membership?utm_source=codingphase.com&utm_medium=homepage&utm_campaign=pricing%20sign%20up">
                     <a className="button">Sign Up</a>
                 </Link>
               </div>

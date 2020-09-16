@@ -55,7 +55,7 @@ export default function Home() {
                         src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://student.codingphase.com/courses/enrolled/191709">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/191709">
                           <a>
                             <span className="title">Text Editors</span>
                           </a>
@@ -72,7 +72,7 @@ export default function Home() {
                         src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://student.codingphase.com/courses/enrolled/190248">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/190248">
                           <a>
                             <span className="title">HTML & CSS</span>
                           </a>
@@ -89,7 +89,7 @@ export default function Home() {
                         src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://student.codingphase.com/courses/enrolled/204451">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/204451">
                           <a>
                             <span className="title">Terminal For Developers</span>
                           </a>
@@ -106,7 +106,7 @@ export default function Home() {
                         src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://student.codingphase.com/courses/enrolled/253829">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/253829">
                           <a>
                             <span className="title">Advance CSS with Flexbox and Grid</span>
                           </a>
@@ -123,7 +123,7 @@ export default function Home() {
                         src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://student.codingphase.com/courses/enrolled/212881">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/212881">
                           <a>
                             <span className="title">SASS Like A Pro</span>
                           </a>
@@ -140,7 +140,7 @@ export default function Home() {
                         src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://student.codingphase.com/courses/enrolled/540733">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/540733">
                           <a>
                             <span className="title">Git Like A Pro</span>
                           </a>
@@ -157,7 +157,7 @@ export default function Home() {
                         src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://student.codingphase.com/courses/enrolled/191705">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/191705">
                           <a>
                             <span className="title">Future Proof Javascript</span>
                           </a>
@@ -174,7 +174,7 @@ export default function Home() {
                         src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://student.codingphase.com/courses/enrolled/476145">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/476145">
                           <a>
                             <span className="title">Node and NPM Basics</span>
                           </a>
@@ -191,7 +191,7 @@ export default function Home() {
                         src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://student.codingphase.com/courses/enrolled/349237">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/349237">
                           <a>
                             <span className="title">Responsive HTML Emails</span>
                           </a>
@@ -208,7 +208,7 @@ export default function Home() {
                         src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://student.codingphase.com/courses/enrolled/515146">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/515146">
                           <a>
                             <span className="title">HTML Emails Frameworks 🔥</span>
                           </a>
@@ -225,7 +225,7 @@ export default function Home() {
                         src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://student.codingphase.com/courses/enrolled/613871">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/613871">
                           <a>
                             <span className="title">Design Softwares For Developers 🔥</span>
                           </a>
@@ -242,7 +242,7 @@ export default function Home() {
                         src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://student.codingphase.com/courses/enrolled/623459">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/623459">
                           <a>
                             <span className="title">Freelancer Guide 🔥</span>
                           </a>
@@ -259,7 +259,7 @@ export default function Home() {
                         src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://student.codingphase.com/courses/enrolled/619459">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/619459">
                           <a>
                             <span className="title">Job Ready: Email Developer 🔥</span>
                           </a>
@@ -311,7 +311,7 @@ export default function Home() {
           </div>
           
         </section>
-        <Pricing location="course" bundleURL="https://student.codingphase.com/p/html-email-developer-career-bundle" />
+        <Pricing location="course" bundleURL=" https://codingphase.teachable.com/p/html-email-developer-career-bundle" />
       </MainLayout>
       <style jsx>{`
         
