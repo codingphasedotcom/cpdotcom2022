@@ -12,7 +12,7 @@ export default function(){
             <div className="container">
                 <div id="logo">
                     <Link href="/">
-                        <a>CodingPhases</a>
+                        <a>CodingPhase</a>
                     </Link>
                 </div>
                 <div id="header-menu" className={`${mobileMenuOpen ? 'mobile-menu-open' : ''}`}>
@@ -30,6 +30,9 @@ export default function(){
                     </Link>
                     <Link href="/contact-us">
                         <a>Contact Us</a>
+                    </Link>
+                    <Link href="https://sso.teachable.com/secure/117955/users/sign_in">
+                        <a>Account</a>
                     </Link>
                 </div>
                 <span className="mobile-icon" onClick={clickedOpen}>
