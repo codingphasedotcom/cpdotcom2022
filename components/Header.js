@@ -12,17 +12,17 @@ export default function(){
             <div className="container">
                 <div id="logo">
                     <Link href="/">
-                        <a>CodingPhase</a>
+                        <a>CodingPhases</a>
                     </Link>
                 </div>
                 <div id="header-menu" className={`${mobileMenuOpen ? 'mobile-menu-open' : ''}`}>
-                    <Link href="https://student.codingphase.com/courses">
+                    <Link href=" https://codingphase.teachable.com/courses">
                         <a>All Courses</a>
                     </Link>
                     <Link href="/timeline">
                         <a>Timeline</a>
                     </Link>
-                    <Link href="https://student.codingphase.com/courses/enrolled">
+                    <Link href=" https://codingphase.teachable.com/courses/enrolled">
                         <a>My Courses</a>
                     </Link>
                     <Link href="/blog">
