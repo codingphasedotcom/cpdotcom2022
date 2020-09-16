@@ -213,29 +213,16 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
+                  
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
                         <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/213303">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/549587">
                           <a>
-                            <span className="title">ESNEXT - ES6 to ES10</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
-                      </div>
-                      <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/215976">
-                          <a>
-                            <span className="title">React - Quick and Easy</span>
+                            <span className="title">My First Shopify Store 🔥</span>
                           </a>
                         </Link>
                       </div>
@@ -249,7 +236,7 @@ export default function Home() {
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/549587">
                           <a>
-                            <span className="title">React - Till Infinity</span>
+                            <span className="title">Shopify Theme Development 🔥</span>
                           </a>
                         </Link>
                       </div>
@@ -269,6 +256,34 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/549587">
+                          <a>
+                            <span className="title">Facebook and Google Ads Marketing 🔥</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/549587">
+                          <a>
+                            <span className="title">Design Software For Developers 🔥</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="col-md-6 jobs">
@@ -279,7 +294,7 @@ export default function Home() {
                     <LazyLoadImage
                         alt={'image.alt'}
                         effect="blur"
-                        src="/img/email-dev-jobs.png" className="course-img"/>
+                        src="/img/shopify-dev-jobs.jpg" className="course-img"/>
                     </a>
                   </Link>
                 </div>
@@ -301,10 +316,10 @@ export default function Home() {
                   <li>Responsive Layout With CSS Grid</li>
                   <li>Notifications App</li>
                   <li>Pokemon Rock, Papers, Scissors Battle</li>
-                  <li>Product Responsive Email</li>
-                  <li>Hotel Chain Responsive Email</li>
-                  <li>Deploying Responsive Emails</li>
-                  <li>Testing Emails On Litmus</li>
+                  <li>Learn the shopify dashboard</li>
+                  <li>Learn AJAX</li>
+                  <li>Build Custom Shopify Theme</li>
+                  <li>Liquid Template Language</li>
                   <li>Design Software - Photoshop and Sketch</li>
                 </ul>
               </div>

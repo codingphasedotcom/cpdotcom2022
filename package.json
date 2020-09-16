@@ -21,6 +21,7 @@
     "next": "9.3.5",
     "nodemon": "^2.0.4",
     "react": "^16.13.1",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^16.13.1",
     "react-ga": "^3.1.2",
     "react-lazy-load-image-component": "^1.5.0",

@@ -6,6 +6,7 @@ import MainLayout from '../components/layouts/MainLayout';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import ReactGA from 'react-ga';
 import Pricing from '../components/Pricing';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 export default function Home() {
@@ -35,9 +36,10 @@ export default function Home() {
                   <p>We are the only platform that goes beyond just teaching you how to get a job 
       we focus on skills that are in high deman but also allow you to make your own
       income independently online.</p>
-                  <a href="#pricing" className="start-btn">
+                  <AnchorLink href='#pricing' offset={() => -800} className="start-btn">Start Now</AnchorLink>
+                  {/* <a href="#pricing" className="start-btn">
                     Start Now
-                  </a>
+                  </a> */}
                 </div>
               </div>
               <div className="col-md-6 align-middle">
