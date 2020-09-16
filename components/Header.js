@@ -12,7 +12,7 @@ export default function(){
             <div className="container">
                 <div id="logo">
                     <Link href="/">
-                        <a>CodingPhases</a>
+                        <a>CodingPhase</a>
                     </Link>
                 </div>
                 <div id="header-menu" className={`${mobileMenuOpen ? 'mobile-menu-open' : ''}`}>
