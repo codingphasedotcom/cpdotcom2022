@@ -93,7 +93,7 @@ export default function(){
                   </Link>
                 </div>
               </div>
-              <div className="col-md-3">
+              {/* <div className="col-md-3">
                 <div className="path">
                   <Link href="/career-path/wordpress-developer">
                     <a>
@@ -118,7 +118,7 @@ export default function(){
                     </a>
                   </Link>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>

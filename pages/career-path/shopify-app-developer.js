@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>HTML Email Developer Career Path</title>
+        <title>Shopify App Developer Career Path</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout>
@@ -25,7 +25,7 @@ export default function Home() {
             <div className="row">
               <div className="col-md-6 align-middle">
                 <div className="left-info">
-                  <h1>HTML EMAIL DEVELOPER</h1>
+                  <h1>SHOPIFY APP DEVELOPER</h1>
                   <p>We are the only platform that goes beyond just teaching you how to get a job 
       we focus on skills that are in high deman but also allow you to make your own
       income independently online.</p>
@@ -41,7 +41,6 @@ export default function Home() {
         <section id="timeline">
           <div className="container">
             <div className="row g-3">
-              
               <div className="col-md-6 ">
               <h2>Courses To Take</h2>
               <p>All courses are set in order in which you need to take them. If you see a 🔥 next to course title they are exclusive to Yearly Members and Career Bundles Owners.</p>
@@ -49,10 +48,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                      <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/191709">
@@ -66,10 +62,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                      <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/190248">
@@ -83,10 +76,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/204451">
@@ -100,44 +90,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
-                      </div>
-                      <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/253829">
-                          <a>
-                            <span className="title">Advance CSS with Flexbox and Grid</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
-                      </div>
-                      <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/212881">
-                          <a>
-                            <span className="title">SASS Like A Pro</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/540733">
@@ -151,10 +104,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/191705">
@@ -165,13 +115,52 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
+									<div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/545465">
+                          <a>
+                            <span className="title">Debuggin Like A Pro</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/191707">
+                          <a>
+                            <span className="title">JQuery</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+									<div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/476145">
+                          <a>
+                            <span className="title">ESNEXT - ES6 to ES10</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/476145">
@@ -182,18 +171,43 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="course">
+									<div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/349237">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/476145">
                           <a>
-                            <span className="title">Responsive HTML Emails</span>
+                            <span className="title">Express JS - Node JS Framework</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+									<div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/476145">
+                          <a>
+                            <span className="title">Koa - Node JS Framework</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+									<div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/476145">
+                          <a>
+                            <span className="title">PHP 7 and Laravel</span>
                           </a>
                         </Link>
                       </div>
@@ -202,15 +216,12 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/515146">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/549587">
                           <a>
-                            <span className="title">HTML Emails Frameworks 🔥</span>
+                            <span className="title">My First Shopify Store 🔥</span>
                           </a>
                         </Link>
                       </div>
@@ -219,15 +230,40 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/613871">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/549587">
                           <a>
-                            <span className="title">Design Softwares For Developers 🔥</span>
+                            <span className="title">Shopify App Development With Node JS 🔥</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+									<div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href="#">
+                          <a>
+                            <span className="title">Advanced Shopify App Development with PHP Laravel 🔥</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+									<div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href="#">
+                          <a>
+                            <span className="title">Vapor - Serverless Deployment Auto Scale 🔥</span>
                           </a>
                         </Link>
                       </div>
@@ -236,15 +272,12 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/623459">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/549587">
                           <a>
-                            <span className="title">Freelancer Guide 🔥</span>
+                            <span className="title">Google Analytics 🔥</span>
                           </a>
                         </Link>
                       </div>
@@ -253,23 +286,18 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/619459">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/549587">
                           <a>
-                            <span className="title">Job Ready: Email Developer 🔥</span>
+                            <span className="title">Facebook and Google Ads Marketing 🔥</span>
                           </a>
                         </Link>
                       </div>
                     </div>
                   </div>
-
                 </div>
-                
               </div>
               <div className="col-md-6 jobs">
                 <h2>Real Skills For Jobs Check On Indeed</h2>
@@ -279,7 +307,7 @@ export default function Home() {
                     <LazyLoadImage
                         alt={'image.alt'}
                         effect="blur"
-                        src="/img/email-dev-jobs.png" className="course-img"/>
+                        src="/img/shopify-dev-jobs.jpg" className="course-img"/>
                     </a>
                   </Link>
                 </div>
@@ -287,6 +315,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        
         <section id="projects">
           <div className="container">
             <div className="row">
@@ -300,10 +329,10 @@ export default function Home() {
                   <li>Responsive Layout With CSS Grid</li>
                   <li>Notifications App</li>
                   <li>Pokemon Rock, Papers, Scissors Battle</li>
-                  <li>Product Responsive Email</li>
-                  <li>Hotel Chain Responsive Email</li>
-                  <li>Deploying Responsive Emails</li>
-                  <li>Testing Emails On Litmus</li>
+                  <li>Learn the shopify dashboard</li>
+                  <li>Learn AJAX</li>
+                  <li>Build Custom Shopify Theme</li>
+                  <li>Liquid Template Language</li>
                   <li>Design Software - Photoshop and Sketch</li>
                 </ul>
               </div>
@@ -311,7 +340,8 @@ export default function Home() {
           </div>
           
         </section>
-        <Pricing location="course" bundleURL=" https://codingphase.teachable.com/p/html-email-developer-career-bundle" bundlePrice="500" />
+        <Pricing location="course" bundleURL="https://codingphase.teachable.com/p/shopify-developer-career-bundle" bundlePrice="500"/>
+        
       </MainLayout>
       <style jsx>{`
         

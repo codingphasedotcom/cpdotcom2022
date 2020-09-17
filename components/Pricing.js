@@ -29,7 +29,7 @@ const FirstTier = (props)=>{
                 <>
                     <div className="tier">
                         <span className="title">Buy Career Bundle</span>
-                        <span className="price">$300</span>
+                        <span className="price">${props.bundlePrice}</span>
                         <span className="info">
                         ✔️ All Courses In This Career Path<br/>
                         ✔️ Including New Courses<br/>

@@ -327,7 +327,7 @@ export default function Home() {
           </div>
           
         </section>
-        <Pricing location="course" bundleURL=" https://codingphase.teachable.com/p/shopify-developer-career-bundle"/>
+        <Pricing location="course" bundleURL=" https://codingphase.teachable.com/p/shopify-developer-career-bundle" bundlePrice="500"/>
         
       </MainLayout>
       <style jsx>{`
