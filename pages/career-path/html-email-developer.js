@@ -27,7 +27,7 @@ export default function Home() {
                 <div className="left-info">
                   <h1>HTML EMAIL DEVELOPER</h1>
                   <p>We are the only platform that goes beyond just teaching you how to get a job 
-      we focus on skills that are in high deman but also allow you to make your own
+      we focus on skills that are in high demand but also allow you to make your own
       income independently online.</p>
                   <a href="#pricing" className="start-btn">
                     Start Now

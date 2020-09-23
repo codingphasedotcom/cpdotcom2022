@@ -34,7 +34,7 @@ export default function Home() {
       You Need To Become
       A Profitable Developer</h1>
                   <p>We are the only platform that goes beyond just teaching you how to get a job 
-      we focus on skills that are in high deman but also allow you to make your own
+      we focus on skills that are in high demand but also allow you to make your own
       income independently online.</p>
                   <AnchorLink href='#pricing' offset={() => -800} className="start-btn">Start Now</AnchorLink>
                   {/* <a href="#pricing" className="start-btn">
