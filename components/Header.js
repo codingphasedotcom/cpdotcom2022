@@ -25,9 +25,6 @@ export default function(){
                     <Link href=" https://codingphase.teachable.com/courses/enrolled">
                         <a>My Courses</a>
                     </Link>
-                    {/* <Link href="/blog">
-                        <a>Blog</a>
-                    </Link> */}
                     <Link href="https://anchor.fm/back-at-it-again">
                         <a>Podcast</a>
                     </Link>
