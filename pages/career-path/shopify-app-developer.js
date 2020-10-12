@@ -5,14 +5,27 @@ import MainLayout from '../../components/layouts/MainLayout'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import ReactGA from 'react-ga';
 import Pricing from '../../components/Pricing';
+import getUrlParam from '../../components/getParam';
 
 export default function Home() {
+  const [couponActive, setCouponActive] = useState(false);
   useEffect(() => {
     ReactGA.initialize('UA-37043736-10');
     if (typeof window !== 'undefined') {
       ReactGA.pageview(window.location.pathname + window.location.search);
     }
   });
+  useEffect(() => {
+    if(getUrlParam('coupon') != ''){
+      
+      setCouponActive({
+        status: true,
+        coupon: getUrlParam('coupon'),
+        percent: parseInt(getUrlParam('coupon').substring(0, 2))
+      })
+      console.log(couponActive);
+    }
+  }, []);
   return (
     <>
       <Head>
@@ -340,7 +353,7 @@ export default function Home() {
           </div>
           
         </section>
-        <Pricing location="course" bundleURL="https://codingphase.teachable.com/p/shopify-developer-career-bundle" bundlePrice="500"/>
+        <Pricing location="course" bundleURL="https://codingphase.teachable.com/p/shopify-developer-career-bundle" bundlePrice="500" couponActive={couponActive}/>
         
       </MainLayout>
       <style jsx>{`

@@ -2,17 +2,36 @@ import Link from 'next/link'
 import React, { useState } from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
+let totalPrice = (originalPrice, percentageDiscount) => {
+    if(percentageDiscount == '' || percentageDiscount == undefined){
+        if(originalPrice == 0){
+            return (<>FREE</>)
+        }
+        return (<>${originalPrice}</>);
+    }
+    if(originalPrice == 0){
+        return(<>FREE
+        <div className="savings">No discount it's already free</div>
+        </>)
+    }
+    let totalPrice = Math.trunc(((originalPrice * percentageDiscount) / 100))
+    return (<>${totalPrice}{totalPrice > 100 ? '🔥' : ''}
+    <div className="savings">
+        <del>${originalPrice}</del> - {percentageDiscount}% OFF
+    </div>
+    
+    </>);
+}
 const FirstTier = (props)=>{
-    console.log(props)
     if (props.location == "home") {
         return(
             <>
                 <div className="tier">
                     <span className="title">Basic</span>
-                    <span className="price">FREE</span>
+                    <span className="price">{totalPrice(0, props.couponActive.percent)}</span>
                     <span className="info">
                     ✔️ Free courses & Tutorials<br/>
-                    ❌ Premium Programming Courses<br/>
+                    ❌ Programming Courses<br/>
                     ❌ ASAP Developers Group<br/>
                     ❌ Career Bundles<br/>
                     ❌ Make Money Online Courses<br/>
@@ -29,14 +48,14 @@ const FirstTier = (props)=>{
                 <>
                     <div className="tier">
                         <span className="title">Buy Career Bundle</span>
-                        <span className="price">${props.bundlePrice}</span>
+                        <span className="price">{totalPrice(props.bundlePrice, props.couponActive.percent)}</span>
                         <span className="info">
-                        ✔️ All Courses In This Career Path<br/>
+                        ✔️ All Courses In This Career<br/>
                         ✔️ Including New Courses<br/>
                         ✔️ All Free Updates<br/>
                         ✔️ ASAP Developers Group<br/><br/>
                         </span>
-                        <Link  href={`${props.bundleURL}?utm_source=codingphase.com&utm_medium=homepage&utm_campaign=pricing%20sign%20up`}>
+                        <Link  href={`${props.bundleURL}?utm_source=codingphase.com&utm_medium=homepage&utm_campaign=pricing%20sign%20up${props.couponActive ? `&coupon_code=${props.couponActive.coupon}` : ''}`}>
                             <a className="button">Sign Up</a>
                         </Link>
                       </div>
@@ -60,29 +79,29 @@ export default function(props){
               <FirstTier {...props} />
               <div className="tier">
                 <span className="title">Monthly</span>
-                <span className="price">$20</span>
+    <span className="price">{totalPrice(20, props.couponActive.percent)}</span>
                 <span className="info">
-                ✔️ Free courses & Tutorials<br/>
-                ✔️ Premium Programming Courses<br/>
+                ✔️ All Courses Except 🔥<br/>
+                ✔️ Programming Courses<br/>
                 ✔️ ASAP Developers Group<br/>
                 ❌ All Career Bundles<br/>
                 ❌ Make Money Online Courses<br/>
                 </span>
-                <Link href=" https://codingphase.teachable.com/p/all-courses-subscription?utm_source=codingphase.com&utm_medium=homepage&utm_campaign=pricing%20sign%20up">
+                <Link href={`https://codingphase.teachable.com/p/all-courses-subscription?utm_source=codingphase.com&utm_medium=homepage&utm_campaign=pricing%20sign%20up${props.couponActive ? `&coupon_code=${props.couponActive.coupon}` : ''}`}>
                     <a className="button">Sign Up</a>
                 </Link>
               </div>
               <div className="tier filled">
                 <span className="title">Yearly</span>
-                <span className="price">$397🔥</span>
+                <span className="price">{totalPrice(397, props.couponActive.percent)}</span>
                 <span className="info">
-                ✔️ Free courses & Tutorials<br/>
-                ✔️ Premium Programming Courses<br/>
+                ✔️ All Courses Plus 🔥<br/>
+                ✔️ Programming Courses<br/>
                 ✔️ ASAP Developers Group<br/>
                 ✔️ All Career Bundles<br/>
                 ✔️ Make Money Online Courses<br/>
                 </span>
-                <Link href=" https://codingphase.teachable.com/p/yearly-plus-membership?utm_source=codingphase.com&utm_medium=homepage&utm_campaign=pricing%20sign%20up">
+                <Link href={`https://codingphase.teachable.com/p/yearly-plus-membership?utm_source=codingphase.com&utm_medium=homepage&utm_campaign=pricing%20sign%20up${props.couponActive ? `&coupon_code=${props.couponActive.coupon}` : ''}`}>
                     <a className="button">Sign Up</a>
                 </Link>
               </div>

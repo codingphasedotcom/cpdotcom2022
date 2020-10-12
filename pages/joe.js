@@ -3,8 +3,10 @@ import Head from 'next/head'
 import Link from 'next/link'
 import MainLayout from '../components/layouts/MainLayout'
 import ReactGA from 'react-ga';
+import getUrlParam from '../components/getParam';
 
 export default function Home() {
+  const [couponActive, setCouponActive] = useState(false);
   useEffect(() => {
     ReactGA.initialize('UA-37043736-10');
     if (typeof window !== 'undefined') {

@@ -233,6 +233,11 @@ a:hover {
 }
 #pricing {
     padding: 4rem 0;
+    .savings{
+        display: block;
+        font-size: 1rem;
+        text-align: center;
+    }
 }
 #pricing h2 {
     font-style: normal;
@@ -241,6 +246,7 @@ a:hover {
     line-height: 123.1%;
     color: #000000;
     text-align: center;
+    align-self: center;
 }
 #pricing p {
     font-style: normal;
@@ -307,7 +313,8 @@ a:hover {
     line-height: 123.1%;
     align-self: center;
     color: #000000;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 #pricing .info {
     font-family: Helvetica Neue;

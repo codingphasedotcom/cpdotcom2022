@@ -11,13 +11,14 @@
   },
   "dependencies": {
     "@koa/router": "^9.4.0",
-    "bootstrap": "^5.0.0-alpha1",
+    "bootstrap": "^5.0.0-alpha2",
     "dotenv": "^8.2.0",
     "koa": "^2.13.0",
     "koa-body": "^4.2.0",
     "koa-json": "^2.0.2",
-    "koa-session": "^6.0.0",
+    "koa-session": "^6.1.0",
     "koa-static": "^5.0.0",
+    "local-storage": "^2.0.0",
     "next": "9.3.5",
     "nodemon": "^2.0.4",
     "react": "^16.13.1",
@@ -25,6 +26,6 @@
     "react-dom": "^16.13.1",
     "react-ga": "^3.1.2",
     "react-lazy-load-image-component": "^1.5.0",
-    "sass": "^1.26.10"
+    "sass": "^1.27.0"
   }
 }
