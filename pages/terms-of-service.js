@@ -9,20 +9,7 @@ export default function Home() {
   const [couponActive, setCouponActive] = useState(false);
     useEffect(() => {
         ReactGA.initialize('UA-37043736-10');
-    ReactGA.addTrackers(
-      [
-        {
-          trackingId: 'UA-37043736-10',
-          gaOptions: {
-            name: 'original'
-          }
-        },
-        {
-          trackingId: 'UA-37043736-16',
-          gaOptions: { name: 'version4' }
-        }
-      ]
-    );
+     
         if (typeof window !== 'undefined') {
           ReactGA.pageview(window.location.pathname + window.location.search);
         }
