@@ -14,7 +14,7 @@ let totalPrice = (originalPrice, percentageDiscount) => {
         <div className="savings">No discount it's already free</div>
         </>)
     }
-    let totalPrice = Math.trunc(((originalPrice * percentageDiscount) / 100))
+    let totalPrice = Math.trunc(originalPrice - ((originalPrice * percentageDiscount) / 100))
     return (<>${totalPrice}{totalPrice > 100 ? '🔥' : ''}
     <div className="savings">
         <del>${originalPrice}</del> - {percentageDiscount}% OFF
