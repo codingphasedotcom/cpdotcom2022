@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React, { useState } from 'react';
+
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 let totalPrice = (originalPrice, percentageDiscount) => {

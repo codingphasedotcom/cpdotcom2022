@@ -8,6 +8,7 @@ import ReactGA from 'react-ga';
 import Pricing from '../components/Pricing';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import getUrlParam from '../components/getParam';
+import ls from 'local-storage';
 
 export default function Home() {
   const [couponActive, setCouponActive] = useState(false);
@@ -22,13 +23,19 @@ export default function Home() {
   
   useEffect(() => {
     if(getUrlParam('coupon') != ''){
-      
       setCouponActive({
         status: true,
         coupon: getUrlParam('coupon'),
         percent: parseInt(getUrlParam('coupon').substring(0, 2))
       })
-      console.log(couponActive);
+       ls.set('coupon', getUrlParam('coupon'))
+    }
+    if(ls('coupon') != null) {
+      setCouponActive({
+        status: true,
+        coupon: ls('coupon'),
+        percent: parseInt(ls('coupon').substring(0, 2))
+      })
     }
   }, []);
   return (
