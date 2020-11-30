@@ -45,6 +45,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout>
+      
         <section className="jumbo">
           <div className="container">
             <div className="row">
@@ -165,7 +166,7 @@ export default function Home() {
           </div>
         </section>
         <Pricing location="home" couponActive={couponActive} />
-        
+        <script async data-uid="2f89e66125" src="https://codingphase.ck.page/2f89e66125/index.js"></script>
       </MainLayout>
       <style jsx>{`
         
