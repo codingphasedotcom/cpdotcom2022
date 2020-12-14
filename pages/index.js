@@ -106,7 +106,7 @@ export default function Home() {
                   <LazyLoadImage
                     alt={'image.alt'}
                     effect="blur"
-                    src="https://images.pexels.com/photos/3861964/pexels-photo-3861964.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" className="step-img"/>
+                    src="https://images.pexels.com/photos/326514/pexels-photo-326514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" className="step-img"/>
                   
                   <span className="title">Build A Solid Portfolio Like A Pro</span>
                 </div>
@@ -116,7 +116,7 @@ export default function Home() {
                   <LazyLoadImage
                     alt={'image.alt'}
                     effect="blur"
-                    src="https://images.pexels.com/photos/3861964/pexels-photo-3861964.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" className="step-img"/>
+                    src="https://images.pexels.com/photos/941693/pexels-photo-941693.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" className="step-img"/>
                   <span className="title">Land The Dream Job and Have Side Income!</span>
                 </div>
               </div>
