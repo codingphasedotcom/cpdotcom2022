@@ -29,6 +29,8 @@ export default function Home() {
         percent: parseInt(getUrlParam('coupon').substring(0, 2))
       })
        ls.set('coupon', getUrlParam('coupon'))
+    }else{
+      ls.remove('coupon');
     }
     if(ls('coupon') != null) {
       setCouponActive({
