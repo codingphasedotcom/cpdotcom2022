@@ -8,6 +8,7 @@ import getUrlParam from '../components/getParam';
 
 export default function Home() {
   const [couponActive, setCouponActive] = useState(false);
+  const [AffiliateActive, setAffiliateActive] = useState(false);
   useEffect(() => {
     ReactGA.initialize('UA-37043736-10');
      
@@ -22,6 +23,10 @@ export default function Home() {
         status: true,
         coupon: getUrlParam('coupon'),
         percent: parseInt(getUrlParam('coupon').substring(0, 2))
+      })
+      setAffiliateActive({
+        status: true,
+        coupon: getUrlParam('affcode')
       })
       console.log(couponActive);
     }

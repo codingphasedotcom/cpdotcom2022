@@ -12,6 +12,7 @@ import ls from 'local-storage';
 
 export default function Home() {
   const [couponActive, setCouponActive] = useState(false);
+  const [affiliateActive, setAffiliateActive] = useState(false);
   useEffect(() => {
     ReactGA.initialize('UA-37043736-10');
      
@@ -22,6 +23,7 @@ export default function Home() {
   }, []);
   
   useEffect(() => {
+    // handle coupon
     if(getUrlParam('coupon') != ''){
       setCouponActive({
         status: true,
@@ -39,6 +41,23 @@ export default function Home() {
         percent: parseInt(ls('coupon').substring(0, 2))
       })
     }
+    //handle affiliate
+    if(getUrlParam('affcode') != ''){
+      setAffiliateActive({
+        status: true,
+        affcode: getUrlParam('affcode')
+      })
+      ls.set('affcode', getUrlParam('affcode'))
+    }else{
+      ls.remove('affcode');
+    }
+    if(ls('affcode') != null) {
+      setAffiliateActive({
+        status: true,
+        affcode: ls('affcode')
+      })
+    }
+
   }, []);
   return (
     <>
@@ -167,7 +186,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <Pricing location="home" couponActive={couponActive} />
+        <Pricing location="home" couponActive={couponActive} affiliateActive={affiliateActive} />
         <script async data-uid="2f89e66125" src="https://codingphase.ck.page/2f89e66125/index.js"></script>
       </MainLayout>
       <style jsx>{`

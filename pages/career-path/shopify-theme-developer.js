@@ -10,6 +10,7 @@ import ls from 'local-storage';
 
 export default function Home() {
   const [couponActive, setCouponActive] = useState(false);
+  const [affiliateActive, setAffiliateActive] = useState(false);
   useEffect(() => {
     ReactGA.initialize('UA-37043736-10');
      
@@ -31,6 +32,20 @@ export default function Home() {
         status: true,
         coupon: ls('coupon'),
         percent: parseInt(ls('coupon').substring(0, 2))
+      })
+    }
+    //handle affiliate
+    if(getUrlParam('affcode') != ''){
+      setAffiliateActive({
+        status: true,
+        affcode: getUrlParam('affcode')
+      })
+      ls.set('affcode', getUrlParam('affcode'))
+    }
+    if(ls('affcode') != null) {
+      setAffiliateActive({
+        status: true,
+        affcode: ls('affcode')
       })
     }
   }, []);
