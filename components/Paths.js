@@ -93,6 +93,19 @@ export default function(){
                   </Link>
                 </div>
               </div>
+              <div className="col-md-3">
+                <div className="path">
+                  <Link href="/career-path/entrepreneur-developer">
+                    <a>
+                      <LazyLoadImage
+                          alt={'image.alt'}
+                          effect="blur"
+                          src="/img/entrepreneur.jpg" className="path-img"/>
+                      <span className="title">Entrepreneur Developer</span>
+                    </a>
+                  </Link>
+                </div>
+              </div>
               {/* <div className="col-md-3">
                 <div className="path">
                   <Link href="/career-path/wordpress-developer">
