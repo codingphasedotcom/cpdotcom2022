@@ -12,7 +12,7 @@ class MyDocument extends Document {
         <Head>
         
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"></link>
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossOrigin="anonymous"></link>
               <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6VQ9KSVFF"></script>
           <script
             dangerouslySetInnerHTML={{
@@ -82,7 +82,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       t[e] = t.factory(e);
     }), t.load = function(t) {
       var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+      o.type = "text/javascript", o.async = !0, o.crossOrigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
       var i = document.getElementsByTagName("script")[0];
       i.parentNode.insertBefore(o, i);
     };
