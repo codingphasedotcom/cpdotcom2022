@@ -545,7 +545,7 @@ export default function Home() {
           </div>
           
         </section>
-        <Pricing location="course" couponActive={couponActive}/>
+        <Pricing location="course" couponActive={couponActive} affiliateActive={affiliateActive}/>
       </MainLayout>
       <style jsx>{`
         #projects h2{

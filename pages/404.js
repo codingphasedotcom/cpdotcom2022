@@ -155,7 +155,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <Pricing location="home" couponActive={couponActive} />
+        <Pricing location="home" couponActive={couponActive} affiliateActive={affiliateActive}/>
         
       </MainLayout>
       <style jsx>{`

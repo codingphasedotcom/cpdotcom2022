@@ -41,6 +41,8 @@ export default function Home() {
         affcode: getUrlParam('affcode')
       })
       ls.set('affcode', getUrlParam('affcode'))
+    }else{
+      // ls.remove('affcode');
     }
     if(ls('affcode') != null) {
       setAffiliateActive({
@@ -48,6 +50,7 @@ export default function Home() {
         affcode: ls('affcode')
       })
     }
+    console.log(ls('affcode'));
   }, []);
   return (
     <>
@@ -192,7 +195,7 @@ export default function Home() {
           </div>
           
         </section>
-        <Pricing location="course" bundleURL="https://codingphase.teachable.com/p/shopify-developer-career-bundle" bundlePrice="300" couponActive={couponActive}/>
+        <Pricing location="course" bundleURL="https://codingphase.teachable.com/p/shopify-developer-career-bundle" bundlePrice="300" couponActive={couponActive} affiliateActive={affiliateActive}/>
         
       </MainLayout>
       <style jsx>{`

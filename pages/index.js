@@ -49,7 +49,7 @@ export default function Home() {
       })
       ls.set('affcode', getUrlParam('affcode'))
     }else{
-      ls.remove('affcode');
+      // ls.remove('affcode');
     }
     if(ls('affcode') != null) {
       setAffiliateActive({
