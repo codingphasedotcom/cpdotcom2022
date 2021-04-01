@@ -5,7 +5,7 @@ import MainLayout from '../components/layouts/MainLayout'
 import ReactGA from 'react-ga';
 import getUrlParam from '../components/getParam';
 
-export default function ChrisSean() {
+export default function CodeStackr() {
   const [couponActive, setCouponActive] = useState(false);
     useEffect(() => {
         ReactGA.initialize('UA-37043736-10');
@@ -15,7 +15,7 @@ export default function ChrisSean() {
         }
       });
       useEffect(() => {
-        window.location.href = "https://www.codingphase.com/?affcode=117955_skhhafx9&coupon=20CHRISSEAN&utm_source=youtube&utm_medium=video&utm_campaign=ChrisSean";
+        window.location.href = "https://www.codingphase.com/?affcode=117955_wklyze7o&coupon=20CODESTACKR&utm_source=youtube&utm_medium=video&utm_campaign=codestackr";
         if(getUrlParam('coupon') != ''){
           setCouponActive({
             status: true,
@@ -34,7 +34,7 @@ export default function ChrisSean() {
       <MainLayout>
         <section className="page">
             <div className="container">
-              <h1>Chris Sean</h1>
+              <h1>CodeStackr</h1>
               
             </div>
         </section>
