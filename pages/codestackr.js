@@ -28,13 +28,14 @@ export default function CodeStackr() {
   return (
     <>
       <Head>
-        <title>CodingPhase - Chris Sean</title>
+        <title>CodingPhase - CodeStackr</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout>
         <section className="page">
-            <div className="container">
+            <div className="container" style={{flexDirection: 'column', display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '700px'}}>
               <h1>CodeStackr</h1>
+              <p>Applying your coupon will redirect in a few seconds</p>
               
             </div>
         </section>

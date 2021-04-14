@@ -6,37 +6,67 @@ import MainLayout from '../components/layouts/MainLayout';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import ReactGA from 'react-ga';
 import Pricing from '../components/Pricing';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import getUrlParam from '../components/getParam';
+import ls from 'local-storage';
 
 export default function Home() {
   const [couponActive, setCouponActive] = useState(false);
+  const [affiliateActive, setAffiliateActive] = useState(false);
   useEffect(() => {
     ReactGA.initialize('UA-37043736-10');
+     
      
     if (typeof window !== 'undefined') {
       ReactGA.pageview(window.location.pathname + window.location.search);
     }
-  });
+  }, []);
+  
   useEffect(() => {
+    // handle coupon
     if(getUrlParam('coupon') != ''){
-      
       setCouponActive({
         status: true,
         coupon: getUrlParam('coupon'),
         percent: parseInt(getUrlParam('coupon').substring(0, 2))
       })
-      console.log(couponActive);
+       ls.set('coupon', getUrlParam('coupon'))
+    }else{
+      ls.remove('coupon');
     }
+    if(ls('coupon') != null) {
+      setCouponActive({
+        status: true,
+        coupon: ls('coupon'),
+        percent: parseInt(ls('coupon').substring(0, 2))
+      })
+    }
+    //handle affiliate
+    if(getUrlParam('affcode') != ''){
+      setAffiliateActive({
+        status: true,
+        affcode: getUrlParam('affcode')
+      })
+      ls.set('affcode', getUrlParam('affcode'))
+    }else{
+      // ls.remove('affcode');
+    }
+    if(ls('affcode') != null) {
+      setAffiliateActive({
+        status: true,
+        affcode: ls('affcode')
+      })
+    }
+
   }, []);
   return (
     <>
       <Head>
         <title>CodingPhase </title>
         <link rel="icon" href="/favicon.ico" />
-        
-        
       </Head>
       <MainLayout>
+      
         <section className="jumbo">
           <div className="container">
             <div className="row">
@@ -48,9 +78,10 @@ export default function Home() {
                   <p>We are the only platform that goes beyond just teaching you how to get a job 
       we focus on skills that are in high demand but also allow you to make your own
       income independently online.</p>
-                  <a href="#pricing" className="start-btn">
+                  <AnchorLink href='#pricing' offset={() => -800} className="start-btn">Start Now</AnchorLink>
+                  {/* <a href="#pricing" className="start-btn">
                     Start Now
-                  </a>
+                  </a> */}
                 </div>
               </div>
               <div className="col-md-6 align-middle">
@@ -96,7 +127,7 @@ export default function Home() {
                   <LazyLoadImage
                     alt={'image.alt'}
                     effect="blur"
-                    src="https://images.pexels.com/photos/3861964/pexels-photo-3861964.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" className="step-img"/>
+                    src="https://images.pexels.com/photos/326514/pexels-photo-326514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" className="step-img"/>
                   
                   <span className="title">Build A Solid Portfolio Like A Pro</span>
                 </div>
@@ -106,7 +137,7 @@ export default function Home() {
                   <LazyLoadImage
                     alt={'image.alt'}
                     effect="blur"
-                    src="https://images.pexels.com/photos/3861964/pexels-photo-3861964.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" className="step-img"/>
+                    src="https://images.pexels.com/photos/941693/pexels-photo-941693.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" className="step-img"/>
                   <span className="title">Land The Dream Job and Have Side Income!</span>
                 </div>
               </div>
@@ -155,8 +186,8 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <Pricing location="home" couponActive={couponActive} affiliateActive={affiliateActive}/>
-        
+        <Pricing location="home" couponActive={couponActive} affiliateActive={affiliateActive} />
+        <script async data-uid="2f89e66125" src="https://codingphase.ck.page/2f89e66125/index.js"></script>
       </MainLayout>
       <style jsx>{`
         

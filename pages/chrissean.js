@@ -33,8 +33,9 @@ export default function ChrisSean() {
       </Head>
       <MainLayout>
         <section className="page">
-            <div className="container">
+            <div className="container" style={{flexDirection: 'column', display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '700px'}}>
               <h1>Chris Sean</h1>
+              <p>Applying your coupon will redirect in a few seconds</p>
               
             </div>
         </section>
