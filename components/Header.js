@@ -16,12 +16,16 @@ export default function(){
                     </Link>
                 </div>
                 <div id="header-menu" className={`${mobileMenuOpen ? 'mobile-menu-open' : ''}`}>
+                    <Link href="/reviews">
+                        <a>Reviews</a>
+                    </Link>
                     <Link href="https://codingphase.teachable.com/courses">
                         <a>All Courses</a>
                     </Link>
                     <Link href="/timeline">
                         <a>Timeline</a>
                     </Link>
+                    
                     <Link href="https://codingphase.teachable.com/courses/enrolled">
                         <a>My Courses</a>
                     </Link>
