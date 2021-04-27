@@ -15,7 +15,7 @@ export default function TechRally() {
         }
       });
       useEffect(() => {
-        window.location.href = "https://www.codingphase.com/?affcode=117955_wklyze7o&coupon=20TECHRALLY&utm_source=youtube&utm_medium=video&utm_campaign=techrally";
+        window.location.href = "https://www.codingphase.com/?affcode=117955_emjbmmar&coupon=20TECHRALLY&utm_source=youtube&utm_medium=video&utm_campaign=techrally";
         if(getUrlParam('coupon') != ''){
           setCouponActive({
             status: true,
