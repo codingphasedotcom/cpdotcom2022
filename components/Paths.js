@@ -69,6 +69,19 @@ export default function(){
               </div>
               <div className="col-md-3">
                 <div className="path">
+                  <Link href="/career-path/react-developer">
+                    <a>
+                      <LazyLoadImage
+                          alt={'react developer career path'}
+                          effect="blur"
+                          src="/img/reactjs.jpg" className="path-img"/>
+                      <span className="title">React Developer</span>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="path">
                   <Link href="/career-path/shopify-theme-developer">
                     <a>
                       <LazyLoadImage
@@ -106,6 +119,7 @@ export default function(){
                   </Link>
                 </div>
               </div>
+              
               {/* <div className="col-md-3">
                 <div className="path">
                   <Link href="/career-path/wordpress-developer">
