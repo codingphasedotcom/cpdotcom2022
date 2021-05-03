@@ -378,6 +378,20 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href="#">
+                          <a>
+                            <span className="title">Page Optimization 🔥</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
                   
                 </div>
               </div>
