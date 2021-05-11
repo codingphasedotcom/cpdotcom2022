@@ -10,8 +10,9 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-        
+
           <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="trustpilot-one-time-domain-verification-id" content="20a4b96a-ff93-4362-bf8f-7384c668bcd6"/>
           {/* <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossOrigin="anonymous"></link> */}
           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
@@ -22,7 +23,7 @@ class MyDocument extends Document {
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-            
+
               gtag('config', 'G-E6VQ9KSVFF');
               `
             }}
@@ -74,7 +75,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   var t = window.driftt = window.drift = window.driftt || [];
   if (!t.init) {
     if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
     t.factory = function(e) {
       return function() {
         var n = Array.prototype.slice.call(arguments);
