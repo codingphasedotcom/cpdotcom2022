@@ -56,7 +56,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               `
             }}
           />
-          <script data-ad-client="ca-pub-7321254586912702" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          
           <noscript
             dangerouslySetInnerHTML={{
               __html: `
