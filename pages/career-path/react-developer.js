@@ -355,7 +355,7 @@ export default function Home() {
                         <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
-                        <Link href="#">
+                        <Link href="https://codingphase.teachable.com/courses/enrolled/1407608">
                           <a>
                             <span className="title">Storybook - React Enterprise Level Components 🔥</span>
                           </a>
@@ -369,9 +369,9 @@ export default function Home() {
                         <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
                       </div>
                       <div className="col-md-10">
-                        <Link href="#">
+                        <Link href="https://codingphase.teachable.com/courses/enrolled/1442086">
                           <a>
-                            <span className="title">Jest - React Testing Framework 🔥</span>
+                            <span className="title">Testing For Developers 🔥</span>
                           </a>
                         </Link>
                       </div>
