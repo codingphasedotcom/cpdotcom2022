@@ -13,7 +13,7 @@ export default function Home() {
   const [affiliateActive, setAffiliateActive] = useState(false);
   useEffect(() => {
     ReactGA.initialize('UA-37043736-10');
-     
+
     if (typeof window !== 'undefined') {
       ReactGA.pageview(window.location.pathname + window.location.search);
     }
@@ -62,7 +62,7 @@ export default function Home() {
               <div className="col-md-6 align-middle">
                 <div className="left-info">
                   <h1>SHOPIFY THEME DEVELOPER</h1>
-                  <p>We are the only platform that goes beyond just teaching you how to get a job 
+                  <p>We are the only platform that goes beyond just teaching you how to get a job
       we focus on skills that are in high demand but also allow you to make your own
       income independently online.</p>
                   <a href="#pricing" className="start-btn">
@@ -71,7 +71,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            
+
           </div>
         </section>
         <section id="timeline">
@@ -249,7 +249,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  
+
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
@@ -273,6 +273,20 @@ export default function Home() {
                         <Link href="https://codingphase.teachable.com/courses/enrolled/915828">
                           <a>
                             <span className="title">Shopify Theme Development 🔥</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                      </div>
+                      <div className="col-md-10">
+                        <Link href="https://codingphase.teachable.com/courses/enrolled/1457030">
+                          <a>
+                            <span className="title">Shopify Online Store 2.0 🔥</span>
                           </a>
                         </Link>
                       </div>
@@ -338,7 +352,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        
+
         <section id="projects">
           <div className="container">
             <div className="row">
@@ -361,16 +375,16 @@ export default function Home() {
               </div>
             </div>
           </div>
-          
+
         </section>
         <Pricing location="course" bundleURL=" https://codingphase.teachable.com/p/shopify-developer-career-bundle" bundlePrice="500" couponActive={couponActive} affiliateActive={affiliateActive}/>
-        
+
       </MainLayout>
       <style jsx>{`
-        
+
       `}
       </style>
-      
+
       <style global jsx>{`
         a{
           text-decoration: none;
