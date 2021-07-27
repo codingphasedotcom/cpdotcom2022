@@ -73,6 +73,9 @@ span.mobile-icon{
   font-size: 2rem;
   cursor: pointer;
 }
+.lazy-load-image-background.blur.lazy-load-image-loaded{
+  width: 100%;
+}
 @media screen and (min-width: 0px) and (max-width: 600px) {
   #header-menu{
     display: flex;
