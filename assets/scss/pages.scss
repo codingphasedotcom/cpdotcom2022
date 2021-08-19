@@ -33,6 +33,15 @@
     top: 0;
     left: 0;
     z-index: 1;
+    @include respond(xs) {
+        max-width: 200px;
+      }
+      @include respond(sm) {
+        width: 200px;
+      }
+      @include respond(md) {
+        max-width: 300px;
+      }
 }
 #whyus .image-highlight img {
     width: 362px;
@@ -42,6 +51,15 @@
     top: -3rem;
     left: 3rem;
     z-index: 2;
+    @include respond(xs) {
+        width: 100%;
+      }
+      @include respond(sm) {
+        max-width: 400px;
+      }
+      @include respond(md) {
+        max-width: 300px !important;
+      }
 }
 #whyus h3 {
     color: white;
@@ -128,36 +146,55 @@
     text-align: center;
     color: #e3e3e3;
 }
-#career-paths {
+
+.career-paths {
     //height: 100vh;
     padding: 4rem 0;
+
+    &__title{
+        font-family: "Nunito Sans", sans-serif !important;
+        font-size: 4rem;
+        font-weight: 900;
+        text-align: center;
+        // max-width: 900px;
+        margin: 0 auto 3rem;
+    }
+    &__paragraph{
+        font-family: 'Nunito Sans', sans-serif !important;
+        font-size: 1.4rem;
+        color: #676c7a;
+        max-width: 600px;
+        text-align: center;
+        margin: 3rem auto ;
+        display: block;
+        width: 100%;
+      }
+    &__path{
+        margin-bottom: 2rem;
+    }
+    &__path .path-img {
+        background: black;
+        width: 100%;
+        height: 160px;
+        border-radius: 5px;
+        margin-bottom: 2rem;
+        object-fit: cover;
+        box-shadow: 0px 12px 13px -6px rgba(0, 0, 0, 0.25);
+    }
+    &__path .title {
+        font-family: Helvetica Neue;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #697589;
+        display: block;
+    }
 }
-#career-paths h2 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 2rem;
-    text-transform: uppercase;
-}
-.path .path-img {
-    background: black;
-    width: 100%;
-    height: 160px;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-    object-fit: cover;
-    box-shadow: 0px 12px 13px -6px rgba(0, 0, 0, 0.25);
-}
-.path .title {
-    font-family: Helvetica Neue;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    color: #697589;
-    display: block;
-}
+
+
+
 .jumbo {
     height: calc(100vh - 50px);
     background: linear-gradient(180deg, #38028f 0%, rgba(109, 20, 255, 0.69) 100%),

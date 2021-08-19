@@ -13,6 +13,7 @@ import ls from 'local-storage';
 export default function Home() {
   const [couponActive, setCouponActive] = useState(false);
   const [affiliateActive, setAffiliateActive] = useState(false);
+	const [introVidActive, setintroVidActive] = useState(false);
   useEffect(() => {
     ReactGA.initialize('UA-37043736-10');
      
@@ -20,6 +21,32 @@ export default function Home() {
     if (typeof window !== 'undefined') {
       ReactGA.pageview(window.location.pathname + window.location.search);
     }
+		document.addEventListener("DOMContentLoaded", function() {
+			var lazyVideos = [].slice.call(document.querySelectorAll("video.lazy"));
+		
+			if ("IntersectionObserver" in window) {
+				var lazyVideoObserver = new IntersectionObserver(function(entries, observer) {
+					entries.forEach(function(video) {
+						if (video.isIntersecting) {
+							for (var source in video.target.children) {
+								var videoSource = video.target.children[source];
+								if (typeof videoSource.tagName === "string" && videoSource.tagName === "SOURCE") {
+									videoSource.src = videoSource.dataset.src;
+								}
+							}
+		
+							video.target.load();
+							video.target.classList.remove("lazy");
+							lazyVideoObserver.unobserve(video.target);
+						}
+					});
+				});
+		
+				lazyVideos.forEach(function(lazyVideo) {
+					lazyVideoObserver.observe(lazyVideo);
+				});
+			}
+		});
   }, []);
   
   useEffect(() => {
@@ -59,147 +86,223 @@ export default function Home() {
     }
 
   }, []);
-  return (
-    <>
-      <Head>
-        <title>CodingPhase </title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <MainLayout>
-      
-        <section className="jumbo">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-6 align-middle">
-                <div className="left-info">
-                  <h1>Learn The Skills
-      You Need To Become
-      A Profitable Developer</h1>
-                  <p>We are the only platform that goes beyond just teaching you how to get a job 
-      we focus on skills that are in high demand but also allow you to make your own
-      income independently online.</p>
-                  <AnchorLink href='#pricing' offset={() => -800} className="start-btn">Start Now</AnchorLink>
-                  {/* <a href="#pricing" className="start-btn">
-                    Start Now
-                  </a> */}
-                </div>
-              </div>
-              <div className="col-md-6 align-middle">
-                <div className="right-info">
-                  <LazyLoadImage
-                    alt={'image.alt'}
-                    effect="blur"
-                    src="/img/money-vector.png"/>
-                  
-                </div>
-              </div>
-            </div>
-            
-          </div>
-        </section>
-        <Paths/>
-        <section id="foursteps">
-          <div className="container">
-            <h5>How We Teach</h5>
-            <h4>The 4 Steps to Make You Succeed!</h4>
-            <p>Discover How Hundreds of Students Have Learned Enough Coding Skills to Build Impressive Programs, Quit Their Dead- end Jobs, Spark High-Paying Tech Careers, and Double Their Income…</p>
-            <div className="row g-3">
-              <div className="col-md-3">
-                <div className="step">
-                  <LazyLoadImage
-                      alt={'image.alt'}
-                      effect="blur"
-                      src="https://images.pexels.com/photos/3861964/pexels-photo-3861964.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" className="step-img"/>
-                  <span className="title">Build Real Projects</span>
-                </div>
-              </div>
-              <div className="col-md-3">
-                <div className="step">
-                  <LazyLoadImage
-                      alt={'image.alt'}
-                      effect="blur"
-                      src="https://images.pexels.com/photos/572056/pexels-photo-572056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" className="step-img" className="step-img"/>
-                  <span className="title">Learn How To Make Income While You Continue To Learn</span>
-                </div>
-              </div>
-              <div className="col-md-3">
-                <div className="step">
-                  <LazyLoadImage
-                    alt={'image.alt'}
-                    effect="blur"
-                    src="https://images.pexels.com/photos/326514/pexels-photo-326514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" className="step-img"/>
-                  
-                  <span className="title">Build A Solid Portfolio Like A Pro</span>
-                </div>
-              </div>
-              <div className="col-md-3">
-                <div className="step">
-                  <LazyLoadImage
-                    alt={'image.alt'}
-                    effect="blur"
-                    src="https://images.pexels.com/photos/941693/pexels-photo-941693.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" className="step-img"/>
-                  <span className="title">Land The Dream Job and Have Side Income!</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section id="whyus">
-          <div className="container">
-            <h2>Why Choose Us?</h2>
-            <div className="row">
-              <div className="col-md-6">
-                <div className="image-highlight">
-                  <div className="gradient-bg"></div>
-                  <LazyLoadImage
-                    alt={'image.alt'}
-                    effect="blur"
-                    src="/img/joe-highlight.png"/>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <h3>Experience</h3>
-                <ul>
-                  <li>8 Years Of Professional Experience</li>
-                  <li>Self-taught so we know what it takes to learn at home</li>
-                  <li>Over $500,000/yr independent income from development and will teach you the strategies that has helped me achieve this.</li>
-                </ul>
-                <span className="total-students">65,000</span>
-                <span className="sub-total">Students Worldwide</span>
-                <span className="who-hired">WHO HIRED OUR STUDENTS</span>
-                <div className="logos">
-                
-                <LazyLoadImage
-                    alt={'image.alt'}
-                    effect="blur"
-                    src="/img/fedex.png"/>
-                    <LazyLoadImage
-                    alt={'image.alt'}
-                    effect="blur"
-                    src="/img/nasa.png"/>
-                <LazyLoadImage
-                    alt={'image.alt'}
-                    effect="blur"
-                    src="/img/paypal.png"/>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <Pricing location="home" couponActive={couponActive} affiliateActive={affiliateActive} />
-        <script async data-uid="2f89e66125" src="https://codingphase.ck.page/2f89e66125/index.js"></script>
-      </MainLayout>
-      <style jsx>{`
-        
-        
-        
+	const hoverIntroAnimate = () => {
+		setintroVidActive(true)
+	}
 
-      `}
-      </style>
-      
-      <style global jsx>{`
-        
-      `}</style>
-    </>
-  )
+  return (
+		<>
+			<Head>
+				<title>CodingPhase </title>
+				<link rel="icon" href="/favicon.ico" />
+			</Head>
+			<MainLayout>
+				<section className="hero-comp">
+					<div className="hero-comp__content">
+						<h2 className="hero-comp__title">
+							Your Developer Journey Starts Here
+						</h2>
+						<p className="hero-comp__paragraph">
+							{`Consider us a part of your team. We'll work with you to understand
+							the skills needed to get the job, and we'll teach you what it
+							takes to succeed in today's tech industry independently!`}
+						</p>
+						<a href="#" className="hero-comp__button">
+							Start Now
+						</a>
+						
+					</div>
+          <div className="hero-comp__video1">
+            <video width="320" height="240" autoPlay loop muted playsInline>
+              <source src="/vid/chill.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div className="hero-comp__video2">
+            <video width="320" height="240" autoPlay loop muted playsInline>
+              <source src="/vid/coding.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+					<div className="hero-comp__video3">
+            <video width="320" height="240" autoPlay loop muted playsInline>
+              <source src="/vid/girl.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+				</section>
+				<section className="intro-comp" onMouseEnter={hoverIntroAnimate}>
+					<div className="container">
+						<div className="row">
+							<div className="col">
+								<div className="intro-comp__content">
+									<div className={`intro-comp__vid-container ${introVidActive ? 'animated' : ''}`}>
+										<iframe width="100%"  src="https://www.youtube.com/embed/B6Ikii3HT54" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section className="nohobby-comp">
+					<div className="container">
+						<div className="row">
+							<div className="col">
+								<h2 className="nohobby-comp__title">We Don’t Teach <span className="nohobby-comp__coding">Coding</span> As A <span className="nohobby-comp__hobby"><div className="nohobby-comp__crossline"></div>Hobby</span></h2>
+							<div className="nohobby-comp__sub">Learn Skills That Are Actually Worth Learning and Get Results </div>
+							<p className="nohobby-comp__paragraph">What is the point of learning, and learning and learning without any monetary results? If you make no money then you have a hobby. We don’t teach our students to have a hobby we  teach you what’s going to get your results ASAP!</p>
+							</div>
+
+							<div className="row nohobby-comp__logos">
+								<div className="col-md-6">
+									<div className="row">
+										<div className="col-md-6 nohobby-comp__logo">
+										<LazyLoadImage
+                      alt={'React Logo'}
+                      effect="blur"
+                      src="/img/react-logo.png" />
+											
+										</div>
+										<div className="col-md-6 nohobby-comp__logo">
+										<LazyLoadImage
+                      alt={'Shopify Logo'}
+                      effect="blur"
+                      src="/img/shopify-logo.png" />
+											
+										</div>
+										<div className="col-md-6 nohobby-comp__logo">
+										<LazyLoadImage
+                      alt={'Node JS Logo'}
+                      effect="blur"
+                      src="/img/node-logo.png" />
+											
+										</div>
+										<div className="col-md-6 nohobby-comp__logo">
+										<LazyLoadImage
+                      alt={'Node JS Logo'}
+                      effect="blur"
+                      src="/img/php-logo.png" />
+											
+										</div>
+									</div>
+									
+								</div>
+								<div className="col-md-6 nohobby-comp__bag-girl">
+								<LazyLoadImage
+                      alt={'Node JS Logo'}
+                      effect="blur"
+                      src="/img/bag-girl.png" />
+											
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+				<Paths />
+				<section className="hof-comp">
+					{/* <h2 className="hof-comp__title">Hall Of Fame</h2> */}
+					<p className="hof-comp__sub">
+						View some of our students that had success with CodingPhase
+					</p>
+					<div  className="container">
+						<div className="row">
+								<div className="col-md-6 center d-flex justify-content-center">
+									<a href="/hof" className="">
+									<LazyLoadImage
+                      alt={'image.alt'}
+                      effect="blur"
+                      src="/img/hoflogo3.png" 
+											className="hof-comp__logo"/>
+									</a>
+									
+								</div>
+								<div className="col-md-6 d-flex justify-content-center">
+									<a href="/hof" className="">
+									<LazyLoadImage
+                      alt={'Node JS Logo'}
+                      effect="blur"
+                      src="/img/hofstudents.png" />
+										
+									</a>
+								
+								</div>
+							
+						</div>
+					</div>
+				</section>
+				<section id="whyus">
+					<div className="container">
+						<h2>Why Choose Us?</h2>
+						<div className="row">
+							<div className="col-md-6">
+								<div className="image-highlight">
+									<div className="gradient-bg"></div>
+									<div className="respo-img">
+									<LazyLoadImage
+                      alt={'image.alt'}
+                      effect="blur"
+                      src="/img/joe-highlight.png" 
+											className="hof-comp__logo"/>
+										
+									</div>
+									
+								</div>
+							</div>
+							<div className="col-md-6">
+								<h3>Experience</h3>
+								<ul>
+									<li>8 Years Of Professional Experience</li>
+									<li>Self-taught so we know what it takes to learn at home</li>
+									<li>
+										Over $500,000/yr independent income from development and
+										will teach you the strategies that has helped me achieve
+										this.
+									</li>
+								</ul>
+								<span className="total-students">65,000</span>
+								<span className="sub-total">Students Worldwide</span>
+								<span className="who-hired">WHO HIRED OUR STUDENTS</span>
+								<div className="logos">
+								<div className="respo-img">
+								<LazyLoadImage
+                      alt={'FedEx Logo'}
+                      effect="blur"
+                      src="/img/fedex.png" />
+								</div>
+								<div className="respo-img">
+								<LazyLoadImage
+                      alt={'NASA'}
+                      effect="blur"
+                      src="/img/nasa.png" />
+								</div>
+								
+								<div className="respo-img">
+									<LazyLoadImage
+                      alt={'Paypal'}
+                      effect="blur"
+                      src="/img/paypal.png" />
+									</div>
+								
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<Pricing
+					location="home"
+					couponActive={couponActive}
+					affiliateActive={affiliateActive}
+				/>
+				<script
+					async
+					data-uid="2f89e66125"
+					src="https://codingphase.ck.page/2f89e66125/index.js"></script>
+			</MainLayout>
+			<style jsx>{``}</style>
+
+			<style global jsx>{``}</style>
+		</>
+	);
 }

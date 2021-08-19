@@ -15,6 +15,9 @@ class MyDocument extends Document {
           <meta name="trustpilot-one-time-domain-verification-id" content="20a4b96a-ff93-4362-bf8f-7384c668bcd6"/>
           {/* <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossOrigin="anonymous"></link> */}
           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,900&display=swap" rel="stylesheet" />
 
               <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6VQ9KSVFF"></script>
           <script
@@ -67,7 +70,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             }}
           />
           {/* Start Drift Code */}
-          <script
+          {/* <script
             dangerouslySetInnerHTML={{
               __html: `
               "use strict";
@@ -96,7 +99,7 @@ drift.SNIPPET_VERSION = '0.3.1';
 drift.load('7xrggzxt4wz5');
               `
             }}
-          />
+          /> */}
         </Head>
         <body>
         <noscript

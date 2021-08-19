@@ -84,7 +84,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/191709">
@@ -98,7 +98,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/190248">
@@ -112,7 +112,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/204451">
@@ -126,7 +126,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/253829">
@@ -140,7 +140,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/269287">
@@ -154,7 +154,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/212881">
@@ -168,7 +168,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/540733">
@@ -182,7 +182,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/191705">
@@ -196,7 +196,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/476145">
@@ -212,7 +212,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/545465">
@@ -226,7 +226,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/235002">
@@ -240,7 +240,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/213303">
@@ -254,7 +254,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href="https://codingphase.teachable.com/courses/enrolled/1393365">
@@ -268,7 +268,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href="https://codingphase.teachable.com/courses/enrolled/1040264">
@@ -282,7 +282,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href="https://codingphase.teachable.com/courses/enrolled/1410358">
@@ -296,7 +296,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/495115">
@@ -310,7 +310,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/549587">
@@ -324,7 +324,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/645409">
@@ -338,7 +338,7 @@ export default function Home() {
                   {/* <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/215976">
@@ -352,7 +352,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href="https://codingphase.teachable.com/courses/enrolled/1407608">
@@ -366,7 +366,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href="https://codingphase.teachable.com/courses/enrolled/1442086">
@@ -380,7 +380,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href="#">
@@ -394,7 +394,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img" />
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href="#">
@@ -413,7 +413,11 @@ export default function Home() {
                 <div className="path">
                   <Link href="https://www.indeed.com/jobs?q=title%3Areact&l=">
                     <a target="new">
-                      <img src="/img/react-dev-jobs.jpg"/>
+                    <LazyLoadImage
+                      src="/img/react-dev-jobs.jpg"
+                      alt="Landscape picture"
+                      effect="blur"
+                       />
                     </a>
                   </Link>
                 </div>

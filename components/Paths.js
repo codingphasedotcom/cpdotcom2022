@@ -2,19 +2,22 @@ import Link from 'next/link'
 import React, { useState } from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
-export default function(){
+export default function Paths(){
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const clickedOpen = () => {
         setMobileMenuOpen(!mobileMenuOpen)
         console.log(mobileMenuOpen)
     }
     return(<>
-        <section id="career-paths">
+        <section className="career-paths">
           <div className="container">
             <div className="row g-3">
-              <h2>Career Paths</h2>
+              <div className="col-md-12">
+              <h2 className="career-paths__title">You Choose Your Career Path</h2>
+              <p className="career-paths__paragraph">Each path has all the courses you need to land the job in a easy way to follow.  No matter what level you are, you can jump in the timeline of your career path and follow along.</p>
+              </div>
               <div className="col-md-3">
-                <div className="path">
+                <div className="career-paths__path">
                   <Link href="/career-path/html-email-developer">
                     <a>
                     <LazyLoadImage
@@ -27,7 +30,7 @@ export default function(){
                 </div>
               </div>
               <div className="col-md-3">
-                <div className="path">
+                <div className="career-paths__path">
                   <Link href="/career-path/front-end-developer">
                     <a>
                     <LazyLoadImage
@@ -42,7 +45,7 @@ export default function(){
                 </div>
               </div>
               <div className="col-md-3">
-                <div className="path">
+                <div className="career-paths__path">
                   <Link href="/career-path/back-end-developer">
                     <a>
                     <LazyLoadImage
@@ -55,7 +58,7 @@ export default function(){
                 </div>
               </div>
               <div className="col-md-3">
-                <div className="path">
+                <div className="career-paths__path">
                   <Link href="/career-path/full-stack-developer">
                     <a>
                       <LazyLoadImage
@@ -68,7 +71,7 @@ export default function(){
                 </div>
               </div>
               <div className="col-md-3">
-                <div className="path">
+                <div className="career-paths__path">
                   <Link href="/career-path/react-developer">
                     <a>
                       <LazyLoadImage
@@ -81,7 +84,7 @@ export default function(){
                 </div>
               </div>
               <div className="col-md-3">
-                <div className="path">
+                <div className="career-paths__path">
                   <Link href="/career-path/shopify-theme-developer">
                     <a>
                       <LazyLoadImage
@@ -94,7 +97,7 @@ export default function(){
                 </div>
               </div>
               <div className="col-md-3">
-                <div className="path">
+                <div className="career-paths__path">
                   <Link href="/career-path/shopify-app-developer">
                     <a>
                       <LazyLoadImage
@@ -107,7 +110,7 @@ export default function(){
                 </div>
               </div>
               <div className="col-md-3">
-                <div className="path">
+                <div className="career-paths__path">
                   <Link href="/career-path/entrepreneur-developer">
                     <a>
                       <LazyLoadImage
@@ -121,7 +124,7 @@ export default function(){
               </div>
               
               {/* <div className="col-md-3">
-                <div className="path">
+                <div className="career-paths__path">
                   <Link href="/career-path/wordpress-developer">
                     <a>
                       <LazyLoadImage
@@ -134,7 +137,7 @@ export default function(){
                 </div>
               </div>
               <div className="col-md-3">
-                <div className="path">
+                <div className="career-paths__path">
                   <Link href="/career-path/wordpress-developer">
                     <a>
                       <LazyLoadImage

@@ -1,0 +1,46 @@
+
+// $grid-breakpoints: (
+//   xs: 0,
+//   sm: 576px,
+//   md: 768px,
+//   lg: 992px,
+//   xl: 1200px,
+//   xxl: 1400px
+// );
+@mixin respond($breakpoint) {
+  @if $breakpoint == xs {
+    @media  (min-width: 0px) and (max-width: 575px)  {
+      @content;
+    } 
+  }
+  @if $breakpoint == sm {
+    @media  (min-width: 576px) and (max-width: 767px)  {
+      @content;
+    } 
+  }
+  @if $breakpoint == md {
+    @media  (min-width: 768px) and (max-width: 991px)  {
+      @content;
+    } 
+  }
+  @if $breakpoint == lg {
+    @media  (min-width: 992px) and (max-width: 1199px)  {
+      @content;
+    } 
+  }
+  @if $breakpoint == xl {
+    @media  (min-width: 1200px) and (max-width: 1399px)  {
+      @content;
+    } 
+  }
+  @if $breakpoint == xxl {
+    @media  (min-width: 1400px) and (max-width: 1899px) {
+      @content;
+    } 
+  }
+  @if $breakpoint == xxxl {
+    @media  (min-width: 1900px)  {
+      @content;
+    } 
+  }
+}

@@ -85,10 +85,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                      <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
+                      
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/191709">
@@ -102,10 +99,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                      <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
+                      
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/190248">
@@ -119,10 +113,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/204451">
@@ -136,10 +127,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/253829">
@@ -153,10 +141,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/212881">
@@ -170,10 +155,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/540733">
@@ -187,10 +169,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/191705">
@@ -204,10 +183,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/476145">
@@ -221,10 +197,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/349237">
@@ -238,10 +211,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/515146">
@@ -255,10 +225,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/613871">
@@ -272,10 +239,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/623459">
@@ -289,10 +253,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/9Wf8JuAQCY6sp17W0Ggm" className="course-img"/>
+                        
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/619459">
@@ -310,13 +271,13 @@ export default function Home() {
               <div className="col-md-6 jobs">
                 <h2>Real Skills For Jobs Check On Indeed</h2>
                 <div className="path">
-                  <Link href="https://www.indeed.com/jobs?q=title%3Afront%20end%20developer&l&vjk=d8fdabe51ecc95fe">
-                    <a target="new">
-                    <LazyLoadImage
-                        alt={'image.alt'}
-                        effect="blur"
-                        src="/img/email-dev-jobs.png" className="course-img"/>
-                    </a>
+                  <Link href="https://www.indeed.com/jobs?q=title%3Afront%20end%20developer&l&vjk=d8fdabe51ecc95fe" passHref>
+                  <LazyLoadImage
+                      src="/img/email-dev-jobs.png"
+                      alt="Landscape picture"
+                      effect="blur"
+                       />
+                    
                   </Link>
                 </div>
               </div>

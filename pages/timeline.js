@@ -35,14 +35,6 @@ export default function Home() {
       <MainLayout>
         <Paths />
       </MainLayout>
-      <style jsx>{`
-        
-      `}
-      </style>
-      
-      <style global jsx>{`
-        
-      `}</style>
     </>
   )
 }

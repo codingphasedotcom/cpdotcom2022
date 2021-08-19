@@ -1,7 +1,7 @@
 import Header from '../Header';
 import Link from 'next/link'
 
-export default function(props){
+export default function MainLayout(props){
     return(<>
         <Header></Header>
         <section className="content-container">

@@ -14,7 +14,7 @@ let totalPrice = (originalPrice, percentageDiscount) => {
 		return (
 			<>
 				FREE
-				<div className="savings">No discount it's already free</div>
+				<div className="savings">{`No discount it's already free`}</div>
 			</>
 		);
 	}
@@ -101,7 +101,7 @@ const FirstTier = (props) => {
 	}
 };
 
-export default function (props) {
+export default function Pricing (props) {
 	return (
 		<>
 			<section id="pricing">

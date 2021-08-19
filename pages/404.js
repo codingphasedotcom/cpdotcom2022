@@ -118,7 +118,7 @@ export default function Home() {
                   <LazyLoadImage
                       alt={'image.alt'}
                       effect="blur"
-                      src="https://images.pexels.com/photos/572056/pexels-photo-572056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" className="step-img" className="step-img"/>
+                      src="https://images.pexels.com/photos/572056/pexels-photo-572056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" className="step-img"/>
                   <span className="title">Learn How To Make Income While You Continue To Learn</span>
                 </div>
               </div>

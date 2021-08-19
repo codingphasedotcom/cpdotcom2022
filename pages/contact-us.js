@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head'
 import Link from 'next/link'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import MainLayout from '../components/layouts/MainLayout'
 import Paths from '../components/Paths';
 import ReactGA from 'react-ga';
@@ -41,7 +42,14 @@ export default function Home() {
         <section id="contact-us-page">
           <div className="container">
             <h1>Contact-Us</h1>
-          <p><img className="lazy-loaded" loading="lazy" src="/img/contact-us.png" data-lazy-type="image"/></p>
+          <p>
+          <LazyLoadImage
+                      alt={'Contact CodingPhase'}
+                      effect="blur"
+                      src="/img/contact-us.png" />
+          
+            
+            </p>
   <h3>Get in Touch</h3>
   <h3>For problems with payment, want a refund, or any other question.</h3>
   <p>44 Waterbury Rd Suite 2D<br/>

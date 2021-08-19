@@ -1,0 +1,14 @@
+.hof-page{
+  background-color: #010117;
+  
+  &__top{
+    padding: 3rem 0;
+    background: rgb(144,0,255);
+    background: linear-gradient(0deg, #010117 20%, rgba(0,0,255,1) 100%);
+  }
+
+  &__user-img{
+    width: 100%;
+  }
+  
+}

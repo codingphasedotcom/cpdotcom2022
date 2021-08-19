@@ -5,6 +5,7 @@ import MainLayout from '../components/layouts/MainLayout'
 import Paths from '../components/Paths';
 import ReactGA from 'react-ga';
 import getUrlParam from '../components/getParam';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function Home() {
   const [couponActive, setCouponActive] = useState(false);
@@ -44,16 +45,30 @@ export default function Home() {
             <h2 className="container">Real Reviews</h2>
             <div className="reviews-images">
               <a href="/img/reviews/1.png">
-                <img src="/img/reviews/1.png"/>
+                <LazyLoadImage
+                      alt={'Review'}
+                      effect="blur"
+                      src="/img/reviews/1.png" />
+                
               </a>
               <a href="/img/reviews/2.png">
-                <img src="/img/reviews/2.png"/>
+              <LazyLoadImage
+                      alt={'Review'}
+                      effect="blur"
+                      src="/img/reviews/2.png" />
+              
               </a>
               <a href="/img/reviews/3.png">
-                <img src="/img/reviews/3.png"/>
+              <LazyLoadImage
+                      alt={'Review'}
+                      effect="blur"
+                      src="/img/reviews/3.png" />
               </a>
-              <a href="/img/reviews/4.jpg">
-                <img src="/img/reviews/4.jpg"/>
+              <a href="/img/reviews/4.png">
+              <LazyLoadImage
+                      alt={'Review'}
+                      effect="blur"
+                      src="/img/reviews/4.png" />
               </a>
             </div>
             

@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React, { useState } from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
-export default function(){
+export default function Analytics(){
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const clickedOpen = () => {
         setMobileMenuOpen(!mobileMenuOpen)
