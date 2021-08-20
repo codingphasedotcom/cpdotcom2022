@@ -95,7 +95,7 @@ export default function Home() {
                     <div className="relevant-links">
                       <span className="relevant-links__title">Check Out His Links</span>
                       <ul>
-                        <li><a href="https://www.devchops.tech/" className="relevant-links__link" target="_blank">Devchops.tech</a></li>
+                        <li><a href="https://www.devchops.tech/" className="relevant-links__link">Devchops.tech</a></li>
                       </ul>
                     </div>
                   </div>

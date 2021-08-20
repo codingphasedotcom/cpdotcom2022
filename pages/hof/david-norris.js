@@ -97,11 +97,11 @@ export default function Home() {
                     <div className="relevant-links">
                       <span className="relevant-links__title">Check Out His Links</span>
                       <ul>
-                        <li><a href="http://djnorris.io/" className="relevant-links__link" target="_blank">djnorris.io</a>
+                        <li><a href="http://djnorris.io/" className="relevant-links__link">djnorris.io</a>
                         </li>
-                        <li><a href="https://github.com/djnorrisdev" className="relevant-links__link" target="_blank">Github</a>
+                        <li><a href="https://github.com/djnorrisdev" className="relevant-links__link">Github</a>
                         </li>
-                        <li><a href="https://www.linkedin.com/in/djnorrisdev/" className="relevant-links__link" target="_blank">LinkedIn</a>
+                        <li><a href="https://www.linkedin.com/in/djnorrisdev/" className="relevant-links__link">LinkedIn</a>
                         </li>
                       </ul>
                     </div>

@@ -97,7 +97,7 @@ export default function Home() {
                     <div className="relevant-links">
                       <span className="relevant-links__title">Check Out His Links</span>
                       <ul>
-                        <li><a href="https://www.waldimirperez.com/" className="relevant-links__link" target="_blank">waldimirperez.com</a></li>
+                        <li><a href="https://www.waldimirperez.com/" className="relevant-links__link">waldimirperez.com</a></li>
                       </ul>
                     </div>
                   </div>
