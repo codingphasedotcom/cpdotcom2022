@@ -1,0 +1,63 @@
+.hof-page-user{
+  background-color: #010117;
+  
+  &__top{
+    padding: 3rem 0;
+    background: rgb(144,0,255);
+    background: linear-gradient(0deg, #010117 20%, rgba(0,0,255,1) 100%);
+  }
+
+  &__user-img{
+    width: 100%;
+    border-radius: 20px;
+  }
+  &__info{
+    padding-left: 20px;
+  }
+  &__logo{
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto 4rem;
+  }
+  &__name{
+    color: white;
+    display: block;
+    font-weight: 700;
+    font-size: 4rem;
+  }
+  &__career{
+    color: rgb(194, 194, 194);
+    display: block;
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  &__testimonial{
+    color: white;
+    font-size: 1.3rem;
+    line-height: 2;
+    margin-bottom: 2rem;
+  }
+  .relevant-links{
+    &__title{
+      color: rgb(255, 10, 153);
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 1.3rem;
+    }
+    ul li::before {
+      content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+      color: red; /* Change the color */
+      font-weight: bold; /* If you want it to be bold */
+      display: inline-block; /* Needed to add space between the bullet and the text */
+      width: 1em; /* Also needed for space (tweak if needed) */
+      margin-left: -1em; /* Also needed for space (tweak if needed) */
+    }
+    ul{
+      list-style: none;
+    }
+  }
+}
+body{
+  background: red;
+}

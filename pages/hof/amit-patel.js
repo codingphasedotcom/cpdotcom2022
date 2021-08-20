@@ -53,12 +53,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>CodingPhase Hall Of Fame Students</title>
+        <title>CodingPhase | Amit Patel</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout>
-        <div className="hof-page">
-          <section className="hof-page__top">
+        <div className="hof-page-user">
+          <section className="hof-page-user__top">
             <div className="container">
               <div className="row">
                 <div className="col-md-12 ">
@@ -68,50 +68,38 @@ export default function Home() {
                       alt={'Hall Of Fame Logo'}
                       effect="blur"
                       src="/img/hoflogo3.png"
-                      className="hof-page__logo" />
+                      className="hof-page-user__logo" />
                   </a>
                 </div>
                 </div>
               </div>
               <div className="row">
-                <div className="col-md-4">
-                  <div className="hof-page__user">
-                  <a href="/hof/waldimir-perez">
-                    <LazyLoadImage
-                        alt={'Wally Code'}
-                        effect="blur"
-                        src="/img/hof/waldimir-perez.jpg"
-                        className="hof-page__user-img" />
-                        <span className="hof-page__name">Waldimir P.</span>
-                    <span className="hof-page__career">HTML Email Developer</span>
-                  </a>
+                <div className="offset-md-1 col-md-4">
+                  <div className="hof-page-user__user">
+                      <LazyLoadImage
+                          alt={'Wally Code'}
+                          effect="blur"
+                          src="/img/hof/amit-patel.jpg"
+                          className="hof-page-user__user-img" />
                   </div>
                 </div>
-                <div className="col-md-4">
-                  <div className="hof-page__user">
-                  <a href="/hof/david-norris">
-                    <LazyLoadImage
-                        alt={'David Norris'}
-                        effect="blur"
-                        src="/img/hof/david-norris.jpg"
-                        className="hof-page__user-img" />
-                        <span className="hof-page__name">David N. </span>
-                    <span className="hof-page__career">Full Stack Developer</span>
-                  </a>
+                <div className="col-md-6">
+                  <div className="hof-page-user__info">
+                    <span className="hof-page-user__name">Amit Patel</span>
+                    <span className="hof-page-user__career">Shopify Developer</span>
+                    <p className="hof-page-user__testimonial">
+                    I recently got hired as a Shopify Developer after taking the Shopify Theme Developer course on CodingPhase.com. I learned how to develop Shopify themes from scratch, work with Liquid, and the Shopify admin to setup an online store with products, collections, and assets. I would also watch Joe’s livestreams on YouTube and through that, I learned valuable knowledge about what employers are looking for. Using that, I was able to build a solid portfolio and landed a job with a decent salary. I wouldn’t have even known about Shopify if it wasn’t for Joe. Thank you Joe!
+                    </p>
+                    
+
+                    <div className="relevant-links">
+                      <span className="relevant-links__title">Check Out His Links</span>
+                      <ul>
+                        <li><a href="https://www.devchops.tech/" className="relevant-links__link" target="_blank">Devchops.tech</a></li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
-                <div className="col-md-4 ">
-                  <div className="hof-page__user">
-                  <a href="/hof/amit-patel">
-                    <LazyLoadImage
-                        alt={'Amit Patel'}
-                        effect="blur"
-                        src="/img/hof/amit-patel.jpg"
-                        className="hof-page__user-img" />
-                        <span className="hof-page__name">Amit P. </span>
-                    <span className="hof-page__career">Shopify Developer</span>
-                  </a>
-                  </div>
+                  
                 </div>
               </div>
             </div>

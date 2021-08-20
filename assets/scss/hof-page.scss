@@ -6,9 +6,29 @@
     background: rgb(144,0,255);
     background: linear-gradient(0deg, #010117 20%, rgba(0,0,255,1) 100%);
   }
-
+  &__user{
+    padding: 20px;
+  }
   &__user-img{
     width: 100%;
+    border-radius: 20px;
+    margin-bottom: 1rem;
   }
-  
+  &__logo{
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto 2rem;
+  }
+  &__name{
+    color: white;
+    display: block;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  &__career{
+    color: rgb(194, 194, 194);
+    display: block;
+    font-weight: 300;
+    font-size: 1rem;
+  }
 }

@@ -53,12 +53,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>CodingPhase Hall Of Fame Students</title>
+        <title>CodingPhase | David Norris</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout>
-        <div className="hof-page">
-          <section className="hof-page__top">
+        <div className="hof-page-user">
+          <section className="hof-page-user__top">
             <div className="container">
               <div className="row">
                 <div className="col-md-12 ">
@@ -68,50 +68,45 @@ export default function Home() {
                       alt={'Hall Of Fame Logo'}
                       effect="blur"
                       src="/img/hoflogo3.png"
-                      className="hof-page__logo" />
+                      className="hof-page-user__logo" />
                   </a>
                 </div>
                 </div>
               </div>
               <div className="row">
-                <div className="col-md-4">
-                  <div className="hof-page__user">
-                  <a href="/hof/waldimir-perez">
-                    <LazyLoadImage
-                        alt={'Wally Code'}
-                        effect="blur"
-                        src="/img/hof/waldimir-perez.jpg"
-                        className="hof-page__user-img" />
-                        <span className="hof-page__name">Waldimir P.</span>
-                    <span className="hof-page__career">HTML Email Developer</span>
-                  </a>
+                <div className="offset-md-1 col-md-4">
+                  <div className="hof-page-user__user">
+                      <LazyLoadImage
+                          alt={'David Norris'}
+                          effect="blur"
+                          src="/img/hof/david-norris.jpg"
+                          className="hof-page-user__user-img" />
                   </div>
                 </div>
-                <div className="col-md-4">
-                  <div className="hof-page__user">
-                  <a href="/hof/david-norris">
-                    <LazyLoadImage
-                        alt={'David Norris'}
-                        effect="blur"
-                        src="/img/hof/david-norris.jpg"
-                        className="hof-page__user-img" />
-                        <span className="hof-page__name">David N. </span>
-                    <span className="hof-page__career">Full Stack Developer</span>
-                  </a>
+                <div className="col-md-6">
+                  <div className="hof-page-user__info">
+                    <span className="hof-page-user__name">David Norris</span>
+                    <span className="hof-page-user__career">Full Stack Developer at NASA</span>
+                    <p className="hof-page-user__testimonial">
+                    When I found the CodingPhase, I didn’t know what a gold mine I stumbled across. From Joe’s videos on the CodingPhase YouTube channel, I discovered his tutorials on codingphase.com. His teaching style of showing errors and live coding through problems was incredible and fast-tracked me from not knowing anything about coding to a job in 2.5 months. 
+                    </p>
+                    <p className="hof-page-user__testimonial">
+                    I now work at NASA and still regularly take Joe’s new courses. The quick insight into technologies and entrepreneurial topics that he provides is second to none. I can truly say that Joe changed my life.
+                    </p>
+
+                    <div className="relevant-links">
+                      <span className="relevant-links__title">Check Out His Links</span>
+                      <ul>
+                        <li><a href="http://djnorris.io/" className="relevant-links__link" target="_blank">djnorris.io</a>
+                        </li>
+                        <li><a href="https://github.com/djnorrisdev" className="relevant-links__link" target="_blank">Github</a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/djnorrisdev/" className="relevant-links__link" target="_blank">LinkedIn</a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
-                <div className="col-md-4 ">
-                  <div className="hof-page__user">
-                  <a href="/hof/amit-patel">
-                    <LazyLoadImage
-                        alt={'Amit Patel'}
-                        effect="blur"
-                        src="/img/hof/amit-patel.jpg"
-                        className="hof-page__user-img" />
-                        <span className="hof-page__name">Amit P. </span>
-                    <span className="hof-page__career">Shopify Developer</span>
-                  </a>
-                  </div>
+                  
                 </div>
               </div>
             </div>
