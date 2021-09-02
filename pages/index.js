@@ -113,22 +113,22 @@ export default function Home() {
 						
 					</div>
           <div className="hero-comp__video1">
-            <video width="320" height="240" autoPlay loop muted playsInline>
+            {/* <video width="320" height="240" autoPlay loop muted playsInline>
               <source src="/vid/chill.mp4" type="video/mp4" />
               Your browser does not support the video tag.
-            </video>
+            </video> */}
           </div>
           <div className="hero-comp__video2">
-            <video width="320" height="240" autoPlay loop muted playsInline>
+            {/* <video width="320" height="240" autoPlay loop muted playsInline>
               <source src="/vid/coding.mp4" type="video/mp4" />
               Your browser does not support the video tag.
-            </video>
+            </video> */}
           </div>
 					<div className="hero-comp__video3">
-            <video width="320" height="240" autoPlay loop muted playsInline>
+            {/* <video width="320" height="240" autoPlay loop muted playsInline>
               <source src="/vid/girl.mp4" type="video/mp4" />
               Your browser does not support the video tag.
-            </video>
+            </video> */}
           </div>
 				</section>
 				<section className="intro-comp" onMouseEnter={hoverIntroAnimate}>
