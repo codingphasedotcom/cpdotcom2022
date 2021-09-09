@@ -236,7 +236,7 @@ export default function Home() {
           </div>
           
         </section>
-        <Pricing location="course" bundleURL=" https://codingphase.teachable.com/p/html-email-developer-career-bundle" bundlePrice="500" couponActive={couponActive} affiliateActive={affiliateActive}/>
+        <Pricing location="course" bundleURL="https://codingphase.teachable.com/p/content-editor-career-bundle" bundlePrice="200" couponActive={couponActive} affiliateActive={affiliateActive}/>
       </MainLayout>
       <style jsx>{`
         

@@ -29,8 +29,8 @@ export default function Header(){
                     <Link href="https://codingphase.teachable.com/courses/enrolled">
                         <a>My Courses</a>
                     </Link>
-                    <Link href="https://anchor.fm/back-at-it-again">
-                        <a>Podcast</a>
+                    <Link href="https://community.codingphase.com">
+                        <a>Community</a>
                     </Link>
                     <Link href="/contact-us">
                         <a>Contact Us</a>
