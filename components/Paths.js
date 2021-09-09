@@ -18,6 +18,19 @@ export default function Paths(){
               </div>
               <div className="col-md-3">
                 <div className="career-paths__path">
+                  <Link href="/career-path/content-editor">
+                    <a>
+                    <LazyLoadImage
+                      alt={'content editor'}
+                      effect="blur"
+                      src="/img/content-editor.jpg" className="path-img"/>
+                      <span className="title">Content Editor</span>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="career-paths__path">
                   <Link href="/career-path/html-email-developer">
                     <a>
                     <LazyLoadImage
@@ -29,6 +42,7 @@ export default function Paths(){
                   </Link>
                 </div>
               </div>
+              
               <div className="col-md-3">
                 <div className="career-paths__path">
                   <Link href="/career-path/front-end-developer">
