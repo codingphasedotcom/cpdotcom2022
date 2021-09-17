@@ -10,7 +10,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-
+          
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="trustpilot-one-time-domain-verification-id" content="20a4b96a-ff93-4362-bf8f-7384c668bcd6"/>
           {/* <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossOrigin="anonymous"></link> */}
@@ -100,6 +100,14 @@ drift.load('7xrggzxt4wz5');
               `
             }}
           /> */}
+          <script type="application/javascript"
+            dangerouslySetInnerHTML={{
+              __html: `
+              (function(b,o,n,g,s,r,c){if(b[s])return;b[s]={};b[s].scriptToken="Xy00NTY0ODQyNzU";b[s].callsQueue=[];b[s].api=function(){b[s].callsQueue.push(arguments);};r=o.createElement(n);c=o.getElementsByTagName(n)[0];r.async=1;r.src=g;r.id=s+n;c.parentNode.insertBefore(r,c);})(window,document,"script","https://cdn.oribi.io/Xy00NTY0ODQyNzU/oribi.js","ORIBI");
+              `
+            }}
+          />
+          
         </Head>
         <body>
         <noscript
