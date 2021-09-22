@@ -122,7 +122,7 @@ tags.async=!0,tags.src="https://codingphase.containers.piwik.pro/"+id+".js"+qPSt
               `
             }}
           />
-          <noscript><iframe src="https://codingphase.containers.piwik.pro/67c1a5ee-791f-45dd-8d15-c93543e9415c/noscript.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+          <noscript><iframe src="https://codingphase.containers.piwik.pro/67c1a5ee-791f-45dd-8d15-c93543e9415c/noscript.html" height="0" width="0" style={{display: 'none', visibility: 'hidden'}}></iframe></noscript>
 
         </Head>
         <body>
