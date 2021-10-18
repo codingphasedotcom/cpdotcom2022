@@ -126,6 +126,19 @@ export default function Home() {
                   </a>
                   </div>
                 </div>
+                <div className="col-md-4 ">
+                  <div className="hof-page__user">
+                  <a href="/hof/ruel-misa">
+                    <LazyLoadImage
+                        alt={'Ruel Misa Web Producer'}
+                        effect="blur"
+                        src="/img/hof/ruel-misa.jpg"
+                        className="hof-page__user-img" />
+                        <span className="hof-page__name">Ruel M. </span>
+                    <span className="hof-page__career">Web Producer</span>
+                  </a>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
