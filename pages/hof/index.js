@@ -74,7 +74,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="row">
-                <div className="col-md-4">
+                <div className="col-md-3">
                   <div className="hof-page__user">
                   <a href="/hof/waldimir-perez">
                     <LazyLoadImage
@@ -87,7 +87,7 @@ export default function Home() {
                   </a>
                   </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-3">
                   <div className="hof-page__user">
                   <a href="/hof/david-norris">
                     <LazyLoadImage
@@ -100,7 +100,7 @@ export default function Home() {
                   </a>
                   </div>
                 </div>
-                <div className="col-md-4 ">
+                <div className="col-md-3 ">
                   <div className="hof-page__user">
                   <a href="/hof/amit-patel">
                     <LazyLoadImage
@@ -113,7 +113,7 @@ export default function Home() {
                   </a>
                   </div>
                 </div>
-                <div className="col-md-4 ">
+                <div className="col-md-3 ">
                   <div className="hof-page__user">
                   <a href="/hof/billy-rodriguez">
                     <LazyLoadImage
@@ -126,7 +126,7 @@ export default function Home() {
                   </a>
                   </div>
                 </div>
-                <div className="col-md-4 ">
+                <div className="col-md-3 ">
                   <div className="hof-page__user">
                   <a href="/hof/ruel-misa">
                     <LazyLoadImage
@@ -136,6 +136,19 @@ export default function Home() {
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Ruel M. </span>
                     <span className="hof-page__career">Web Producer</span>
+                  </a>
+                  </div>
+                </div>
+                <div className="col-md-3 ">
+                  <div className="hof-page__user">
+                  <a href="/hof/kevin-mosley">
+                    <LazyLoadImage
+                        alt={'Kevin Mosley Software Engineer'}
+                        effect="blur"
+                        src="/img/hof/kevin-mosley.jpg"
+                        className="hof-page__user-img" />
+                        <span className="hof-page__name">Kevin M. </span>
+                    <span className="hof-page__career">Software Engineer</span>
                   </a>
                   </div>
                 </div>

@@ -77,9 +77,9 @@ export default function Home() {
                 <div className="offset-md-1 col-md-4">
                   <div className="hof-page-user__user">
                       <LazyLoadImage
-                          alt={'Billy Rodriguez Web Developer HTML Emails'}
+                          alt={'Ruel Misa Web Producer'}
                           effect="blur"
-                          src="/img/hof/billy-rodriguez.jpg"
+                          src="/img/hof/ruel-misa.jpg"
                           className="hof-page-user__user-img" />
                   </div>
                 </div>
