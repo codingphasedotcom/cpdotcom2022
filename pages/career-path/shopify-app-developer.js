@@ -263,7 +263,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="course">
+                  {/* <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
                         
@@ -272,6 +272,20 @@ export default function Home() {
                         <Link href="https://codingphase.teachable.com/courses/enrolled/1067167">
                           <a>
                             <span className="title">Shopify App Development With Node JS 🔥</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div> */}
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        
+                      </div>
+                      <div className="col-md-10">
+                        <Link href="https://codingphase.teachable.com/courses/enrolled/1534304">
+                          <a>
+                            <span className="title">Master Shopify App Development Course with Node JS 🔥</span>
                           </a>
                         </Link>
                       </div>
