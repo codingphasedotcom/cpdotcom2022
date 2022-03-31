@@ -41,11 +41,15 @@ const FirstTier = (props) => {
 						{totalPrice(0, props.couponActive.percent)}
 					</span>
 					<span className="info">
-						✔️ Free courses & Tutorials
+						✅ Free courses & Tutorials
 						<br />
 						❌ Programming Courses
 						<br />
 						❌ ASAP Developers Group
+						<br />
+						❌ Group Coaching
+						<br />
+						❌ Live Events
 						<br />
 						❌ Career Bundles
 						<br />
@@ -68,13 +72,14 @@ const FirstTier = (props) => {
 							{totalPrice(props.bundlePrice, props.couponActive.percent)}
 						</span>
 						<span className="info">
-							✔️ All Courses In This Career
+							✅ All Courses In This Career
 							<br />
-							✔️ Including New Courses
+							✅ Including New Courses
 							<br />
-							✔️ All Free Updates
+							✅ All Free Updates
 							<br />
-							✔️ ASAP Developers Group
+							✅ ASAP Developers Group
+							<br />
 							<br />
 							<br />
 						</span>
@@ -116,11 +121,15 @@ export default function Pricing (props) {
 								{totalPrice(20, props.couponActive.percent)}
 							</span>
 							<span className="info">
-								✔️ All Courses Except 💎
+								✅ All Courses Except 💎
 								<br />
-								✔️ Programming Courses
+								✅ Programming Courses
 								<br />
-								✔️ ASAP Developers Group
+								✅ ASAP Developers Group
+								<br />
+								❌ Group Coaching
+								<br />
+								❌ Live Events
 								<br />
 								❌ All Career Bundles
 								<br />
@@ -142,19 +151,24 @@ export default function Pricing (props) {
 						</div>
 						<div className="tier filled">
 							<span className="title">Diamond</span>
-							<span className="price">
-								{totalPrice(397, props.couponActive.percent)}
+							<span className="price blur-price">
+								$???
+								{/* {totalPrice(397, props.couponActive.percent)} */}
 							</span>
 							<span className="info">
-								✔️ All Courses Plus 💎
+								✅ All Courses Plus 💎
 								<br />
-								✔️ Programming Courses
+								✅ Programming Courses
 								<br />
-								✔️ ASAP Developers Group
+								✅ ASAP Developers Group
 								<br />
-								✔️ All Career Bundles
+								✅ Group Coaching
 								<br />
-								✔️ Make Money Online Courses
+								✅ Live Events
+								<br />
+								✅ All Career Bundles
+								<br />
+								✅ Make Money Online Courses
 								<br />
 							</span>
 							<Link
@@ -167,7 +181,7 @@ export default function Pricing (props) {
                                         ? `&affcode=${props.affiliateActive.affcode}`
                                         : ""
                                 }`}>
-								<a className="button">Sign Up</a>
+								<a className="button">Check Price</a>
 							</Link>
 						</div>
 					</div>

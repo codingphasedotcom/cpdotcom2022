@@ -90,6 +90,9 @@ span.mobile-icon{
 .lazy-load-image-background.blur.lazy-load-image-loaded{
   // width: 100%;
 }
+.blur-price{
+  filter: blur(7px);
+}
 @media screen and (min-width: 0px) and (max-width: 600px) {
   #header-menu{
     display: flex;

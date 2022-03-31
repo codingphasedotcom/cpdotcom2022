@@ -104,7 +104,7 @@ export default function Home() {
 						<p className="hero-comp__paragraph">
 							{`All the skills that employers expect from a developer in one place!`}
 						</p>
-						<a href="#" className="hero-comp__button">
+						<a href="#pricing" className="hero-comp__button">
 							Start Now
 						</a>
 						<LazyLoadImage
