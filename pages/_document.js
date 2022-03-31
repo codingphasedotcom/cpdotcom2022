@@ -100,11 +100,7 @@ drift.load('7xrggzxt4wz5');
               `
             }}
           /> */}
-
-
-
-
-</Head>
+          </Head>
         <body>
           
 
