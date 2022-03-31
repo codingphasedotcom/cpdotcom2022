@@ -14,10 +14,10 @@ class MyDocument extends Document {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="trustpilot-one-time-domain-verification-id" content="20a4b96a-ff93-4362-bf8f-7384c668bcd6"/>
           {/* <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossOrigin="anonymous"></link> */}
-          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+          {/* <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" /> */}
           <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,900&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700&display=swap" rel="stylesheet" />
 
               <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6VQ9KSVFF"></script>
           <script
@@ -102,30 +102,9 @@ drift.load('7xrggzxt4wz5');
           /> */}
 
 
-<script type="application/javascript"
-            dangerouslySetInnerHTML={{
-              __html: `
-              window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};
-  heap.load("3634532807");
-              `
-            }}
-          />
 
 
-<script type="application/javascript"
-            dangerouslySetInnerHTML={{
-              __html: `
-              (function(window, document, dataLayerName, id) {
-                function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
-                var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
-                var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
-                document.write('<script src="https://codingphase.containers.piwik.pro/'+id+'.sync.js' + qPString + '"></' + 'script>');
-                })(window, document, 'dataLayer', '67c1a5ee-791f-45dd-8d15-c93543e9415c');
-              `
-            }}
-          />
-          <noscript><iframe src="https://codingphase.containers.piwik.pro/67c1a5ee-791f-45dd-8d15-c93543e9415c/noscript.html" height="0" width="0" style={{display: 'none', visibility: 'hidden'}}></iframe></noscript>
-        </Head>
+</Head>
         <body>
           
 
