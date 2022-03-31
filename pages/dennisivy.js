@@ -35,7 +35,7 @@ export default function DennisIvy() {
         <section className="page">
             <div className="container" style={{flexDirection: 'column', display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '700px'}}>
               <h1>Dennis Ivy</h1>
-              <p>Applying your coupon will redirect in a few seconds</p>
+              <p>Applying your coupon will redirect in a few secondsss</p>
               
             </div>
         </section>
