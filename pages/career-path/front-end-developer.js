@@ -87,7 +87,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/191709">
+                        <Link href=" https://codingphase.teachable.com/courses/visual-studio-code-101/lectures/9429539">
                           <a>
                             <span className="title">Text Editors</span>
                           </a>
@@ -101,7 +101,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/190248">
+                        <Link href=" https://codingphase.teachable.com/courses/learn-html-and-css-by-building-a-cool-social-network/lectures/28048202">
                           <a>
                             <span className="title">HTML & CSS</span>
                           </a>
@@ -115,7 +115,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/204451">
+                        <Link href=" https://codingphase.teachable.com/courses/terminal-for-developers/lectures/3316931">
                           <a>
                             <span className="title">Terminal For Developers</span>
                           </a>
@@ -129,7 +129,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/253829">
+                        <Link href=" https://codingphase.teachable.com/courses/learn-advance-css-with-flexbox-and-css-grid-course/lectures/3946609">
                           <a>
                             <span className="title">Advance CSS with Flexbox and Grid</span>
                           </a>
@@ -143,7 +143,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/269287">
+                        <Link href=" https://codingphase.teachable.com/courses/animation-for-developers/lectures/4169493">
                           <a>
                             <span className="title">CSS Animations</span>
                           </a>
@@ -157,7 +157,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/212881">
+                        <Link href=" https://codingphase.teachable.com/courses/sass-like-a-pro-course/lectures/3300829">
                           <a>
                             <span className="title">SASS Like A Pro</span>
                           </a>
@@ -171,7 +171,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/540733">
+                        <Link href=" https://codingphase.teachable.com/courses/git-like-a-pro/lectures/9849970">
                           <a>
                             <span className="title">Git Like A Pro</span>
                           </a>
@@ -185,7 +185,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/191705">
+                        <Link href=" https://codingphase.teachable.com/courses/future-proof-javascript-course/lectures/2918049">
                           <a>
                             <span className="title">Future Proof Javascript</span>
                           </a>
@@ -199,7 +199,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/872110">
+                        <Link href=" https://codingphase.teachable.com/courses/advance-javascript-animations-with-gsap-anime-js/lectures/15871268">
                           <a>
                             <span className="title">Javascript Animations</span>
                           </a>
@@ -213,7 +213,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/476145">
+                        <Link href=" https://codingphase.teachable.com/courses/node-and-npm-basics/lectures/8766354">
                           <a>
                             <span className="title">Node and NPM Basics</span>
                           </a>
@@ -241,7 +241,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/349237">
+                        <Link href=" https://codingphase.teachable.com/courses/responsive-html-emails-course/lectures/5361353">
                           <a>
                             <span className="title">Responsive HTML Emails</span>
                           </a>
@@ -269,7 +269,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/360152">
+                        <Link href=" https://codingphase.teachable.com/courses/web-developer-personal-brand/lectures/5512136">
                           <a>
                             <span className="title">Web Developer Personal Brand</span>
                           </a>
@@ -283,7 +283,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/545465">
+                        <Link href=" https://codingphase.teachable.com/courses/debugging-like-a-pro/lectures/9896883">
                           <a>
                             <span className="title">Debuggin Like A Pro</span>
                           </a>
@@ -297,7 +297,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/235002">
+                        <Link href=" https://codingphase.teachable.com/courses/object-oriented-programming-with-javascript-course/lectures/3664054">
                           <a>
                             <span className="title">Object Oriented Programming With Javascript</span>
                           </a>
@@ -311,7 +311,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/191707">
+                        <Link href=" https://codingphase.teachable.com/courses/jquery-a-beginners-best-friend/lectures/3503191">
                           <a>
                             <span className="title">JQuery</span>
                           </a>
@@ -325,7 +325,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/213303">
+                        <Link href=" https://codingphase.teachable.com/courses/esnext-es6-es7-es8/lectures/3411587">
                           <a>
                             <span className="title">ESNEXT - ES6 to ES10</span>
                           </a>
@@ -353,7 +353,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/495115">
+                        <Link href=" https://codingphase.teachable.com/courses/redux-the-easy-way-course/lectures/9097542">
                           <a>
                             <span className="title">Redux - The Easy Way Course</span>
                           </a>
@@ -367,7 +367,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/549587">
+                        <Link href=" https://codingphase.teachable.com/courses/react-js-til-infinity-course/lectures/10081502">
                           <a>
                             <span className="title">React - Till Infinity</span>
                           </a>
@@ -381,7 +381,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/645409">
+                        <Link href=" https://codingphase.teachable.com/courses/react-native-mobile-applications-with-javascript/lectures/11518843">
                           <a>
                             <span className="title">React Native</span>
                           </a>

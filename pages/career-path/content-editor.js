@@ -80,7 +80,7 @@ export default function Home() {
               
               <div className="col-md-6 ">
               <h2>Courses To Take</h2>
-              <p>All courses are set in order in which you need to take them. If you see a 🔥 next to course title they are exclusive to Yearly Members and Career Bundles Owners.</p>
+              <p>All courses are set in order in which you need to take them. If you see a 💎 next to course title they are exclusive to Yearly Members and Career Bundles Owners.</p>
                 <div className="courses">
                   <div className="course">
                     <div className="row g-3">
@@ -88,7 +88,7 @@ export default function Home() {
                       
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/191709">
+                        <Link href=" https://codingphase.teachable.com/courses/visual-studio-code-101/lectures/9429539">
                           <a>
                             <span className="title">Text Editors</span>
                           </a>
@@ -102,7 +102,7 @@ export default function Home() {
                       
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/190248">
+                        <Link href=" https://codingphase.teachable.com/courses/learn-html-and-css-by-building-a-cool-social-network/lectures/28048202">
                           <a>
                             <span className="title">HTML & CSS</span>
                           </a>
@@ -116,7 +116,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/204451">
+                        <Link href=" https://codingphase.teachable.com/courses/terminal-for-developers/lectures/3316931">
                           <a>
                             <span className="title">Terminal For Developers</span>
                           </a>
@@ -130,7 +130,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/enrolled/1351977">
+                        <Link href="https://codingphase.teachable.com/courses/practical-javascript-course/lectures/31108107">
                           <a>
                             <span className="title">Practical Javascript</span>
                           </a>
@@ -144,7 +144,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/476145">
+                        <Link href=" https://codingphase.teachable.com/courses/node-and-npm-basics/lectures/8766354">
                           <a>
                             <span className="title">Node and NPM Basics</span>
                           </a>
@@ -158,9 +158,9 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/enrolled/1512316">
+                        <Link href="https://codingphase.teachable.com/courses/content-management-systems/lectures/34672531">
                           <a>
-                            <span className="title">Content Management Systems 🔥</span>
+                            <span className="title">Content Management Systems 💎</span>
                           </a>
                         </Link>
                       </div>
@@ -172,9 +172,9 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/enrolled/658642">
+                        <Link href="https://codingphase.teachable.com/courses/google-analytics-course/lectures/11737858">
                           <a>
-                            <span className="title">Google Analytics 🔥</span>
+                            <span className="title">Google Analytics 💎</span>
                           </a>
                         </Link>
                       </div>
@@ -186,9 +186,9 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/613871">
+                        <Link href=" https://codingphase.teachable.com/courses/design-for-developers/lectures/11000334">
                           <a>
-                            <span className="title">Design Softwares For Developers 🔥</span>
+                            <span className="title">Design Softwares For Developers 💎</span>
                           </a>
                         </Link>
                       </div>

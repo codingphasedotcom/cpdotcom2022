@@ -24,7 +24,7 @@ let totalPrice = (originalPrice, percentageDiscount) => {
 	return (
 		<>
 			${totalPrice}
-			{totalPrice > 100 ? "🔥" : ""}
+			{totalPrice > 100 ? "💎" : ""}
 			<div className="savings">
 				<del>${originalPrice}</del> - {percentageDiscount}% OFF
 			</div>
@@ -111,12 +111,12 @@ export default function Pricing (props) {
 					<div className="prices">
 						<FirstTier {...props} />
 						<div className="tier">
-							<span className="title">Monthly</span>
+							<span className="title">Gold</span>
 							<span className="price">
 								{totalPrice(20, props.couponActive.percent)}
 							</span>
 							<span className="info">
-								✔️ All Courses Except 🔥
+								✔️ All Courses Except 💎
 								<br />
 								✔️ Programming Courses
 								<br />
@@ -141,12 +141,12 @@ export default function Pricing (props) {
 							</Link>
 						</div>
 						<div className="tier filled">
-							<span className="title">Yearly</span>
+							<span className="title">Diamond</span>
 							<span className="price">
 								{totalPrice(397, props.couponActive.percent)}
 							</span>
 							<span className="info">
-								✔️ All Courses Plus 🔥
+								✔️ All Courses Plus 💎
 								<br />
 								✔️ Programming Courses
 								<br />

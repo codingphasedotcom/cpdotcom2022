@@ -74,7 +74,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="row">
-                <div className="col-md-3">
+                <div className="col-md-4 col-lg-3">
                   <div className="hof-page__user">
                   <a href="/hof/waldimir-perez">
                     <LazyLoadImage
@@ -87,7 +87,7 @@ export default function Home() {
                   </a>
                   </div>
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-4 col-lg-3">
                   <div className="hof-page__user">
                   <a href="/hof/david-norris">
                     <LazyLoadImage
@@ -100,7 +100,7 @@ export default function Home() {
                   </a>
                   </div>
                 </div>
-                <div className="col-md-3 ">
+                <div className="col-md-4 col-lg-3">
                   <div className="hof-page__user">
                   <a href="/hof/amit-patel">
                     <LazyLoadImage
@@ -113,7 +113,7 @@ export default function Home() {
                   </a>
                   </div>
                 </div>
-                <div className="col-md-3 ">
+                <div className="col-md-4 col-lg-3">
                   <div className="hof-page__user">
                   <a href="/hof/billy-rodriguez">
                     <LazyLoadImage
@@ -126,7 +126,7 @@ export default function Home() {
                   </a>
                   </div>
                 </div>
-                <div className="col-md-3 ">
+                <div className="col-md-4 col-lg-3">
                   <div className="hof-page__user">
                   <a href="/hof/ruel-misa">
                     <LazyLoadImage
@@ -139,7 +139,7 @@ export default function Home() {
                   </a>
                   </div>
                 </div>
-                <div className="col-md-3 ">
+                <div className="col-md-4 col-lg-3">
                   <div className="hof-page__user">
                   <a href="/hof/kevin-mosley">
                     <LazyLoadImage
@@ -152,6 +152,176 @@ export default function Home() {
                   </a>
                   </div>
                 </div>
+                <div className="col-md-4 col-lg-3">
+                  <div className="hof-page__user">
+                  <a href="/hof/emmanuel-perez">
+                    <LazyLoadImage
+                        alt={'Emmanuel Perez Email Developer'}
+                        effect="blur"
+                        src="/img/hof/emmanuel-perez.webp"
+                        className="hof-page__user-img" />
+                        <span className="hof-page__name">Emmanuel P. </span>
+                    <span className="hof-page__career">Email Developer</span>
+                  </a>
+                  </div>
+                </div>
+                <div className="col-md-4 col-lg-3">
+                  <div className="hof-page__user">
+                  <a href="/hof/francis-turinayo">
+                    <LazyLoadImage
+                        alt={'Francis Turinayo Email Developer'}
+                        effect="blur"
+                        src="/img/hof/francis-turinayo.webp"
+                        className="hof-page__user-img" />
+                        <span className="hof-page__name">Francis T. </span>
+                    <span className="hof-page__career">Email Developer</span>
+                  </a>
+                  </div>
+                </div>
+                <div className="col-md-4 col-lg-3">
+                  <div className="hof-page__user">
+                  <a href="/hof/daryl-dauphin">
+                    <LazyLoadImage
+                        alt={'Francis Turinayo Email Developer'}
+                        effect="blur"
+                        src="/img/hof/daryl-dauphin.webp"
+                        className="hof-page__user-img" />
+                        <span className="hof-page__name">Daryl D. </span>
+                    <span className="hof-page__career">Digital Agency Owner</span>
+                  </a>
+                  </div>
+                </div>
+                <div className="col-md-4 col-lg-3">
+                  <div className="hof-page__user">
+                  <a href="/hof/nicksonder-examar">
+                    <LazyLoadImage
+                        alt={'Nicksonde Examar Email Developer'}
+                        effect="blur"
+                        src="/img/hof/nicksonder-examar.jpeg"
+                        className="hof-page__user-img" />
+                        <span className="hof-page__name">Nicksonder E. </span>
+                    <span className="hof-page__career">Front End Developer</span>
+                  </a>
+                  </div>
+                </div>
+                <div className="col-md-4 col-lg-3">
+                  <div className="hof-page__user">
+                  <a href="/hof/jerome-young">
+                    <LazyLoadImage
+                        alt={'Jerome Young Email Developer'}
+                        effect="blur"
+                        src="/img/hof/jerome-young.png"
+                        className="hof-page__user-img" />
+                        <span className="hof-page__name">Jerome Y. </span>
+                    <span className="hof-page__career">Email Developer</span>
+                  </a>
+                  </div>
+                </div>
+                <div className="col-md-4 col-lg-3">
+                  <div className="hof-page__user">
+                  <a href="/hof/jon-disla">
+                    <LazyLoadImage
+                        alt={'Jon Disla Web Content Manager'}
+                        effect="blur"
+                        src="/img/hof/jon-disla.png"
+                        className="hof-page__user-img" />
+                        <span className="hof-page__name">Jon D. </span>
+                    <span className="hof-page__career">Web Content Manager</span>
+                  </a>
+                  </div>
+                </div>
+                <div className="col-md-4 col-lg-3">
+                  <div className="hof-page__user">
+                  <a href="/hof/sita">
+                    <LazyLoadImage
+                        alt={'Sita Web Content Editor'}
+                        effect="blur"
+                        src="/img/hof/sita.webp"
+                        className="hof-page__user-img" />
+                        <span className="hof-page__name">Sita</span>
+                    <span className="hof-page__career">Web Content Editor</span>
+                  </a>
+                  </div>
+                </div>
+                <div className="col-md-4 col-lg-3">
+                  <div className="hof-page__user">
+                  <a href="/hof/ivan-hurt">
+                    <LazyLoadImage
+                        alt={'Ivan Hurt Salesforce Email Developer'}
+                        effect="blur"
+                        src="/img/hof/ivan-hurt.webp"
+                        className="hof-page__user-img" />
+                        <span className="hof-page__name">Ivan Hurt</span>
+                    <span className="hof-page__career">Salesforce Email Developer</span>
+                  </a>
+                  </div>
+                </div>
+                <div className="col-md-4 col-lg-3">
+                  <div className="hof-page__user">
+                  <a href="/hof/ivan-hurt">
+                    <LazyLoadImage
+                        alt={'Ivan Hurt Salesforce Email Developer'}
+                        effect="blur"
+                        src="/img/hof/cameron-everett.jpg"
+                        className="hof-page__user-img" />
+                        <span className="hof-page__name">Cameron Everett</span>
+                    <span className="hof-page__career">Web Developer</span>
+                  </a>
+                  </div>
+                </div>
+                <div className="col-md-4 col-lg-3">
+                  <div className="hof-page__user">
+                  <a href="/hof/james-hagood">
+                    <LazyLoadImage
+                        alt={'James Hagood Shopify Developer'}
+                        effect="blur"
+                        src="/img/hof/james-hagood.jpg"
+                        className="hof-page__user-img" />
+                        <span className="hof-page__name">James Hagood</span>
+                    <span className="hof-page__career">Shopify Developer</span>
+                  </a>
+                  </div>
+                </div>
+                <div className="col-md-4 col-lg-3">
+                  <div className="hof-page__user">
+                  <a href="/hof/donly-wilson">
+                    <LazyLoadImage
+                        alt={'Donly Wilson Web Developer'}
+                        effect="blur"
+                        src="/img/hof/donly-wilson.jpg"
+                        className="hof-page__user-img" />
+                        <span className="hof-page__name">Donly Wilson</span>
+                    <span className="hof-page__career">Web Developer</span>
+                  </a>
+                  </div>
+                </div>
+                <div className="col-md-4 col-lg-3">
+                  <div className="hof-page__user">
+                  <a href="/hof/devin-martinez">
+                    <LazyLoadImage
+                        alt={'Devin Martinez Email Developer'}
+                        effect="blur"
+                        src="/img/hof/devin-martinez.jpg"
+                        className="hof-page__user-img" />
+                        <span className="hof-page__name">Devin Martinez</span>
+                    <span className="hof-page__career">Email Developer</span>
+                  </a>
+                  </div>
+                </div>
+                <div className="col-md-4 col-lg-3">
+                  <div className="hof-page__user">
+                  <a href="/hof/renell-tigue">
+                    <LazyLoadImage
+                        alt={'Renell Tigue Shopify Developer'}
+                        effect="blur"
+                        src="/img/hof/renell-tigue.jpg"
+                        className="hof-page__user-img" />
+                        <span className="hof-page__name">Renell Tigue</span>
+                    <span className="hof-page__career">Shopify Developer</span>
+                  </a>
+                  </div>
+                </div>
+                
               </div>
             </div>
           </section>

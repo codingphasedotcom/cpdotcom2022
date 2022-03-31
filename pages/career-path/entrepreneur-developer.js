@@ -90,7 +90,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/enrolled/1298638">
+                        <Link href="https://codingphase.teachable.com/courses/entrepreneur-developer/lectures/29766400">
                           <a>
                             <span className="title">Entrepreneur Developer 🔥</span>
                           </a>
@@ -104,7 +104,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/enrolled/658640">
+                        <Link href="https://codingphase.teachable.com/courses/niche-websites/lectures/11773538">
                           <a>
                             <span className="title">Niche Websites 🔥</span>
                           </a>
@@ -118,7 +118,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/enrolled/762985">
+                        <Link href="https://codingphase.teachable.com/courses/build-a-niche-site-from-scratch/lectures/13797468">
                           <a>
                             <span className="title">Building A Niche Website With Wordpress 🔥</span>
                           </a>
@@ -132,7 +132,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/enrolled/658642">
+                        <Link href="https://codingphase.teachable.com/courses/google-analytics-course/lectures/11737858">
                           <a>
                             <span className="title">Google Analytics 🔥</span>
                           </a>
@@ -146,7 +146,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/enrolled/708949">
+                        <Link href="https://codingphase.teachable.com/courses/facebook-and-google-ads-marketing/lectures/12732525">
                           <a>
                             <span className="title">Facebook and Google Ads Marketing 🔥</span>
                           </a>

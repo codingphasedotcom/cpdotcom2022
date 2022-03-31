@@ -86,9 +86,7 @@ export default function Home() {
     }
 
   }, []);
-	const hoverIntroAnimate = () => {
-		setintroVidActive(true)
-	}
+	
 
   return (
 		<>
@@ -99,52 +97,27 @@ export default function Home() {
 			<MainLayout>
 				<section className="hero-comp">
 					<div className="hero-comp__content">
+						
 						<h2 className="hero-comp__title">
-							Your Developer Journey Starts Here
+							Learning to Code has Never Been Easier
 						</h2>
 						<p className="hero-comp__paragraph">
-							{`Consider us a part of your team. We'll work with you to understand
-							the skills needed to get the job, and we'll teach you what it
-							takes to succeed in today's tech industry independently!`}
+							{`All the skills that employers expect from a developer in one place!`}
 						</p>
 						<a href="#" className="hero-comp__button">
 							Start Now
 						</a>
+						<LazyLoadImage
+						wrapperClassName="lazywrap"
+                      alt={'Front Code'}
+                      effect="blur"
+                      src="/img/frontcode.webp"
+					  className='hero-comp__front-code' />
+						
 						
 					</div>
-          <div className="hero-comp__video1">
-            {/* <video width="320" height="240" autoPlay loop muted playsInline>
-              <source src="/vid/chill.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video> */}
-          </div>
-          <div className="hero-comp__video2">
-            {/* <video width="320" height="240" autoPlay loop muted playsInline>
-              <source src="/vid/coding.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video> */}
-          </div>
-					<div className="hero-comp__video3">
-            {/* <video width="320" height="240" autoPlay loop muted playsInline>
-              <source src="/vid/girl.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video> */}
-          </div>
 				</section>
-				<section className="intro-comp" onMouseEnter={hoverIntroAnimate}>
-					<div className="container">
-						<div className="row">
-							<div className="col">
-								<div className="intro-comp__content">
-									<div className={`intro-comp__vid-container ${introVidActive ? 'animated' : ''}`}>
-										<iframe width="100%"  src="https://www.youtube.com/embed/B6Ikii3HT54" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-									</div>
-									
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
+				
 				<section className="nohobby-comp">
 					<div className="container">
 						<div className="row">
