@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>CodingPhase | Waldimir Perez</title>
+        <title>CodingPhase | Amit Patel</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout>
@@ -63,11 +63,11 @@ export default function Home() {
               <div className="row">
                 <div className="col-md-12 ">
                 <div className="d-flex justify-content-center">
-                  <a href="/hof">
+                  <a href="/hall-of-fame">
                     <LazyLoadImage
                       alt={'Hall Of Fame Logo'}
                       effect="blur"
-                      src="/img/hoflogo3.png"
+                      src="/img/hall-of-famelogo3.png"
                       className="hof-page-user__logo" />
                   </a>
                 </div>
@@ -79,25 +79,23 @@ export default function Home() {
                       <LazyLoadImage
                           alt={'Wally Code'}
                           effect="blur"
-                          src="/img/hof/waldimir-perez.jpg"
+                          src="/img/hall-of-fame/amit-patel.jpg"
                           className="hof-page-user__user-img" />
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="hof-page-user__info">
-                    <span className="hof-page-user__name">Waldimir Perez</span>
-                    <span className="hof-page-user__career">HTML Email Developer</span>
+                    <span className="hof-page-user__name">Amit Patel</span>
+                    <span className="hof-page-user__career">Shopify Developer</span>
                     <p className="hof-page-user__testimonial">
-                    Been coding for give or take 5 months. Decided to go for employment ASAP. Chose the email dev track. Got a job within two weeks of applying! Your courses are straightforward, to the point, exactly what I had to learn to get a job. Thank you sooo much for your content, this job will change my family's future. Your courses gave me a sure path to kickstart my career.
+                    I recently got hired as a Shopify Developer after taking the Shopify Theme Developer course on CodingPhase.com. I learned how to develop Shopify themes from scratch, work with Liquid, and the Shopify admin to setup an online store with products, collections, and assets. I would also watch Joe’s livestreams on YouTube and through that, I learned valuable knowledge about what employers are looking for. Using that, I was able to build a solid portfolio and landed a job with a decent salary. I wouldn’t have even known about Shopify if it wasn’t for Joe. Thank you Joe!
                     </p>
-                    <p className="hof-page-user__testimonial">
-                    Currently budgeting out my life so i can buy a multifamily unit in a years time. Going job hop to a 70-90k job and buy that multi. It'll be a great start for my future family. My kids are going to be mami and papi kids. Thank you again!
-                    </p>
+                    
 
                     <div className="relevant-links">
                       <span className="relevant-links__title">Check Out His Links</span>
                       <ul>
-                        <li><a href="https://www.waldimirperez.com/" className="relevant-links__link">waldimirperez.com</a></li>
+                        <li><a href="https://www.devchops.tech/" className="relevant-links__link">Devchops.tech</a></li>
                       </ul>
                     </div>
                   </div>

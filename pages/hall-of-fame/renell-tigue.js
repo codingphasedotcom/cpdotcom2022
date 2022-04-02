@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>CodingPhase | Cameron Everett Review</title>
+        <title>CodingPhase | Renell Tigue Review</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout>
@@ -63,11 +63,11 @@ export default function Home() {
               <div className="row">
                 <div className="col-md-12 ">
                 <div className="d-flex justify-content-center">
-                  <a href="/hof">
+                  <a href="/hall-of-fame">
                     <LazyLoadImage
                       alt={'Hall Of Fame Logo'}
                       effect="blur"
-                      src="/img/hoflogo3.png"
+                      src="/img/hall-of-famelogo3.png"
                       className="hof-page-user__logo" />
                   </a>
                 </div>
@@ -77,24 +77,27 @@ export default function Home() {
                 <div className="offset-md-1 col-md-4">
                   <div className="hof-page-user__user">
                       <LazyLoadImage
-                          alt={'Cameron Everett'}
+                          alt={'Renell Tigue'}
                           effect="blur"
-                          src="/img/hof/cameron-everett.png"
+                          src="/img/hall-of-fame/renell-tigue.jpg"
                           className="hof-page-user__user-img" />
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="hof-page-user__info">
-                    <span className="hof-page-user__name">Cameron Everett</span>
-                    <span className="hof-page-user__career">Web Developer</span>
+                    <span className="hof-page-user__name">Renell Tigue</span>
+                    <span className="hof-page-user__career">Shopify Developer</span>
                     <p className="hof-page-user__testimonial">
-                    My Name is Cameron Everett. I’m 25 yrs old from Jonesville, Louisiana. My journey started mid-2019 my last semester of college before dropping out. I worked just about every job you can think of to keep money in my pocket but I was either under paid or I hated my job. In January 2021 I quit my job to work at ubereats to have a flexible work schedule so i can put in more time learning to code. I started to follow Joe’s timeline and take coding seriously. By September I was hired as web developer and I can say my life changed tremendously and I’m just getting started.Thanks for Everything Joe.
+                        In the past, I used to jump between different online learning platforms to learn how to code.When I found CodingPhase on Youtube, I immediately bought the monthly plan. At first, I thought the online course would be similar to the others, but I had to try it. Then, I was wrong. Joe's teaching style is different. He allows us to see bugs and errors and teach us how to solve them. Doing that way is better than watching coding tutorial videos with flawless code.
+                    </p>
+                    <p className="hof-page-user__testimonial">
+                    I took up the Shopify theme developer course around 2020. I've learned so much and got the confidence to find freelance gigs. Since then, I've done several successful projects on Upwork and on other platforms. Now, I'm working as the lead Shopify developer for a local Shopify agency here in the Philippines. I couldn't make it without the help of CodingPhase. Thank you so much, Joe.
                     </p>
 
                     <div className="relevant-links">
                       <span className="relevant-links__title">Check Out His Links</span>
                       <ul>
-                        {/* <li><a href="https://www.linkedin.com/in/cameron-everett-154403199" className="relevant-links__link">Linkedin</a>
+                        {/* <li><a href="https://www.linkedin.com/in/renell-tigue-154403199" className="relevant-links__link">djnorris.io</a>
                         </li> */}
                         
                       </ul>

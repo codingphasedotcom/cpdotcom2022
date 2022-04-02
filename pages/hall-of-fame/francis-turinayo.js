@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>CodingPhase | Sita Review</title>
+        <title>CodingPhase | Francis Turinayo Review</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout>
@@ -63,11 +63,11 @@ export default function Home() {
               <div className="row">
                 <div className="col-md-12 ">
                 <div className="d-flex justify-content-center">
-                  <a href="/hof">
+                  <a href="/hall-of-fame">
                     <LazyLoadImage
                       alt={'Hall Of Fame Logo'}
                       effect="blur"
-                      src="/img/hoflogo3.png"
+                      src="/img/hall-of-famelogo3.png"
                       className="hof-page-user__logo" />
                   </a>
                 </div>
@@ -77,31 +77,29 @@ export default function Home() {
                 <div className="offset-md-1 col-md-4">
                   <div className="hof-page-user__user">
                       <LazyLoadImage
-                          alt={'sita'}
+                          alt={'Francis Turinayo'}
                           effect="blur"
-                          src="/img/hof/sita.webp"
+                          src="/img/hall-of-fame/francis-turinayo.webp"
                           className="hof-page-user__user-img" />
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="hof-page-user__info">
-                    <span className="hof-page-user__name">Sita</span>
-                    <span className="hof-page-user__career">Web Content Editor</span>
+                    <span className="hof-page-user__name">Francis Turinayo</span>
+                    <span className="hof-page-user__career">Email Developer</span>
                     <p className="hof-page-user__testimonial">
-                    Back in March 2020, I lost my job, and it was literally impossible to go back to a corporate job or office job without any knowledge of coding. I worked for corporations for 7 years in some field where absolutely no coding was needed. But those times are gone now.
-                    </p>
-                    <p className="hof-page-user__testimonial">
-                    When I was drowning in the world of coding, watching YouTube videos to gather any info, suddenly I popped into joe’s YouTube channel about HTML Email developer. My coding journey started right from there (watching some more videos by Coding Phase and then jumped into buying the HTML Email developer course) around Sept 2021. In the meantime, Joe announced the Content Editor career path back in Nov and I immediately bought the package.
-                    </p>
-                    <p className="hof-page-user__testimonial">
-                    I am here now, completed as a Web Content Editor (working for Robert Half).
+                    Upon pursuing a career in Html Email Development, I was really clueless about how long I can actually get actual skills that someone can pay me for as I was overwhelmed with the aspects of coding that I needed to learn so I could be hirable. But then with Joe, through CodingPhase, I was able to take the Html Email Development Course and within a few weeks (4-5), I landed my first client as a Freelance Email Developer and it’s a skill that has opened several opportunities in my early career
                     </p>
 
                     <div className="relevant-links">
                       <span className="relevant-links__title">Check Out His Links</span>
                       <ul>
-                        {/* <li><a href="https://www.linkedin.com/in/sita-154403199" className="relevant-links__link">Linkedin</a>
-                        </li> */}
+                      
+                      <li>
+                          <a href="https://devfrancis.com/" className="relevant-links__link">Portfolio</a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/francis-turinayo-437995168/" className="relevant-links__link">Linkedin</a>
+                        </li>
                         
                       </ul>
                     </div>

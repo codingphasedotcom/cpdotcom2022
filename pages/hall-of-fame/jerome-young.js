@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>CodingPhase | Emmanuel Perez Review</title>
+        <title>CodingPhase | Jerome Young Review</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout>
@@ -63,11 +63,11 @@ export default function Home() {
               <div className="row">
                 <div className="col-md-12 ">
                 <div className="d-flex justify-content-center">
-                  <a href="/hof">
+                  <a href="/hall-of-fame">
                     <LazyLoadImage
                       alt={'Hall Of Fame Logo'}
                       effect="blur"
-                      src="/img/hoflogo3.png"
+                      src="/img/hall-of-famelogo3.png"
                       className="hof-page-user__logo" />
                   </a>
                 </div>
@@ -77,28 +77,28 @@ export default function Home() {
                 <div className="offset-md-1 col-md-4">
                   <div className="hof-page-user__user">
                       <LazyLoadImage
-                          alt={'Emmanuel Perez'}
+                          alt={'Jerome Young'}
                           effect="blur"
-                          src="/img/hof/emmanuel-perez.webp"
+                          src="/img/hall-of-fame/jerome-young.png"
                           className="hof-page-user__user-img" />
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="hof-page-user__info">
-                    <span className="hof-page-user__name">Emmanuel Perez</span>
+                    <span className="hof-page-user__name">Jerome Young</span>
                     <span className="hof-page-user__career">Email Developer</span>
                     <p className="hof-page-user__testimonial">
-                    I graduated college in 2020 with a CS degree & planned to get into DevOps. I didn’t enjoy coding in college due to not having the greatest professors, but once my DevOps plans didn’t go as I hoped I decided to give coding another chance after stumbling across CodingPhase on Youtube. I focused on HTML, CSS, and responsive web design, and for a few months I only built static sites; later moving onto JS. Within 6 months of CodingPhase and self-study, I was able to build a few projects that I later sent over with countless applications. I landed a Developer position in April 2021 and if it weren’t for finding CodingPhase in September I don’t know if I would’ve had the motivation to get where I am now.
+                    I started my journey by hearing about coding from my father encouraging me to dive into medical or software because those careers will always be in demand. Later, I decided to start getting into software development and began to take time every day to learn HTML. I found I enjoyed learning HTML, so I attended a Bootcamp in 2018 where I learned how to become a full-stack developer, with a tech stack that covered HTML, CSS, Vanilla Javascript, React, Redux, Mongo DB, Express, NoSql, and SQL. Once I graduated from my bootcamp, I went straight into looking for work and applying for job placement as a Front-End developer. Through that process, I put out at least 300 different applications at the time, and then primarily heard from various companies stating, “currently your experience as a developer doesn’t meet our required skillset for this position”, or “we decided to go with another candidate.”  
                     </p>
                     <p className="hof-page-user__testimonial">
-                    I enjoyed Joe’s classes because as many will tell you they’re straightforward and simple to understand. Joe is someone I felt like I could relate to and because we came from the same background I was easily motivated by his success. Aside from the courses, the CodingPhase community has also been fully supportive and kept me going. I strongly recommend tuning into the live streams, everyone is very helpful and supportive. I still keep up with the streams and videos when I can. Entrepreneurship is a goal of mine and I know within a few years I can accomplish this thanks to CodingPhase.  
+                    At that point, I decided to do some research on finding a mentor that would help me acquire the skills necessary for me to dive into the industry as a developer. Later, I ran across ‘Codingphase‘ Youtube channel that was recommended to me through the Youtube Algorithm. I decided that I would give him a shot once I saw one of his HTML Email Developer videos; he sold me once he said all you need to know is HTML & CSS. I later then bought the Codingphase $20 monthly membership and took his HTML Email Developer course. Once I finished the course and built several personal projects, I decided to apply to some companies once again. This time I received some calls, and not that much longer later I landed my role at my current job I’m working for right now. Thank you Joe for always giving back to others through your blood and sweat. I wouldn’t be in this position being an Email developer if you hadn’t made the time to create that course for individuals like myself. I 100% recommend Codingphase to anybody thinking about diving into a Web Developer career or Email developer career!
                     </p>
 
                     <div className="relevant-links">
                       <span className="relevant-links__title">Check Out His Links</span>
                       <ul>
-                        <li><a href="https://www.linkedin.com/in/emmanuel-perez-154403199" className="relevant-links__link">djnorris.io</a>
-                        </li>
+                        {/* <li><a href="https://www.linkedin.com/in/jerome-young-154403199" className="relevant-links__link">Linkedin</a>
+                        </li> */}
                         
                       </ul>
                     </div>

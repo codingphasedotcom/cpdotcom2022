@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>CodingPhase | Renell Tigue Review</title>
+        <title>CodingPhase | Jon Disla Review</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout>
@@ -63,11 +63,11 @@ export default function Home() {
               <div className="row">
                 <div className="col-md-12 ">
                 <div className="d-flex justify-content-center">
-                  <a href="/hof">
+                  <a href="/hall-of-fame">
                     <LazyLoadImage
                       alt={'Hall Of Fame Logo'}
                       effect="blur"
-                      src="/img/hoflogo3.png"
+                      src="/img/hall-of-famelogo3.png"
                       className="hof-page-user__logo" />
                   </a>
                 </div>
@@ -77,27 +77,26 @@ export default function Home() {
                 <div className="offset-md-1 col-md-4">
                   <div className="hof-page-user__user">
                       <LazyLoadImage
-                          alt={'Renell Tigue'}
+                          alt={'Jon Disla'}
                           effect="blur"
-                          src="/img/hof/renell-tigue.jpg"
+                          src="/img/hall-of-fame/jon-disla.png"
                           className="hof-page-user__user-img" />
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="hof-page-user__info">
-                    <span className="hof-page-user__name">Renell Tigue</span>
-                    <span className="hof-page-user__career">Shopify Developer</span>
+                    <span className="hof-page-user__name">Jon Disla</span>
+                    <span className="hof-page-user__career">Web Content Manager</span>
                     <p className="hof-page-user__testimonial">
-                        In the past, I used to jump between different online learning platforms to learn how to code.When I found CodingPhase on Youtube, I immediately bought the monthly plan. At first, I thought the online course would be similar to the others, but I had to try it. Then, I was wrong. Joe's teaching style is different. He allows us to see bugs and errors and teach us how to solve them. Doing that way is better than watching coding tutorial videos with flawless code.
-                    </p>
+                    My name is Jon Disla, I am a Web Content Manager.  After having been trying to become a web developer for a few years, I found Coding Phase in 2018.  Unfortunately, I did get a job until I followed Joe’s advice to the fullest and focused on his message rather than a lot of other people saying different things.</p>
                     <p className="hof-page-user__testimonial">
-                    I took up the Shopify theme developer course around 2020. I've learned so much and got the confidence to find freelance gigs. Since then, I've done several successful projects on Upwork and on other platforms. Now, I'm working as the lead Shopify developer for a local Shopify agency here in the Philippines. I couldn't make it without the help of CodingPhase. Thank you so much, Joe.
+                    Joe’s straightforward approach to code goes straight to the point of what I actually needed to know to get a job. Coding Phase is a community that has given me the confidence, skills, and insight to understand how to navigate the self-taught process.  I now have the skills and experience to improve my life tremendously because of Coding Phase.  Thank you.
                     </p>
 
                     <div className="relevant-links">
                       <span className="relevant-links__title">Check Out His Links</span>
                       <ul>
-                        {/* <li><a href="https://www.linkedin.com/in/renell-tigue-154403199" className="relevant-links__link">djnorris.io</a>
+                        {/* <li><a href="https://www.linkedin.com/in/jon-disla-154403199" className="relevant-links__link">Linkedin</a>
                         </li> */}
                         
                       </ul>

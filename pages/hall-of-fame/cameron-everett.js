@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>CodingPhase | Daryl Dauphin Review</title>
+        <title>CodingPhase | Cameron Everett Review</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout>
@@ -63,11 +63,11 @@ export default function Home() {
               <div className="row">
                 <div className="col-md-12 ">
                 <div className="d-flex justify-content-center">
-                  <a href="/hof">
+                  <a href="/hall-of-fame">
                     <LazyLoadImage
                       alt={'Hall Of Fame Logo'}
                       effect="blur"
-                      src="/img/hoflogo3.png"
+                      src="/img/hall-of-famelogo3.png"
                       className="hof-page-user__logo" />
                   </a>
                 </div>
@@ -77,33 +77,25 @@ export default function Home() {
                 <div className="offset-md-1 col-md-4">
                   <div className="hof-page-user__user">
                       <LazyLoadImage
-                          alt={'Daryl Dauphin'}
+                          alt={'Cameron Everett'}
                           effect="blur"
-                          src="/img/hof/daryl-dauphin.webp"
+                          src="/img/hall-of-fame/cameron-everett.png"
                           className="hof-page-user__user-img" />
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="hof-page-user__info">
-                    <span className="hof-page-user__name">Daryl Dauphin</span>
-                    <span className="hof-page-user__career">Digital Agency Owner</span>
+                    <span className="hof-page-user__name">Cameron Everett</span>
+                    <span className="hof-page-user__career">Web Developer</span>
                     <p className="hof-page-user__testimonial">
-                    My name is Daryl Dauphin, I own a Digital Agency that helps new committed digital entrepreneurs increase sales online by launching optimized websites, without a marketing team. 
-I definitely got to this point in my life because Joe opened my eyes and challenged my mindset to grow as a person and to learn to code. His super simple to understand courses got me confident enough in my programming knowledge to land a job in less than a year.
-</p>
-                    <p className="hof-page-user__testimonial">
-                    Along with learning to code, I also learned business skills with Joe’s entrepreneur developer course. After finishing, it got me ready to build and launch my digital agency.
-                    </p>
-
-                    <p className="hof-page-user__testimonial">
-                    This is all thanks to Joe from CodingPhase.
+                    My Name is Cameron Everett. I’m 25 yrs old from Jonesville, Louisiana. My journey started mid-2019 my last semester of college before dropping out. I worked just about every job you can think of to keep money in my pocket but I was either under paid or I hated my job. In January 2021 I quit my job to work at ubereats to have a flexible work schedule so i can put in more time learning to code. I started to follow Joe’s timeline and take coding seriously. By September I was hired as web developer and I can say my life changed tremendously and I’m just getting started.Thanks for Everything Joe.
                     </p>
 
                     <div className="relevant-links">
                       <span className="relevant-links__title">Check Out His Links</span>
                       <ul>
-                        <li><a href="https://thisday.design/" className="relevant-links__link">Portfolio</a>
-                        </li>
+                        {/* <li><a href="https://www.linkedin.com/in/cameron-everett-154403199" className="relevant-links__link">Linkedin</a>
+                        </li> */}
                         
                       </ul>
                     </div>

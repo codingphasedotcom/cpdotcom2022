@@ -63,11 +63,11 @@ export default function Home() {
               <div className="row">
                 <div className="col-md-12 ">
                 <div className="d-flex justify-content-center">
-                  <a href="/hof">
+                  <a href="/hall-of-fame">
                     <LazyLoadImage
                       alt={'Hall Of Fame Logo'}
                       effect="blur"
-                      src="/img/hoflogo3.png"
+                      src="/img/hall-of-famelogo3.png"
                       className="hof-page-user__logo" />
                   </a>
                 </div>
@@ -79,7 +79,7 @@ export default function Home() {
                       <LazyLoadImage
                           alt={'Billy Rodriguez Web Developer HTML Emails'}
                           effect="blur"
-                          src="/img/hof/billy-rodriguez.jpg"
+                          src="/img/hall-of-fame/billy-rodriguez.jpg"
                           className="hof-page-user__user-img" />
                   </div>
                 </div>

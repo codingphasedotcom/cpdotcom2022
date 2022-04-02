@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>CodingPhase | Ivan Hurt Review</title>
+        <title>CodingPhase | Nicksonder Examar Review</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout>
@@ -63,11 +63,11 @@ export default function Home() {
               <div className="row">
                 <div className="col-md-12 ">
                 <div className="d-flex justify-content-center">
-                  <a href="/hof">
+                  <a href="/hall-of-fame">
                     <LazyLoadImage
                       alt={'Hall Of Fame Logo'}
                       effect="blur"
-                      src="/img/hoflogo3.png"
+                      src="/img/hall-of-famelogo3.png"
                       className="hof-page-user__logo" />
                   </a>
                 </div>
@@ -77,36 +77,30 @@ export default function Home() {
                 <div className="offset-md-1 col-md-4">
                   <div className="hof-page-user__user">
                       <LazyLoadImage
-                          alt={'Ivan Hurt'}
+                          alt={'Nicksonder Examar'}
                           effect="blur"
-                          src="/img/hof/ivan-hurt.webp"
+                          src="/img/hall-of-fame/nicksonder-examar.webp"
                           className="hof-page-user__user-img" />
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="hof-page-user__info">
-                    <span className="hof-page-user__name">Ivan Hurt</span>
-                    <span className="hof-page-user__career">Salesforce Email Developer</span>
+                    <span className="hof-page-user__name">Nicksonder Examar</span>
+                    <span className="hof-page-user__career">Front End Developer</span>
                     <p className="hof-page-user__testimonial">
-                    PC tech for over 15 years but had to have heart surgery in April 2018
-    Took a couple of your HTML courses starting since January 2018.
-        Creating a wedding invite page for sister who was getting married.
-        Showed wedding page to co-worker who was being promoted from webmaster to project manager
-    Became a webmaster in May 2018.
-    Got promoted from webmaster web developer in December 2018 because I was willing to learn Drupal & PHP
-        Worked on SharePoint,
-        Drupal,
-        Salesforce.
-        Made some money with digital products that allowed me to travel just using HTML & CSS
-    January 2020 became an email developer after taking your email course that I brought about 6 months before
-    Been an email developer for two years
-    Now working as Salesforce email developer.
+                    I first started taking courses in 2018, after graduating high school, I didn’t want to waste time taking useless courses in college without having a goal in mind so I spend two years searching for a career I would love, Web Development seems to be the pathway for me and after some more searching, I found CodingPhase’s YouTube channel. CodingPhase has been a great part of my success in landing a job, I first learned HTML/CSS syntax on Code Academy, but everything else I learned on CodingPhase. The way Joe, the instructor, explains things, a 10 years old kid can learn to code from him, he breaks difficult concepts down and makes them simple for your to understand.
+                    </p>
+                    <p className="hof-page-user__testimonial">
+                    All thanks to Joe, the next step is to learn as much as I can and be able to achieve my ultimate goal.
+                    </p>
+                    <p className="hof-page-user__testimonial">
+                    Thanks again, Joe, this is just the beginning!
                     </p>
 
                     <div className="relevant-links">
                       <span className="relevant-links__title">Check Out His Links</span>
                       <ul>
-                        {/* <li><a href="https://www.linkedin.com/in/ivan-hurt-154403199" className="relevant-links__link">Linkedin</a>
+                        {/* <li><a href="https://www.linkedin.com/in/nicksonder-examar-154403199" className="relevant-links__link">Linkedin</a>
                         </li> */}
                         
                       </ul>

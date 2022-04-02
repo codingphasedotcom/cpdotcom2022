@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>CodingPhase | Jon Disla Review</title>
+        <title>CodingPhase | Donly Wilson Review</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout>
@@ -63,11 +63,11 @@ export default function Home() {
               <div className="row">
                 <div className="col-md-12 ">
                 <div className="d-flex justify-content-center">
-                  <a href="/hof">
+                  <a href="/hall-of-fame">
                     <LazyLoadImage
                       alt={'Hall Of Fame Logo'}
                       effect="blur"
-                      src="/img/hoflogo3.png"
+                      src="/img/hall-of-famelogo3.png"
                       className="hof-page-user__logo" />
                   </a>
                 </div>
@@ -77,27 +77,28 @@ export default function Home() {
                 <div className="offset-md-1 col-md-4">
                   <div className="hof-page-user__user">
                       <LazyLoadImage
-                          alt={'Jon Disla'}
+                          alt={'Donly Wilson'}
                           effect="blur"
-                          src="/img/hof/jon-disla.png"
+                          src="/img/hall-of-fame/donly-wilson.jpg"
                           className="hof-page-user__user-img" />
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="hof-page-user__info">
-                    <span className="hof-page-user__name">Jon Disla</span>
-                    <span className="hof-page-user__career">Web Content Manager</span>
+                    <span className="hof-page-user__name">Donly Wilson</span>
+                    <span className="hof-page-user__career">Email Developer</span>
                     <p className="hof-page-user__testimonial">
-                    My name is Jon Disla, I am a Web Content Manager.  After having been trying to become a web developer for a few years, I found Coding Phase in 2018.  Unfortunately, I did get a job until I followed Joe’s advice to the fullest and focused on his message rather than a lot of other people saying different things.</p>
+                    I Joined CodingPhase back in 2020 after wasting almost a full year trying to do it on my own. A huge mistake attempting to learn from multiple instructors who all have different methods to obtaining the same objective. This only left me with a clouded understanding of programming. Within the first seven months of jumping onto the CodingPhase platform, I gain all the skills to become full-stack. Due to the simplistic format that is repeatedly used in every course. After building my portfolio and polishing my resume, I started hitting up all companies in my local area. With luck and patience, I got my first job as a web developer and have gone as far as learning app development within the company. The most challenging part of this journey was the self decline and resilience that had to be built as a beginner while working a construction job. I recommend just showing up every day and at the minimum committing one line of code. The platform delivers, but joining is the easiest part it is only up to you to produce consistent work.
+                    </p>
                     <p className="hof-page-user__testimonial">
-                    Joe’s straightforward approach to code goes straight to the point of what I actually needed to know to get a job. Coding Phase is a community that has given me the confidence, skills, and insight to understand how to navigate the self-taught process.  I now have the skills and experience to improve my life tremendously because of Coding Phase.  Thank you.
+                    I’m about to be in my 3rd year of CodingPhase and I love it. The coding might have brought me here but Joe’s mindset and relatable personality are what kept me.
                     </p>
 
                     <div className="relevant-links">
                       <span className="relevant-links__title">Check Out His Links</span>
                       <ul>
-                        {/* <li><a href="https://www.linkedin.com/in/jon-disla-154403199" className="relevant-links__link">Linkedin</a>
-                        </li> */}
+                        <li><a href="https://donlywilson.com" className="relevant-links__link">Portfolio</a>
+                        </li>
                         
                       </ul>
                     </div>

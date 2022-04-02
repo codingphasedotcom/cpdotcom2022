@@ -63,11 +63,11 @@ export default function Home() {
               <div className="row">
                 <div className="col-md-12 ">
                 <div className="d-flex justify-content-center">
-                  <a href="/hof">
+                  <a href="/hall-of-fame">
                     <LazyLoadImage
                       alt={'Hall Of Fame Logo'}
                       effect="blur"
-                      src="/img/hoflogo3.png"
+                      src="/img/hall-of-famelogo3.png"
                       className="hof-page__logo" />
                   </a>
                 </div>
@@ -76,11 +76,11 @@ export default function Home() {
               <div className="row">
                 <div className="col-md-4 col-lg-3">
                   <div className="hof-page__user">
-                  <a href="/hof/waldimir-perez">
+                  <a href="/hall-of-fame/waldimir-perez">
                     <LazyLoadImage
                         alt={'Wally Code'}
                         effect="blur"
-                        src="/img/hof/waldimir-perez.jpg"
+                        src="/img/hall-of-fame/waldimir-perez.jpg"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Waldimir P.</span>
                     <span className="hof-page__career">HTML Email Developer</span>
@@ -89,11 +89,11 @@ export default function Home() {
                 </div>
                 <div className="col-md-4 col-lg-3">
                   <div className="hof-page__user">
-                  <a href="/hof/david-norris">
+                  <a href="/hall-of-fame/david-norris">
                     <LazyLoadImage
                         alt={'David Norris'}
                         effect="blur"
-                        src="/img/hof/david-norris.jpg"
+                        src="/img/hall-of-fame/david-norris.jpg"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">David N. </span>
                     <span className="hof-page__career">Full Stack Developer</span>
@@ -102,11 +102,11 @@ export default function Home() {
                 </div>
                 <div className="col-md-4 col-lg-3">
                   <div className="hof-page__user">
-                  <a href="/hof/amit-patel">
+                  <a href="/hall-of-fame/amit-patel">
                     <LazyLoadImage
                         alt={'Amit Patel'}
                         effect="blur"
-                        src="/img/hof/amit-patel.jpg"
+                        src="/img/hall-of-fame/amit-patel.jpg"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Amit P. </span>
                     <span className="hof-page__career">Shopify Developer</span>
@@ -115,11 +115,11 @@ export default function Home() {
                 </div>
                 <div className="col-md-4 col-lg-3">
                   <div className="hof-page__user">
-                  <a href="/hof/billy-rodriguez">
+                  <a href="/hall-of-fame/billy-rodriguez">
                     <LazyLoadImage
                         alt={'Billy Rodriguez HTML Email Developer'}
                         effect="blur"
-                        src="/img/hof/billy-rodriguez.jpg"
+                        src="/img/hall-of-fame/billy-rodriguez.jpg"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Billy R. </span>
                     <span className="hof-page__career">HTML Email Developer</span>
@@ -128,11 +128,11 @@ export default function Home() {
                 </div>
                 <div className="col-md-4 col-lg-3">
                   <div className="hof-page__user">
-                  <a href="/hof/ruel-misa">
+                  <a href="/hall-of-fame/ruel-misa">
                     <LazyLoadImage
                         alt={'Ruel Misa Web Producer'}
                         effect="blur"
-                        src="/img/hof/ruel-misa.jpg"
+                        src="/img/hall-of-fame/ruel-misa.jpg"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Ruel M. </span>
                     <span className="hof-page__career">Web Producer</span>
@@ -141,11 +141,11 @@ export default function Home() {
                 </div>
                 <div className="col-md-4 col-lg-3">
                   <div className="hof-page__user">
-                  <a href="/hof/kevin-mosley">
+                  <a href="/hall-of-fame/kevin-mosley">
                     <LazyLoadImage
                         alt={'Kevin Mosley Software Engineer'}
                         effect="blur"
-                        src="/img/hof/kevin-mosley.jpg"
+                        src="/img/hall-of-fame/kevin-mosley.jpg"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Kevin M. </span>
                     <span className="hof-page__career">Software Engineer</span>
@@ -154,11 +154,11 @@ export default function Home() {
                 </div>
                 <div className="col-md-4 col-lg-3">
                   <div className="hof-page__user">
-                  <a href="/hof/emmanuel-perez">
+                  <a href="/hall-of-fame/emmanuel-perez">
                     <LazyLoadImage
                         alt={'Emmanuel Perez Email Developer'}
                         effect="blur"
-                        src="/img/hof/emmanuel-perez.webp"
+                        src="/img/hall-of-fame/emmanuel-perez.webp"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Emmanuel P. </span>
                     <span className="hof-page__career">Email Developer</span>
@@ -167,11 +167,11 @@ export default function Home() {
                 </div>
                 <div className="col-md-4 col-lg-3">
                   <div className="hof-page__user">
-                  <a href="/hof/francis-turinayo">
+                  <a href="/hall-of-fame/francis-turinayo">
                     <LazyLoadImage
                         alt={'Francis Turinayo Email Developer'}
                         effect="blur"
-                        src="/img/hof/francis-turinayo.webp"
+                        src="/img/hall-of-fame/francis-turinayo.webp"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Francis T. </span>
                     <span className="hof-page__career">Email Developer</span>
@@ -180,11 +180,11 @@ export default function Home() {
                 </div>
                 <div className="col-md-4 col-lg-3">
                   <div className="hof-page__user">
-                  <a href="/hof/daryl-dauphin">
+                  <a href="/hall-of-fame/daryl-dauphin">
                     <LazyLoadImage
                         alt={'Francis Turinayo Email Developer'}
                         effect="blur"
-                        src="/img/hof/daryl-dauphin.webp"
+                        src="/img/hall-of-fame/daryl-dauphin.webp"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Daryl D. </span>
                     <span className="hof-page__career">Digital Agency Owner</span>
@@ -193,11 +193,11 @@ export default function Home() {
                 </div>
                 <div className="col-md-4 col-lg-3">
                   <div className="hof-page__user">
-                  <a href="/hof/nicksonder-examar">
+                  <a href="/hall-of-fame/nicksonder-examar">
                     <LazyLoadImage
                         alt={'Nicksonde Examar Email Developer'}
                         effect="blur"
-                        src="/img/hof/nicksonder-examar.jpeg"
+                        src="/img/hall-of-fame/nicksonder-examar.jpeg"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Nicksonder E. </span>
                     <span className="hof-page__career">Front End Developer</span>
@@ -206,11 +206,11 @@ export default function Home() {
                 </div>
                 <div className="col-md-4 col-lg-3">
                   <div className="hof-page__user">
-                  <a href="/hof/jerome-young">
+                  <a href="/hall-of-fame/jerome-young">
                     <LazyLoadImage
                         alt={'Jerome Young Email Developer'}
                         effect="blur"
-                        src="/img/hof/jerome-young.png"
+                        src="/img/hall-of-fame/jerome-young.png"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Jerome Y. </span>
                     <span className="hof-page__career">Email Developer</span>
@@ -219,11 +219,11 @@ export default function Home() {
                 </div>
                 <div className="col-md-4 col-lg-3">
                   <div className="hof-page__user">
-                  <a href="/hof/jon-disla">
+                  <a href="/hall-of-fame/jon-disla">
                     <LazyLoadImage
                         alt={'Jon Disla Web Content Manager'}
                         effect="blur"
-                        src="/img/hof/jon-disla.png"
+                        src="/img/hall-of-fame/jon-disla.png"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Jon D. </span>
                     <span className="hof-page__career">Web Content Manager</span>
@@ -232,11 +232,11 @@ export default function Home() {
                 </div>
                 <div className="col-md-4 col-lg-3">
                   <div className="hof-page__user">
-                  <a href="/hof/sita">
+                  <a href="/hall-of-fame/sita">
                     <LazyLoadImage
                         alt={'Sita Web Content Editor'}
                         effect="blur"
-                        src="/img/hof/sita.webp"
+                        src="/img/hall-of-fame/sita.webp"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Sita</span>
                     <span className="hof-page__career">Web Content Editor</span>
@@ -245,11 +245,11 @@ export default function Home() {
                 </div>
                 <div className="col-md-4 col-lg-3">
                   <div className="hof-page__user">
-                  <a href="/hof/ivan-hurt">
+                  <a href="/hall-of-fame/ivan-hurt">
                     <LazyLoadImage
                         alt={'Ivan Hurt Salesforce Email Developer'}
                         effect="blur"
-                        src="/img/hof/ivan-hurt.webp"
+                        src="/img/hall-of-fame/ivan-hurt.webp"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Ivan Hurt</span>
                     <span className="hof-page__career">Salesforce Email Developer</span>
@@ -258,11 +258,11 @@ export default function Home() {
                 </div>
                 <div className="col-md-4 col-lg-3">
                   <div className="hof-page__user">
-                  <a href="/hof/ivan-hurt">
+                  <a href="/hall-of-fame/ivan-hurt">
                     <LazyLoadImage
                         alt={'Ivan Hurt Salesforce Email Developer'}
                         effect="blur"
-                        src="/img/hof/cameron-everett.jpg"
+                        src="/img/hall-of-fame/cameron-everett.jpg"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Cameron Everett</span>
                     <span className="hof-page__career">Web Developer</span>
@@ -271,11 +271,11 @@ export default function Home() {
                 </div>
                 <div className="col-md-4 col-lg-3">
                   <div className="hof-page__user">
-                  <a href="/hof/james-hagood">
+                  <a href="/hall-of-fame/james-hagood">
                     <LazyLoadImage
                         alt={'James Hagood Shopify Developer'}
                         effect="blur"
-                        src="/img/hof/james-hagood.jpg"
+                        src="/img/hall-of-fame/james-hagood.jpg"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">James Hagood</span>
                     <span className="hof-page__career">Shopify Developer</span>
@@ -284,11 +284,11 @@ export default function Home() {
                 </div>
                 <div className="col-md-4 col-lg-3">
                   <div className="hof-page__user">
-                  <a href="/hof/donly-wilson">
+                  <a href="/hall-of-fame/donly-wilson">
                     <LazyLoadImage
                         alt={'Donly Wilson Web Developer'}
                         effect="blur"
-                        src="/img/hof/donly-wilson.jpg"
+                        src="/img/hall-of-fame/donly-wilson.jpg"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Donly Wilson</span>
                     <span className="hof-page__career">Web Developer</span>
@@ -297,11 +297,11 @@ export default function Home() {
                 </div>
                 <div className="col-md-4 col-lg-3">
                   <div className="hof-page__user">
-                  <a href="/hof/devin-martinez">
+                  <a href="/hall-of-fame/devin-martinez">
                     <LazyLoadImage
                         alt={'Devin Martinez Email Developer'}
                         effect="blur"
-                        src="/img/hof/devin-martinez.jpg"
+                        src="/img/hall-of-fame/devin-martinez.jpg"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Devin Martinez</span>
                     <span className="hof-page__career">Email Developer</span>
@@ -310,11 +310,11 @@ export default function Home() {
                 </div>
                 <div className="col-md-4 col-lg-3">
                   <div className="hof-page__user">
-                  <a href="/hof/renell-tigue">
+                  <a href="/hall-of-fame/renell-tigue">
                     <LazyLoadImage
                         alt={'Renell Tigue Shopify Developer'}
                         effect="blur"
-                        src="/img/hof/renell-tigue.jpg"
+                        src="/img/hall-of-fame/renell-tigue.jpg"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Renell Tigue</span>
                     <span className="hof-page__career">Shopify Developer</span>

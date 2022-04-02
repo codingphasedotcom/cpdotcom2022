@@ -13,21 +13,21 @@ export default function Home() {
   const [affiliateActive, setAffiliateActive] = useState(false);
   useEffect(() => {
     ReactGA.initialize('UA-37043736-10');
-
+     
     if (typeof window !== 'undefined') {
       ReactGA.pageview(window.location.pathname + window.location.search);
     }
   });
   useEffect(() => {
-    if (getUrlParam('coupon') != '') {
+    if(getUrlParam('coupon') != ''){
       setCouponActive({
         status: true,
         coupon: getUrlParam('coupon'),
         percent: parseInt(getUrlParam('coupon').substring(0, 2))
       })
-      ls.set('coupon', getUrlParam('coupon'))
+       ls.set('coupon', getUrlParam('coupon'))
     }
-    if (ls('coupon') != null) {
+    if(ls('coupon') != null) {
       setCouponActive({
         status: true,
         coupon: ls('coupon'),
@@ -35,25 +35,25 @@ export default function Home() {
       })
     }
     //handle affiliate
-    if (getUrlParam('affcode') != '') {
+    if(getUrlParam('affcode') != ''){
       setAffiliateActive({
         status: true,
         affcode: getUrlParam('affcode')
       })
       ls.set('affcode', getUrlParam('affcode'))
     }
-    if (ls('affcode') != null) {
+    if(ls('affcode') != null) {
       setAffiliateActive({
         status: true,
         affcode: ls('affcode')
       })
     }
   }, []);
-
+  
   return (
     <>
       <Head>
-        <title>CodingPhase | James Hagood Review</title>
+        <title>CodingPhase | Daryl Dauphin Review</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout>
@@ -62,60 +62,62 @@ export default function Home() {
             <div className="container">
               <div className="row">
                 <div className="col-md-12 ">
-                  <div className="d-flex justify-content-center">
-                    <a href="/hof">
-                      <LazyLoadImage
-                        alt={'Hall Of Fame Logo'}
-                        effect="blur"
-                        src="/img/hoflogo3.png"
-                        className="hof-page-user__logo" />
-                    </a>
-                  </div>
+                <div className="d-flex justify-content-center">
+                  <a href="/hall-of-fame">
+                    <LazyLoadImage
+                      alt={'Hall Of Fame Logo'}
+                      effect="blur"
+                      src="/img/hall-of-famelogo3.png"
+                      className="hof-page-user__logo" />
+                  </a>
+                </div>
                 </div>
               </div>
               <div className="row">
                 <div className="offset-md-1 col-md-4">
                   <div className="hof-page-user__user">
-                    <LazyLoadImage
-                      alt={'James Hagood'}
-                      effect="blur"
-                      src="/img/hof/james-hagood.jpg"
-                      className="hof-page-user__user-img" />
+                      <LazyLoadImage
+                          alt={'Daryl Dauphin'}
+                          effect="blur"
+                          src="/img/hall-of-fame/daryl-dauphin.webp"
+                          className="hof-page-user__user-img" />
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="hof-page-user__info">
-                    <span className="hof-page-user__name">James Hagood</span>
-                    <span className="hof-page-user__career">Shopify Developer</span>
+                    <span className="hof-page-user__name">Daryl Dauphin</span>
+                    <span className="hof-page-user__career">Digital Agency Owner</span>
                     <p className="hof-page-user__testimonial">
-                      Pretty much my whole adult life was spent trafficking loads of drugs from the west coast to the southeast and during that time I ended up getting on Heroin so after years of jail and rehab, I finally got clean but it was hard to get a real job.
+                    My name is Daryl Dauphin, I own a Digital Agency that helps new committed digital entrepreneurs increase sales online by launching optimized websites, without a marketing team. 
+I definitely got to this point in my life because Joe opened my eyes and challenged my mindset to grow as a person and to learn to code. His super simple to understand courses got me confident enough in my programming knowledge to land a job in less than a year.
+</p>
+                    <p className="hof-page-user__testimonial">
+                    Along with learning to code, I also learned business skills with Joe’s entrepreneur developer course. After finishing, it got me ready to build and launch my digital agency.
                     </p>
+
                     <p className="hof-page-user__testimonial">
-                      So I started learning web development and I spent about a year learning the MERN stack and as soon as I started looking for a job COVID hit. so I wasn’t sure what I was going to do because I bet every last dollar I had on learning how to be a developer (I didn’t even have running water at the time).
-                      So about that time I saw you on youtube talking about Shopify development and how COVID will help the growth of Shopify and I thought well that makes sense.
+                    This is all thanks to Joe from CodingPhase.
                     </p>
-                    <p className="hof-page-user__testimonial">
-                      I signed up for codingpahse to learn Shopify development and I immediately started getting work on Upwork doing Shopify theme work and I did that for almost a year until a company I had done some work for (through upwork) asked if I wanted to work for them full-time. So I have been working for them doing Shopify theme and app development and BigCommerce theme work for the past 9 or 10 months.</p>
 
                     <div className="relevant-links">
                       <span className="relevant-links__title">Check Out His Links</span>
                       <ul>
-                        {/* <li><a href="https://www.linkedin.com/in/james-hagood-154403199" className="relevant-links__link">Linkedin</a>
-                        </li> */}
-
+                        <li><a href="https://thisday.design/" className="relevant-links__link">Portfolio</a>
+                        </li>
+                        
                       </ul>
                     </div>
                   </div>
-
+                  
                 </div>
               </div>
             </div>
           </section>
-
+					
         </div>
-
+          
       </MainLayout>
-
+      
     </>
   )
 }

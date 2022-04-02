@@ -182,21 +182,21 @@ export default function Home() {
 					<div  className="container">
 						<div className="row">
 								<div className="col-md-6 center d-flex justify-content-center">
-									<a href="/hof" className="">
+									<a href="/hall-of-fame" className="">
 									<LazyLoadImage
                       alt={'image.alt'}
                       effect="blur"
-                      src="/img/hoflogo3.png" 
+                      src="/img/hall-of-famelogo3.png" 
 											className="hof-comp__logo"/>
 									</a>
 									
 								</div>
 								<div className="col-md-6 d-flex justify-content-center">
-									<a href="/hof" className="">
+									<a href="/hall-of-fame" className="">
 									<LazyLoadImage
                       alt={'Node JS Logo'}
                       effect="blur"
-                      src="/img/hofstudents.png" />
+                      src="/img/hall-of-famestudents.png" />
 										
 									</a>
 								

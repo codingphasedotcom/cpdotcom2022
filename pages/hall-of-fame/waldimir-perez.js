@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>CodingPhase | Ruel Misa</title>
+        <title>CodingPhase | Waldimir Perez</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout>
@@ -63,11 +63,11 @@ export default function Home() {
               <div className="row">
                 <div className="col-md-12 ">
                 <div className="d-flex justify-content-center">
-                  <a href="/hof">
+                  <a href="/hall-of-fame">
                     <LazyLoadImage
                       alt={'Hall Of Fame Logo'}
                       effect="blur"
-                      src="/img/hoflogo3.png"
+                      src="/img/hall-of-famelogo3.png"
                       className="hof-page-user__logo" />
                   </a>
                 </div>
@@ -77,34 +77,28 @@ export default function Home() {
                 <div className="offset-md-1 col-md-4">
                   <div className="hof-page-user__user">
                       <LazyLoadImage
-                          alt={'Ruel Misa Web Producer'}
+                          alt={'Wally Code'}
                           effect="blur"
-                          src="/img/hof/ruel-misa.jpg"
+                          src="/img/hall-of-fame/waldimir-perez.jpg"
                           className="hof-page-user__user-img" />
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="hof-page-user__info">
-                    <span className="hof-page-user__name">Ruel Misa</span>
-                    <span className="hof-page-user__career">Web Producer</span>
+                    <span className="hof-page-user__name">Waldimir Perez</span>
+                    <span className="hof-page-user__career">HTML Email Developer</span>
                     <p className="hof-page-user__testimonial">
-                    Stumbling upon CodingPhase’s youtube channel was a Godsend. Before, I was unfocused with what I wanted in my career. He woke me up and helped me regain that focus. So, I had to try out his services. It was 20 bucks (16 with the discount) which was a steal. He breaks down every lesson easily and imparts his experience on each; you can actually notice it.
+                    Been coding for give or take 5 months. Decided to go for employment ASAP. Chose the email dev track. Got a job within two weeks of applying! Your courses are straightforward, to the point, exactly what I had to learn to get a job. Thank you sooo much for your content, this job will change my family's future. Your courses gave me a sure path to kickstart my career.
                     </p>
                     <p className="hof-page-user__testimonial">
-                    After a few months (2.5 to 3), I got my breakthrough as a Web Producer for Haymarket. I am currently a yearly subscriber because I want to get into the Shopify and entrepreneurial courses in order to gradually build my own business. He provides gems on the daily and I can attest that you will get your money’s worth! Thank you again Joe! You definitely changed people's lives with your service!
+                    Currently budgeting out my life so i can buy a multifamily unit in a years time. Going job hop to a 70-90k job and buy that multi. It'll be a great start for my future family. My kids are going to be mami and papi kids. Thank you again!
                     </p>
-                    
 
                     <div className="relevant-links">
                       <span className="relevant-links__title">Check Out His Links</span>
-                      {/* <ul>
-                        <li><a href="http://billyrdz.com/" className="relevant-links__link">billyrdz.com</a>
-                        </li>
-                        <li><a href="https://twitter.com/billyrdz" className="relevant-links__link">Twitter</a>
-                        </li>
-                        <li><a href="https://www.linkedin.com/in/billyrdz" className="relevant-links__link">LinkedIn</a>
-                        </li>
-                      </ul> */}
+                      <ul>
+                        <li><a href="https://www.waldimirperez.com/" className="relevant-links__link">waldimirperez.com</a></li>
+                      </ul>
                     </div>
                   </div>
                   
