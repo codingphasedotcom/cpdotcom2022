@@ -16,7 +16,7 @@ export default function Header(){
                     </Link>
                 </div>
                 <div id="header-menu" className={`${mobileMenuOpen ? 'mobile-menu-open' : ''}`}>
-                    <Link href="/reviews">
+                    <Link href="/hall-of-fame">
                         <a>Reviews</a>
                     </Link>
                     <Link href="https://codingphase.teachable.com/courses">
@@ -35,8 +35,8 @@ export default function Header(){
                     <Link href="/contact-us">
                         <a>Contact Us</a>
                     </Link>
-                    <Link href="https://sso.teachable.com/secure/117955/users/sign_in">
-                        <a>Account</a>
+                    <Link href="https://sso.teachable.com/secure/117955/users/sign_in" >
+                        <a className="button">Account</a>
                     </Link>
                 </div>
                 <span className="mobile-icon" onClick={clickedOpen}>

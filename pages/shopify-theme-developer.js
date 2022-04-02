@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head'
 import Link from 'next/link'
-import MainLayout from '../../components/layouts/MainLayout'
+import MainLayout from '../components/layouts/MainLayout'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import ReactGA from 'react-ga';
-import Pricing from '../../components/Pricing';
-import getUrlParam from '../../components/getParam';
+import Pricing from '../components/Pricing';
+import getUrlParam from '../components/getParam';
 import ls from 'local-storage';
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
   const [affiliateActive, setAffiliateActive] = useState(false);
   useEffect(() => {
     ReactGA.initialize('UA-37043736-10');
-     
+
     if (typeof window !== 'undefined') {
       ReactGA.pageview(window.location.pathname + window.location.search);
     }
@@ -52,7 +52,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Shopify App Developer Career Path</title>
+        <title>Shopify Theme Developer Career Path</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout>
@@ -61,8 +61,8 @@ export default function Home() {
             <div className="row">
               <div className="col-md-6 align-middle">
                 <div className="left-info">
-                  <h1>SHOPIFY APP DEVELOPER</h1>
-                  <p>We are the only platform that goes beyond just teaching you how to get a job 
+                  <h1>SHOPIFY THEME DEVELOPER</h1>
+                  <p>We are the only platform that goes beyond just teaching you how to get a job
       we focus on skills that are in high demand but also allow you to make your own
       income independently online.</p>
                   <a href="#pricing" className="start-btn">
@@ -71,7 +71,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            
+
           </div>
         </section>
         <section id="timeline">
@@ -81,13 +81,13 @@ export default function Home() {
               <h2>Courses To Take</h2>
               <p>All courses are set in order in which you need to take them. If you see a 🔥 next to course title they are exclusive to Yearly Members and Career Bundles Owners.</p>
                 <div className="courses">
-                  <div className="course">
+                <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/visual-studio-code-101/lectures/9429539">
+                        <Link href=" https://codingphase.teachable.com/courses/visual-studio-code-101/lectures/9429539">
                           <a>
                             <span className="title">Text Editors</span>
                           </a>
@@ -101,7 +101,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/learn-html-and-css-by-building-a-cool-social-network/lectures/28048202">
+                        <Link href=" https://codingphase.teachable.com/courses/learn-html-and-css-by-building-a-cool-social-network/lectures/28048202">
                           <a>
                             <span className="title">HTML & CSS</span>
                           </a>
@@ -115,7 +115,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/terminal-for-developers/lectures/3316931">
+                        <Link href=" https://codingphase.teachable.com/courses/terminal-for-developers/lectures/3316931">
                           <a>
                             <span className="title">Terminal For Developers</span>
                           </a>
@@ -129,7 +129,35 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/git-like-a-pro/lectures/9849970">
+                        <Link href=" https://codingphase.teachable.com/courses/learn-advance-css-with-flexbox-and-css-grid-course/lectures/3946609">
+                          <a>
+                            <span className="title">Advance CSS with Flexbox and Grid</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        
+                      </div>
+                      <div className="col-md-10">
+                        <Link href=" https://codingphase.teachable.com/courses/sass-like-a-pro-course/lectures/3300829">
+                          <a>
+                            <span className="title">SASS Like A Pro</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        
+                      </div>
+                      <div className="col-md-10">
+                        <Link href=" https://codingphase.teachable.com/courses/git-like-a-pro/lectures/9849970">
                           <a>
                             <span className="title">Git Like A Pro</span>
                           </a>
@@ -143,7 +171,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/future-proof-javascript-course/lectures/2918049">
+                        <Link href=" https://codingphase.teachable.com/courses/future-proof-javascript-course/lectures/2918049">
                           <a>
                             <span className="title">Future Proof Javascript</span>
                           </a>
@@ -151,7 +179,35 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-									<div className="course">
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        
+                      </div>
+                      <div className="col-md-10">
+                        <Link href=" https://codingphase.teachable.com/courses/node-and-npm-basics/lectures/8766354">
+                          <a>
+                            <span className="title">Node and NPM Basics</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        
+                      </div>
+                      <div className="col-md-10">
+                        <Link href=" https://codingphase.teachable.com/courses/web-developer-personal-brand/lectures/5512136">
+                          <a>
+                            <span className="title">Web Developer Personal Brand</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
                         
@@ -171,23 +227,9 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/jquery-a-beginners-best-friend/lectures/3503191">
+                        <Link href=" https://codingphase.teachable.com/courses/object-oriented-programming-with-javascript-course/lectures/3664054">
                           <a>
-                            <span className="title">JQuery</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-									<div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        
-                      </div>
-                      <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/esnext-es6-es7-es8/lectures/3411587">
-                          <a>
-                            <span className="title">ESNEXT - ES6 to ES10</span>
+                            <span className="title">Object Oriented Programming With Javascript</span>
                           </a>
                         </Link>
                       </div>
@@ -199,56 +241,15 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/node-and-npm-basics/lectures/8766354">
+                        <Link href=" https://codingphase.teachable.com/courses/jquery-a-beginners-best-friend/lectures/3503191">
                           <a>
-                            <span className="title">Node and NPM Basics</span>
+                            <span className="title">JQuery</span>
                           </a>
                         </Link>
                       </div>
                     </div>
                   </div>
-									<div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        
-                      </div>
-                      <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/express-js-node-js-framework-course/lectures/12301190">
-                          <a>
-                            <span className="title">Express JS - Node JS Framework</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-									<div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        
-                      </div>
-                      <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/koa-js-node-js-framework-course/lectures/22792639">
-                          <a>
-                            <span className="title">Koa - Node JS Framework</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-									<div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        
-                      </div>
-                      <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/learn-php-7-and-laravel-master-course/lectures/3676397">
-                          <a>
-                            <span className="title">PHP 7 and Laravel</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
+
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
@@ -269,9 +270,9 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/shopify-app-development/lectures/22718566">
+                        <Link href="https://codingphase.teachable.com/courses/shopify-theme-development-course/lectures/16872345">
                           <a>
-                            <span className="title">Shopify App Development With Node JS 🔥</span>
+                            <span className="title">Shopify Theme Development 🔥</span>
                           </a>
                         </Link>
                       </div>
@@ -283,42 +284,14 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/master-shopify-app-course-with-node-js/lectures/35271142">
+                        <Link href="https://codingphase.teachable.com/courses/shopify-theme-development-2-0/lectures/33402399">
                           <a>
-                            <span className="title">Master Shopify App Development Course with Node JS 🔥</span>
+                            <span className="title">Shopify Online Store 2.0 🔥</span>
                           </a>
                         </Link>
                       </div>
                     </div>
                   </div>
-									<div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        
-                      </div>
-                      <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/advanced-shopify-app-development-with-php-and-laravel/lectures/24381887">
-                          <a>
-                            <span className="title">Advanced Shopify App Development with PHP Laravel 🔥</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-									{/* <div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        
-                      </div>
-                      <div className="col-md-10">
-                        <Link href="#">
-                          <a>
-                            <span className="title">Vapor - Serverless Deployment Auto Scale 🔥</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div> */}
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
@@ -347,6 +320,20 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        
+                      </div>
+                      <div className="col-md-10">
+                        <Link href="https://codingphase.teachable.com/courses/design-for-developers/lectures/11000334">
+                          <a>
+                            <span className="title">Design Software For Developers 🔥</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="col-md-6 jobs">
@@ -367,7 +354,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        
+
         <section id="projects">
           <div className="container">
             <div className="row">
@@ -390,16 +377,16 @@ export default function Home() {
               </div>
             </div>
           </div>
-          
+
         </section>
-        <Pricing location="course" bundleURL="https://codingphase.teachable.com/p/shopify-developer-career-bundle" bundlePrice="500" couponActive={couponActive} affiliateActive={affiliateActive}/>
-        
+        <Pricing location="course" bundleURL=" https://codingphase.teachable.com/p/shopify-developer-career-bundle" bundlePrice="500" couponActive={couponActive} affiliateActive={affiliateActive}/>
+
       </MainLayout>
       <style jsx>{`
-        
+
       `}
       </style>
-      
+
       <style global jsx>{`
         a{
           text-decoration: none;

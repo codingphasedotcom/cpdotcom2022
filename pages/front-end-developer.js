@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head'
 import Link from 'next/link'
-import MainLayout from '../../components/layouts/MainLayout'
+import MainLayout from '../components/layouts/MainLayout'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import ReactGA from 'react-ga';
-import Pricing from '../../components/Pricing';
-import getUrlParam from '../../components/getParam';
+import Pricing from '../components/Pricing';
+import getUrlParam from '../components/getParam';
 import ls from 'local-storage';
 
 export default function Home() {
@@ -52,7 +52,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Full Stack Developer Career Path</title>
+        <title>Front End Developer Career Path</title>``
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout>
@@ -61,7 +61,7 @@ export default function Home() {
             <div className="row">
               <div className="col-md-6 align-middle">
                 <div className="left-info">
-                  <h1>Full Stack Developer</h1>
+                  <h1>Frontend Developer</h1>
                   <p>We are the only platform that goes beyond just teaching you how to get a job 
       we focus on skills that are in high demand but also allow you to make your own
       income independently online.</p>
@@ -227,6 +227,20 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/286837">
+                          <a>
+                            <span className="title">Gulp</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        
+                      </div>
+                      <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/responsive-html-emails-course/lectures/5361353">
                           <a>
                             <span className="title">Responsive HTML Emails</span>
@@ -241,7 +255,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/how-to-deploy-your-site/lectures/5172927">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/336889">
                           <a>
                             <span className="title">How To Deploy Your Site</span>
                           </a>
@@ -325,7 +339,7 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/react-quick-and-easy/lectures/3351243">
+                        <Link href=" https://codingphase.teachable.com/courses/enrolled/215976">
                           <a>
                             <span className="title">React - Quick and Easy</span>
                           </a>
@@ -375,131 +389,20 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        
-                      </div>
-                      <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/express-js-node-js-framework-course/lectures/12301190">
-                          <a>
-                            <span className="title">Express JS</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        
-                      </div>
-                      <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/learn-mysql-with-node-js-course/lectures/6303562">
-                          <a>
-                            <span className="title">MySQL</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        
-                      </div>
-                      <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/learn-php-7-and-laravel-master-course/lectures/3676397">
-                          <a>
-                            <span className="title">PHP 7 and Laravel Master Course</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        
-                      </div>
-                      <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/restaurant-web-application-with-laravel-and-react/lectures/13979650">
-                          <a>
-                            <span className="title">Restaurant Application - PHP Laravel, React</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        
-                      </div>
-                      <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/python3-bootcamp-course/lectures/10734408">
-                          <a>
-                            <span className="title">Python 3</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        
-                      </div>
-                      <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/learn-ruby-backend-developer-master-course/lectures/4060922">
-                          <a>
-                            <span className="title">Ruby</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        
-                      </div>
-                      <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/ruby-on-rails/lectures/4213437">
-                          <a>
-                            <span className="title">Ruby On Rails</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        
-                      </div>
-                      <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/web-developer-personal-brand/lectures/5512136">
-                          <a>
-                            <span className="title">Web Developer Personal Brand</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
               <div className="col-md-6 jobs">
                 <h2>Real Skills For Jobs Check On Indeed</h2>
                 <div className="path">
-                  <Link href="https://www.indeed.com/jobs?q=title%3Afull%20stack%20developer&l&vjk=d94b7bc8e309bc3e">
+                  <Link href="https://www.indeed.com/jobs?q=title%3Afrontend%20developer&l&vjk=d0a69069a194c28e">
                     <a target="new">
                     <LazyLoadImage
-                      src="/img/full-stack-jobs.jpg"
+                      src="/img/frontend-dev-jobs.jpg"
                       alt="Landscape picture"
                       effect="blur"
                        />
                     
+                      
                     </a>
                   </Link>
                 </div>

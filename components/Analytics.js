@@ -15,7 +15,7 @@ export default function Analytics(){
               <h2>Career Paths</h2>
               <div className="col-md-3">
                 <div className="path">
-                  <Link href="/career-path/html-email-developer">
+                  <Link href="/html-email-developer">
                     <a>
                     <LazyLoadImage
                       alt={'image.alt'}
@@ -28,7 +28,7 @@ export default function Analytics(){
               </div>
               <div className="col-md-3">
                 <div className="path">
-                  <Link href="/career-path/front-end-developer">
+                  <Link href="/front-end-developer">
                     <a>
                     <LazyLoadImage
                       alt={'image.alt'}
@@ -43,7 +43,7 @@ export default function Analytics(){
               </div>
               <div className="col-md-3">
                 <div className="path">
-                  <Link href="/career-path/back-end-developer">
+                  <Link href="/back-end-developer">
                     <a>
                     <LazyLoadImage
                       alt={'image.alt'}
@@ -56,7 +56,7 @@ export default function Analytics(){
               </div>
               <div className="col-md-3">
                 <div className="path">
-                  <Link href="/career-path/full-stack-developer">
+                  <Link href="/full-stack-developer">
                     <a>
                       <LazyLoadImage
                         alt={'image.alt'}
@@ -69,7 +69,7 @@ export default function Analytics(){
               </div>
               <div className="offset-md-3 col-md-3">
                 <div className="path">
-                  <Link href="/career-path/shopify-developer">
+                  <Link href="/shopify-developer">
                     <a>
                       <LazyLoadImage
                           alt={'image.alt'}
@@ -82,7 +82,7 @@ export default function Analytics(){
               </div>
               <div className="col-md-3">
                 <div className="path">
-                  <Link href="/career-path/wordpress-developer">
+                  <Link href="/wordpress-developer">
                     <a>
                       <LazyLoadImage
                       alt={'image.alt'}

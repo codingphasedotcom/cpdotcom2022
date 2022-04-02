@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head'
 import Link from 'next/link'
-import MainLayout from '../../components/layouts/MainLayout'
+import MainLayout from '../components/layouts/MainLayout'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import ReactGA from 'react-ga';
-import Pricing from '../../components/Pricing';
-import getUrlParam from '../../components/getParam';
+import Pricing from '../components/Pricing';
+import getUrlParam from '../components/getParam';
 import ls from 'local-storage';
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
   const [affiliateActive, setAffiliateActive] = useState(false);
   useEffect(() => {
     ReactGA.initialize('UA-37043736-10');
-
+     
     if (typeof window !== 'undefined') {
       ReactGA.pageview(window.location.pathname + window.location.search);
     }
@@ -52,7 +52,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Shopify Theme Developer Career Path</title>
+        <title>HTML Email Developer Career Path</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout>
@@ -61,8 +61,8 @@ export default function Home() {
             <div className="row">
               <div className="col-md-6 align-middle">
                 <div className="left-info">
-                  <h1>SHOPIFY THEME DEVELOPER</h1>
-                  <p>We are the only platform that goes beyond just teaching you how to get a job
+                  <h1>HTML EMAIL DEVELOPER</h1>
+                  <p>We are the only platform that goes beyond just teaching you how to get a job 
       we focus on skills that are in high demand but also allow you to make your own
       income independently online.</p>
                   <a href="#pricing" className="start-btn">
@@ -71,20 +71,21 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
+            
           </div>
         </section>
         <section id="timeline">
           <div className="container">
             <div className="row g-3">
+              
               <div className="col-md-6 ">
               <h2>Courses To Take</h2>
               <p>All courses are set in order in which you need to take them. If you see a 🔥 next to course title they are exclusive to Yearly Members and Career Bundles Owners.</p>
                 <div className="courses">
-                <div className="course">
+                  <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        
+                      
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/visual-studio-code-101/lectures/9429539">
@@ -98,7 +99,7 @@ export default function Home() {
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
-                        
+                      
                       </div>
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/learn-html-and-css-by-building-a-cool-social-network/lectures/28048202">
@@ -199,9 +200,9 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/web-developer-personal-brand/lectures/5512136">
+                        <Link href=" https://codingphase.teachable.com/courses/responsive-html-emails-course/lectures/5361353">
                           <a>
-                            <span className="title">Web Developer Personal Brand</span>
+                            <span className="title">Responsive HTML Emails</span>
                           </a>
                         </Link>
                       </div>
@@ -213,9 +214,9 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/debugging-like-a-pro/lectures/9896883">
+                        <Link href=" https://codingphase.teachable.com/courses/html-email-frameworks/lectures/9447974">
                           <a>
-                            <span className="title">Debuggin Like A Pro</span>
+                            <span className="title">HTML Emails Frameworks 🔥</span>
                           </a>
                         </Link>
                       </div>
@@ -227,9 +228,9 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/object-oriented-programming-with-javascript-course/lectures/3664054">
+                        <Link href=" https://codingphase.teachable.com/courses/design-for-developers/lectures/11000334">
                           <a>
-                            <span className="title">Object Oriented Programming With Javascript</span>
+                            <span className="title">Design Softwares For Developers 🔥</span>
                           </a>
                         </Link>
                       </div>
@@ -241,120 +242,48 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/jquery-a-beginners-best-friend/lectures/3503191">
+                        <Link href=" https://codingphase.teachable.com/courses/freelancer-guide-email-developer/lectures/11147617">
                           <a>
-                            <span className="title">JQuery</span>
+                            <span className="title">Freelancer Guide 🔥</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="course">
+                    <div className="row g-3">
+                      <div className="col-md-1">
+                        
+                      </div>
+                      <div className="col-md-10">
+                        <Link href=" https://codingphase.teachable.com/courses/job-ready-email-developer/lectures/11078532">
+                          <a>
+                            <span className="title">Job Ready: Email Developer 🔥</span>
                           </a>
                         </Link>
                       </div>
                     </div>
                   </div>
 
-                  <div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        
-                      </div>
-                      <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/my-first-shopify-store-course/lectures/16872141">
-                          <a>
-                            <span className="title">My First Shopify Store 🔥</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        
-                      </div>
-                      <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/shopify-theme-development-course/lectures/16872345">
-                          <a>
-                            <span className="title">Shopify Theme Development 🔥</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        
-                      </div>
-                      <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/shopify-theme-development-2-0/lectures/33402399">
-                          <a>
-                            <span className="title">Shopify Online Store 2.0 🔥</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        
-                      </div>
-                      <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/google-analytics-course/lectures/11737858">
-                          <a>
-                            <span className="title">Google Analytics 🔥</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        
-                      </div>
-                      <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/facebook-and-google-ads-marketing/lectures/12732525">
-                          <a>
-                            <span className="title">Facebook and Google Ads Marketing 🔥</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        
-                      </div>
-                      <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/design-for-developers/lectures/11000334">
-                          <a>
-                            <span className="title">Design Software For Developers 🔥</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
                 </div>
+                
               </div>
               <div className="col-md-6 jobs">
                 <h2>Real Skills For Jobs Check On Indeed</h2>
                 <div className="path">
-                  <Link href="https://www.indeed.com/jobs?q=title%3Afront%20end%20developer&l&vjk=d8fdabe51ecc95fe">
-                    <a target="new">
-                    <LazyLoadImage
-                      src="/img/shopify-dev-jobs.jpg"
+                  <Link href="https://www.indeed.com/jobs?q=title%3Afront%20end%20developer&l&vjk=d8fdabe51ecc95fe" passHref>
+                  <LazyLoadImage
+                      src="/img/email-dev-jobs.png"
                       alt="Landscape picture"
                       effect="blur"
                        />
                     
-                    </a>
                   </Link>
                 </div>
               </div>
             </div>
           </div>
         </section>
-
         <section id="projects">
           <div className="container">
             <div className="row">
@@ -368,25 +297,24 @@ export default function Home() {
                   <li>Responsive Layout With CSS Grid</li>
                   <li>Notifications App</li>
                   <li>Pokemon Rock, Papers, Scissors Battle</li>
-                  <li>Learn the shopify dashboard</li>
-                  <li>Learn AJAX</li>
-                  <li>Build Custom Shopify Theme</li>
-                  <li>Liquid Template Language</li>
+                  <li>Product Responsive Email</li>
+                  <li>Hotel Chain Responsive Email</li>
+                  <li>Deploying Responsive Emails</li>
+                  <li>Testing Emails On Litmus</li>
                   <li>Design Software - Photoshop and Sketch</li>
                 </ul>
               </div>
             </div>
           </div>
-
+          
         </section>
-        <Pricing location="course" bundleURL=" https://codingphase.teachable.com/p/shopify-developer-career-bundle" bundlePrice="500" couponActive={couponActive} affiliateActive={affiliateActive}/>
-
+        <Pricing location="course" bundleURL=" https://codingphase.teachable.com/p/html-email-developer-career-bundle" bundlePrice="500" couponActive={couponActive} affiliateActive={affiliateActive}/>
       </MainLayout>
       <style jsx>{`
-
+        
       `}
       </style>
-
+      
       <style global jsx>{`
         a{
           text-decoration: none;

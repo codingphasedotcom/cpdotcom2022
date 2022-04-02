@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head'
 import Link from 'next/link'
-import MainLayout from '../../components/layouts/MainLayout'
+import MainLayout from '../components/layouts/MainLayout'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import ReactGA from 'react-ga';
-import Pricing from '../../components/Pricing';
-import getUrlParam from '../../components/getParam';
+import Pricing from '../components/Pricing';
+import getUrlParam from '../components/getParam';
 import ls from 'local-storage';
 
 export default function Home() {

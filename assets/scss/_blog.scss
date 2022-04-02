@@ -26,11 +26,12 @@
         }
         p{
             color: rgb(91, 105, 135);
-            font-size: 16px;
             font-style: normal;
             font-weight: normal;
             line-height: 28px;
             margin-bottom: 2rem;
+            font-size: 1.2rem;
+            overflow-wrap: break-word;
         }
         ul{
             li{

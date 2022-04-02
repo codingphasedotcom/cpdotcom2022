@@ -18,7 +18,7 @@ export default function Paths(){
               </div>
               <div className="col-md-3">
                 <div className="career-paths__path">
-                  <Link href="/career-path/content-editor">
+                  <Link href="/content-editor">
                     <a>
                     <LazyLoadImage
                       alt={'content editor'}
@@ -31,7 +31,7 @@ export default function Paths(){
               </div>
               <div className="col-md-3">
                 <div className="career-paths__path">
-                  <Link href="/career-path/html-email-developer">
+                  <Link href="/html-email-developer">
                     <a>
                     <LazyLoadImage
                       alt={'image.alt'}
@@ -45,7 +45,7 @@ export default function Paths(){
               
               <div className="col-md-3">
                 <div className="career-paths__path">
-                  <Link href="/career-path/front-end-developer">
+                  <Link href="/front-end-developer">
                     <a>
                     <LazyLoadImage
                       alt={'image.alt'}
@@ -60,7 +60,7 @@ export default function Paths(){
               </div>
               <div className="col-md-3">
                 <div className="career-paths__path">
-                  <Link href="/career-path/back-end-developer">
+                  <Link href="/back-end-developer">
                     <a>
                     <LazyLoadImage
                       alt={'image.alt'}
@@ -73,7 +73,7 @@ export default function Paths(){
               </div>
               <div className="col-md-3">
                 <div className="career-paths__path">
-                  <Link href="/career-path/full-stack-developer">
+                  <Link href="/full-stack-developer">
                     <a>
                       <LazyLoadImage
                         alt={'image.alt'}
@@ -86,7 +86,7 @@ export default function Paths(){
               </div>
               <div className="col-md-3">
                 <div className="career-paths__path">
-                  <Link href="/career-path/react-developer">
+                  <Link href="/react-developer">
                     <a>
                       <LazyLoadImage
                           alt={'react developer career path'}
@@ -99,7 +99,7 @@ export default function Paths(){
               </div>
               <div className="col-md-3">
                 <div className="career-paths__path">
-                  <Link href="/career-path/shopify-theme-developer">
+                  <Link href="/shopify-theme-developer">
                     <a>
                       <LazyLoadImage
                           alt={'image.alt'}
@@ -112,7 +112,7 @@ export default function Paths(){
               </div>
               <div className="col-md-3">
                 <div className="career-paths__path">
-                  <Link href="/career-path/shopify-app-developer">
+                  <Link href="/shopify-app-developer">
                     <a>
                       <LazyLoadImage
                           alt={'image.alt'}
@@ -125,7 +125,7 @@ export default function Paths(){
               </div>
               <div className="col-md-3">
                 <div className="career-paths__path">
-                  <Link href="/career-path/entrepreneur-developer">
+                  <Link href="/entrepreneur-developer">
                     <a>
                       <LazyLoadImage
                           alt={'image.alt'}
@@ -139,7 +139,7 @@ export default function Paths(){
               
               {/* <div className="col-md-3">
                 <div className="career-paths__path">
-                  <Link href="/career-path/wordpress-developer">
+                  <Link href="/wordpress-developer">
                     <a>
                       <LazyLoadImage
                       alt={'image.alt'}
@@ -152,7 +152,7 @@ export default function Paths(){
               </div>
               <div className="col-md-3">
                 <div className="career-paths__path">
-                  <Link href="/career-path/wordpress-developer">
+                  <Link href="/wordpress-developer">
                     <a>
                       <LazyLoadImage
                       alt={'image.alt'}
