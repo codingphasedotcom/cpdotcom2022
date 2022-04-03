@@ -67,7 +67,7 @@ export default function Home() {
                                             <LazyLoadImage
                                                 alt={'Hall Of Fame Logo'}
                                                 effect="blur"
-                                                src="/img/hall-of-famelogo3.png"
+                                                src="/img/hoflogo3.png"
                                                 className="hof-page-user__logo" />
                                         </a>
                                     </div>
@@ -79,7 +79,7 @@ export default function Home() {
                                         <LazyLoadImage
                                             alt={'Devin Martinez'}
                                             effect="blur"
-                                            src="/img/hall-of-fame/devin-martinez.webp"
+                                            src="/img/hof/devin-martinez.webp"
                                             className="hof-page-user__user-img" />
                                     </div>
                                 </div>

@@ -67,7 +67,7 @@ export default function Home() {
                     <LazyLoadImage
                       alt={'Hall Of Fame Logo'}
                       effect="blur"
-                      src="/img/hall-of-famelogo3.png"
+                      src="/img/hoflogo3.png"
                       className="hof-page__logo" />
                   </a>
                 </div>
@@ -80,7 +80,7 @@ export default function Home() {
                     <LazyLoadImage
                         alt={'Wally Code'}
                         effect="blur"
-                        src="/img/hall-of-fame/waldimir-perez.jpg"
+                        src="/img/hof/waldimir-perez.jpg"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Waldimir P.</span>
                     <span className="hof-page__career">HTML Email Developer</span>
@@ -93,7 +93,7 @@ export default function Home() {
                     <LazyLoadImage
                         alt={'David Norris'}
                         effect="blur"
-                        src="/img/hall-of-fame/david-norris.jpg"
+                        src="/img/hof/david-norris.jpg"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">David N. </span>
                     <span className="hof-page__career">Full Stack Developer</span>
@@ -106,7 +106,7 @@ export default function Home() {
                     <LazyLoadImage
                         alt={'Amit Patel'}
                         effect="blur"
-                        src="/img/hall-of-fame/amit-patel.jpg"
+                        src="/img/hof/amit-patel.jpg"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Amit P. </span>
                     <span className="hof-page__career">Shopify Developer</span>
@@ -119,7 +119,7 @@ export default function Home() {
                     <LazyLoadImage
                         alt={'Billy Rodriguez HTML Email Developer'}
                         effect="blur"
-                        src="/img/hall-of-fame/billy-rodriguez.jpg"
+                        src="/img/hof/billy-rodriguez.jpg"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Billy R. </span>
                     <span className="hof-page__career">HTML Email Developer</span>
@@ -132,7 +132,7 @@ export default function Home() {
                     <LazyLoadImage
                         alt={'Ruel Misa Web Producer'}
                         effect="blur"
-                        src="/img/hall-of-fame/ruel-misa.jpg"
+                        src="/img/hof/ruel-misa.jpg"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Ruel M. </span>
                     <span className="hof-page__career">Web Producer</span>
@@ -145,7 +145,7 @@ export default function Home() {
                     <LazyLoadImage
                         alt={'Kevin Mosley Software Engineer'}
                         effect="blur"
-                        src="/img/hall-of-fame/kevin-mosley.jpg"
+                        src="/img/hof/kevin-mosley.jpg"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Kevin M. </span>
                     <span className="hof-page__career">Software Engineer</span>
@@ -158,7 +158,7 @@ export default function Home() {
                     <LazyLoadImage
                         alt={'Emmanuel Perez Email Developer'}
                         effect="blur"
-                        src="/img/hall-of-fame/emmanuel-perez.webp"
+                        src="/img/hof/emmanuel-perez.webp"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Emmanuel P. </span>
                     <span className="hof-page__career">Email Developer</span>
@@ -171,7 +171,7 @@ export default function Home() {
                     <LazyLoadImage
                         alt={'Francis Turinayo Email Developer'}
                         effect="blur"
-                        src="/img/hall-of-fame/francis-turinayo.webp"
+                        src="/img/hof/francis-turinayo.webp"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Francis T. </span>
                     <span className="hof-page__career">Email Developer</span>
@@ -184,7 +184,7 @@ export default function Home() {
                     <LazyLoadImage
                         alt={'Francis Turinayo Email Developer'}
                         effect="blur"
-                        src="/img/hall-of-fame/daryl-dauphin.webp"
+                        src="/img/hof/daryl-dauphin.webp"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Daryl D. </span>
                     <span className="hof-page__career">Digital Agency Owner</span>
@@ -197,7 +197,7 @@ export default function Home() {
                     <LazyLoadImage
                         alt={'Nicksonde Examar Email Developer'}
                         effect="blur"
-                        src="/img/hall-of-fame/nicksonder-examar.jpeg"
+                        src="/img/hof/nicksonder-examar.jpeg"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Nicksonder E. </span>
                     <span className="hof-page__career">Front End Developer</span>
@@ -210,7 +210,7 @@ export default function Home() {
                     <LazyLoadImage
                         alt={'Jerome Young Email Developer'}
                         effect="blur"
-                        src="/img/hall-of-fame/jerome-young.png"
+                        src="/img/hof/jerome-young.png"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Jerome Y. </span>
                     <span className="hof-page__career">Email Developer</span>
@@ -223,7 +223,7 @@ export default function Home() {
                     <LazyLoadImage
                         alt={'Jon Disla Web Content Manager'}
                         effect="blur"
-                        src="/img/hall-of-fame/jon-disla.png"
+                        src="/img/hof/jon-disla.png"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Jon D. </span>
                     <span className="hof-page__career">Web Content Manager</span>
@@ -236,7 +236,7 @@ export default function Home() {
                     <LazyLoadImage
                         alt={'Sita Web Content Editor'}
                         effect="blur"
-                        src="/img/hall-of-fame/sita.webp"
+                        src="/img/hof/sita.webp"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Sita</span>
                     <span className="hof-page__career">Web Content Editor</span>
@@ -249,7 +249,7 @@ export default function Home() {
                     <LazyLoadImage
                         alt={'Ivan Hurt Salesforce Email Developer'}
                         effect="blur"
-                        src="/img/hall-of-fame/ivan-hurt.webp"
+                        src="/img/hof/ivan-hurt.webp"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Ivan Hurt</span>
                     <span className="hof-page__career">Salesforce Email Developer</span>
@@ -262,7 +262,7 @@ export default function Home() {
                     <LazyLoadImage
                         alt={'Ivan Hurt Salesforce Email Developer'}
                         effect="blur"
-                        src="/img/hall-of-fame/cameron-everett.jpg"
+                        src="/img/hof/cameron-everett.jpg"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Cameron Everett</span>
                     <span className="hof-page__career">Web Developer</span>
@@ -275,7 +275,7 @@ export default function Home() {
                     <LazyLoadImage
                         alt={'James Hagood Shopify Developer'}
                         effect="blur"
-                        src="/img/hall-of-fame/james-hagood.jpg"
+                        src="/img/hof/james-hagood.jpg"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">James Hagood</span>
                     <span className="hof-page__career">Shopify Developer</span>
@@ -288,7 +288,7 @@ export default function Home() {
                     <LazyLoadImage
                         alt={'Donly Wilson Web Developer'}
                         effect="blur"
-                        src="/img/hall-of-fame/donly-wilson.jpg"
+                        src="/img/hof/donly-wilson.jpg"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Donly Wilson</span>
                     <span className="hof-page__career">Web Developer</span>
@@ -301,7 +301,7 @@ export default function Home() {
                     <LazyLoadImage
                         alt={'Devin Martinez Email Developer'}
                         effect="blur"
-                        src="/img/hall-of-fame/devin-martinez.jpg"
+                        src="/img/hof/devin-martinez.jpg"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Devin Martinez</span>
                     <span className="hof-page__career">Email Developer</span>
@@ -314,7 +314,7 @@ export default function Home() {
                     <LazyLoadImage
                         alt={'Renell Tigue Shopify Developer'}
                         effect="blur"
-                        src="/img/hall-of-fame/renell-tigue.jpg"
+                        src="/img/hof/renell-tigue.jpg"
                         className="hof-page__user-img" />
                         <span className="hof-page__name">Renell Tigue</span>
                     <span className="hof-page__career">Shopify Developer</span>
