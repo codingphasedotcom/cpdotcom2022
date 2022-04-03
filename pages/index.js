@@ -186,7 +186,7 @@ export default function Home() {
 									<LazyLoadImage
                       alt={'image.alt'}
                       effect="blur"
-                      src="/img/hall-of-famelogo3.png" 
+                      src="/img/hoflogo3.png" 
 											className="hof-comp__logo"/>
 									</a>
 									
@@ -196,7 +196,7 @@ export default function Home() {
 									<LazyLoadImage
                       alt={'Node JS Logo'}
                       effect="blur"
-                      src="/img/hall-of-famestudents.png" />
+                      src="/img/hofstudents.png" />
 										
 									</a>
 								
