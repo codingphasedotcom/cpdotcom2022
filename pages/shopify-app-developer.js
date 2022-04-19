@@ -257,7 +257,7 @@ export default function Home() {
                       <div className="col-md-10">
                         <Link href="https://codingphase.teachable.com/courses/my-first-shopify-store-course/lectures/16872141">
                           <a>
-                            <span className="title">My First Shopify Store 🔥</span>
+                            <span className="title">My First Shopify Store  💎</span>
                           </a>
                         </Link>
                       </div>
@@ -271,7 +271,7 @@ export default function Home() {
                       <div className="col-md-10">
                         <Link href="https://codingphase.teachable.com/courses/shopify-app-development/lectures/22718566">
                           <a>
-                            <span className="title">Shopify App Development With Node JS 🔥</span>
+                            <span className="title">Shopify App Development With Node JS  💎</span>
                           </a>
                         </Link>
                       </div>
@@ -285,7 +285,7 @@ export default function Home() {
                       <div className="col-md-10">
                         <Link href="https://codingphase.teachable.com/courses/master-shopify-app-course-with-node-js/lectures/35271142">
                           <a>
-                            <span className="title">Master Shopify App Development Course with Node JS 🔥</span>
+                            <span className="title">Master Shopify App Development Course with Node JS  💎</span>
                           </a>
                         </Link>
                       </div>
@@ -299,7 +299,7 @@ export default function Home() {
                       <div className="col-md-10">
                         <Link href="https://codingphase.teachable.com/courses/advanced-shopify-app-development-with-php-and-laravel/lectures/24381887">
                           <a>
-                            <span className="title">Advanced Shopify App Development with PHP Laravel 🔥</span>
+                            <span className="title">Advanced Shopify App Development with PHP Laravel  💎</span>
                           </a>
                         </Link>
                       </div>
@@ -327,7 +327,7 @@ export default function Home() {
                       <div className="col-md-10">
                         <Link href="https://codingphase.teachable.com/courses/google-analytics-course/lectures/11737858">
                           <a>
-                            <span className="title">Google Analytics 🔥</span>
+                            <span className="title">Google Analytics  💎</span>
                           </a>
                         </Link>
                       </div>
@@ -341,7 +341,7 @@ export default function Home() {
                       <div className="col-md-10">
                         <Link href="https://codingphase.teachable.com/courses/facebook-and-google-ads-marketing/lectures/12732525">
                           <a>
-                            <span className="title">Facebook and Google Ads Marketing 🔥</span>
+                            <span className="title">Facebook and Google Ads Marketing  💎</span>
                           </a>
                         </Link>
                       </div>

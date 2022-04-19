@@ -217,7 +217,7 @@ export default function Home() {
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/express-js-node-js-framework-course/lectures/12301190">
                           <a>
-                            <span className="title">Express JS</span>
+                            <span className="title">Express JS 💎</span>
                           </a>
                         </Link>
                       </div>
@@ -231,7 +231,7 @@ export default function Home() {
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/learn-mysql-with-node-js-course/lectures/6303562">
                           <a>
-                            <span className="title">MySQL</span>
+                            <span className="title">MySQL 💎</span>
                           </a>
                         </Link>
                       </div>
@@ -245,7 +245,7 @@ export default function Home() {
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/learn-php-7-and-laravel-master-course/lectures/3676397">
                           <a>
-                            <span className="title">PHP 7 and Laravel Master Course</span>
+                            <span className="title">PHP 7 and Laravel Master Course 💎</span>
                           </a>
                         </Link>
                       </div>
@@ -259,7 +259,7 @@ export default function Home() {
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/restaurant-web-application-with-laravel-and-react/lectures/13979650">
                           <a>
-                            <span className="title">Restaurant Application - PHP Laravel, React</span>
+                            <span className="title">Restaurant Application - PHP Laravel, React 💎</span>
                           </a>
                         </Link>
                       </div>
@@ -273,7 +273,7 @@ export default function Home() {
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/python3-bootcamp-course/lectures/10734408">
                           <a>
-                            <span className="title">Python 3</span>
+                            <span className="title">Python 3 💎</span>
                           </a>
                         </Link>
                       </div>
@@ -287,7 +287,7 @@ export default function Home() {
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/learn-ruby-backend-developer-master-course/lectures/4060922">
                           <a>
-                            <span className="title">Ruby</span>
+                            <span className="title">Ruby 💎</span>
                           </a>
                         </Link>
                       </div>
@@ -301,26 +301,13 @@ export default function Home() {
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/ruby-on-rails/lectures/4213437">
                           <a>
-                            <span className="title">Ruby On Rails</span>
+                            <span className="title">Ruby On Rails 💎</span>
                           </a>
                         </Link>
                       </div>
                     </div>
                   </div>
-                  <div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        
-                      </div>
-                      <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/web-developer-personal-brand/lectures/5512136">
-                          <a>
-                            <span className="title">Web Developer Personal Brand</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
+                  
                   
                   
                   

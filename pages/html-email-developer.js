@@ -172,9 +172,9 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/future-proof-javascript-course/lectures/2918049">
+                        <Link href="https://codingphase.teachable.com/courses/practical-javascript-course/lectures/31108107">
                           <a>
-                            <span className="title">Future Proof Javascript</span>
+                            <span className="title">Practical Javascript 💎</span>
                           </a>
                         </Link>
                       </div>
@@ -202,7 +202,7 @@ export default function Home() {
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/responsive-html-emails-course/lectures/5361353">
                           <a>
-                            <span className="title">Responsive HTML Emails</span>
+                            <span className="title">Responsive HTML Emails 💎</span>
                           </a>
                         </Link>
                       </div>
@@ -216,7 +216,7 @@ export default function Home() {
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/html-email-frameworks/lectures/9447974">
                           <a>
-                            <span className="title">HTML Emails Frameworks 🔥</span>
+                            <span className="title">HTML Emails Frameworks  💎</span>
                           </a>
                         </Link>
                       </div>
@@ -230,7 +230,7 @@ export default function Home() {
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/design-for-developers/lectures/11000334">
                           <a>
-                            <span className="title">Design Softwares For Developers 🔥</span>
+                            <span className="title">Design Softwares For Developers  💎</span>
                           </a>
                         </Link>
                       </div>
@@ -244,7 +244,7 @@ export default function Home() {
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/freelancer-guide-email-developer/lectures/11147617">
                           <a>
-                            <span className="title">Freelancer Guide 🔥</span>
+                            <span className="title">Freelancer Guide  💎</span>
                           </a>
                         </Link>
                       </div>
@@ -258,7 +258,7 @@ export default function Home() {
                       <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/job-ready-email-developer/lectures/11078532">
                           <a>
-                            <span className="title">Job Ready: Email Developer 🔥</span>
+                            <span className="title">Job Ready: Email Developer  💎</span>
                           </a>
                         </Link>
                       </div>

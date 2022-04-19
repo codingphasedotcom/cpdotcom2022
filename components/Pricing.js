@@ -137,7 +137,7 @@ export default function Pricing (props) {
 								<br />
 							</span>
 							<Link
-								href={`https://codingphase.teachable.com/p/all-courses-subscription?utm_source=codingphase.com&utm_medium=homepage&utm_campaign=pricing%20sign%20up${
+								href={`https://codingphase.teachable.com/p/gold-membership?utm_source=codingphase.com&utm_medium=homepage&utm_campaign=pricing%20sign%20up${
 									props.couponActive
 										? `&coupon_code=${props.couponActive.coupon}`
 										: ""
@@ -151,9 +151,8 @@ export default function Pricing (props) {
 						</div>
 						<div className="tier filled">
 							<span className="title">Diamond</span>
-							<span className="price blur-price">
-								$???
-								{/* {totalPrice(397, props.couponActive.percent)} */}
+							<span className="price">
+								{totalPrice(375, props.couponActive.percent)}
 							</span>
 							<span className="info">
 								✅ All Courses Plus 💎

@@ -227,34 +227,6 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/286837">
-                          <a>
-                            <span className="title">Gulp</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        
-                      </div>
-                      <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/responsive-html-emails-course/lectures/5361353">
-                          <a>
-                            <span className="title">Responsive HTML Emails</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        
-                      </div>
-                      <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/enrolled/336889">
                           <a>
                             <span className="title">How To Deploy Your Site</span>
@@ -311,20 +283,6 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/jquery-a-beginners-best-friend/lectures/3503191">
-                          <a>
-                            <span className="title">JQuery</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        
-                      </div>
-                      <div className="col-md-10">
                         <Link href=" https://codingphase.teachable.com/courses/esnext-es6-es7-es8/lectures/3411587">
                           <a>
                             <span className="title">ESNEXT - ES6 to ES10</span>
@@ -339,9 +297,9 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/enrolled/215976">
+                        <Link href="https://codingphase.teachable.com/courses/react-js-job-ready/lectures/32022490">
                           <a>
-                            <span className="title">React - Quick and Easy</span>
+                            <span className="title">React - Job Ready</span>
                           </a>
                         </Link>
                       </div>
@@ -370,20 +328,6 @@ export default function Home() {
                         <Link href=" https://codingphase.teachable.com/courses/react-js-til-infinity-course/lectures/10081502">
                           <a>
                             <span className="title">React - Till Infinity</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="course">
-                    <div className="row g-3">
-                      <div className="col-md-1">
-                        
-                      </div>
-                      <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/react-native-mobile-applications-with-javascript/lectures/11518843">
-                          <a>
-                            <span className="title">React Native</span>
                           </a>
                         </Link>
                       </div>

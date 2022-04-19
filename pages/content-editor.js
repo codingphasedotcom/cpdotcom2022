@@ -124,15 +124,16 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
+                  
                   <div className="course">
                     <div className="row g-3">
                       <div className="col-md-1">
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href="https://codingphase.teachable.com/courses/practical-javascript-course/lectures/31108107">
+                        <Link href=" https://codingphase.teachable.com/courses/node-and-npm-basics/lectures/8766354">
                           <a>
-                            <span className="title">Practical Javascript</span>
+                            <span className="title">Node and NPM Basics</span>
                           </a>
                         </Link>
                       </div>
@@ -144,9 +145,9 @@ export default function Home() {
                         
                       </div>
                       <div className="col-md-10">
-                        <Link href=" https://codingphase.teachable.com/courses/node-and-npm-basics/lectures/8766354">
+                        <Link href="https://codingphase.teachable.com/courses/practical-javascript-course/lectures/31108107">
                           <a>
-                            <span className="title">Node and NPM Basics</span>
+                            <span className="title">Practical Javascript 💎</span>
                           </a>
                         </Link>
                       </div>
