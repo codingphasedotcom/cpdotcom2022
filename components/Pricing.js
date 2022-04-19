@@ -180,7 +180,7 @@ export default function Pricing (props) {
                                         ? `&affcode=${props.affiliateActive.affcode}`
                                         : ""
                                 }`}>
-								<a className="button">Check Price</a>
+								<a className="button">Sign Up</a>
 							</Link>
 						</div>
 					</div>
