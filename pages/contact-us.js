@@ -54,7 +54,7 @@ export default function Home() {
   <h3>For problems with payment, want a refund, or any other question.</h3>
   <p>44 Waterbury Rd Suite 2D<br/>
   Prospect, CT 06712<br/>
-  <a href="mailto:info@example.com">Email us on:<br/>
+  <a href="mailto:codingphase@gmail.com">Email us on:<br/>
   codingphase@gmail.com</a></p>
   <h3>Drop us a line</h3>
           </div>
