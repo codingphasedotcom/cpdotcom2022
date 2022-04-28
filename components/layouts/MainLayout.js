@@ -40,9 +40,6 @@ export default function MainLayout(props){
               <div className="col-md-3">
                 <span className="title">CONTACT US</span>
                   <p>
-                    Office Address<br/>
-                    44 Waterbury RD Suite 2D Prospect CT 06712
-                    <br/>
                     Email: <a href="mailto:codingphase@gmail.com">codingphase@gmail.com</a>
                   </p>
               </div>
