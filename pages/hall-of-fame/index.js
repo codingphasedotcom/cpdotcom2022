@@ -321,6 +321,58 @@ export default function Home() {
                   </a>
                   </div>
                 </div>
+                <div className="col-md-4 col-lg-3">
+                  <div className="hof-page__user">
+                  <a href="/hall-of-fame/daniel-bellfield">
+                    <LazyLoadImage
+                        alt={'Daniel Bellfield'}
+                        effect="blur"
+                        src="/img/hof/daniel-bellfield.png"
+                        className="hof-page__user-img" />
+                        <span className="hof-page__name">Daniel Bellfield</span>
+                    <span className="hof-page__career">Email Developer</span>
+                  </a>
+                  </div>
+                </div>
+                <div className="col-md-4 col-lg-3">
+                  <div className="hof-page__user">
+                  <a href="/hall-of-fame/zaquay-cage">
+                    <LazyLoadImage
+                        alt={'ZaQuay Cage'}
+                        effect="blur"
+                        src="/img/hof/nophoto.png"
+                        className="hof-page__user-img" />
+                        <span className="hof-page__name">ZaQuay Cage</span>
+                    <span className="hof-page__career">Web Systems Engineer</span>
+                  </a>
+                  </div>
+                </div>
+                <div className="col-md-4 col-lg-3">
+                  <div className="hof-page__user">
+                  <a href="/hall-of-fame/christopher-hernandez">
+                    <LazyLoadImage
+                        alt={'Christopher Hernandez'}
+                        effect="blur"
+                        src="/img/hof/christopher-hernandez.jpg"
+                        className="hof-page__user-img" />
+                        <span className="hof-page__name">C. Hernandez</span>
+                    <span className="hof-page__career">Email Developer</span>
+                  </a>
+                  </div>
+                </div>
+                <div className="col-md-4 col-lg-3">
+                  <div className="hof-page__user">
+                  <a href="/hall-of-fame/mauro-martinez">
+                    <LazyLoadImage
+                        alt={'Mauro Martinez'}
+                        effect="blur"
+                        src="/img/hof/mauro-martinez.jpg"
+                        className="hof-page__user-img" />
+                        <span className="hof-page__name">Mauro Martinez</span>
+                    <span className="hof-page__career">Software Engineer</span>
+                  </a>
+                  </div>
+                </div>
                 
               </div>
             </div>
