@@ -121,7 +121,7 @@ export default function Home() {
 
 
 
-                                <li><a href="https://www.shopify.co.uk/partners/shopify-cheat-sheet" target="_blank" rel="noreferrer"  rel="noreferrer noopener">Liquid Cheat Sheet</a></li>
+                                <li><a href="https://www.shopify.co.uk/partners/shopify-cheat-sheet" target="_blank" rel="noreferrer" >Liquid Cheat Sheet</a></li>
 
 
 
